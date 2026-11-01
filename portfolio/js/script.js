@@ -23,7 +23,7 @@
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!md.hidden)closeM();});
   window.addEventListener('scroll',function(){if(window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-6){links.forEach(function(a){a.classList.toggle('active',a.getAttribute('href')==='#contact');});}},{passive:true});
   /* Collez ici votre clé Web3Forms (voir LISEZMOI.md) pour recevoir les messages directement dans votre boîte e-mail. */
-  var WEB3FORMS_KEY='';
+  var WEB3FORMS_KEY='ada11073-0e4b-46f3-ad6e-05cb62760eff';
   /* Formulaire */
   $('#cf').addEventListener('submit',function(e){
     e.preventDefault();var f=e.target;
