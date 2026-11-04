@@ -1,0 +1,42 @@
+- generic [ref=f4e2]:
+  - generic [ref=f4e3]:
+    - link [ref=f4e4] [cursor=pointer]:
+      - /url: http://127.0.0.1:8123
+    - button "Activer le thème sombre" [ref=f4e9] [cursor=pointer]
+  - banner [ref=f4e12]:
+    - generic [ref=f4e13]: Lot vendu
+    - heading "Lot LOT-1-261104-UO8U" [level=1] [ref=f4e14]
+    - paragraph [ref=f4e15]: 900,00 kg · qualité extra · clôturé le 04/11/2026
+  - generic [ref=f4e16]:
+    - generic [ref=f4e18]:
+      - heading "Origine des fruits" [level=3] [ref=f4e19]
+      - paragraph [ref=f4e20]: Parcelles et dates de récolte rattachées à ce lot.
+    - generic [ref=f4e21]:
+      - strong [ref=f4e22]: Parcelle AMB-P01
+      - text: — Tanambao Haut
+      - generic [ref=f4e23]:
+        - term [ref=f4e24]: Variété
+        - definition [ref=f4e25]: Mauritius
+        - term [ref=f4e26]: Lieu
+        - definition [ref=f4e27]: Mahambo, Analanjirofo
+        - term [ref=f4e28]: Récolté le
+        - definition [ref=f4e29]: 21/10/2026
+        - term [ref=f4e30]: Quantité
+        - definition [ref=f4e31]: 500,00 kg
+        - term [ref=f4e32]: Calibre
+        - definition [ref=f4e33]: gros
+    - generic [ref=f4e34]:
+      - strong [ref=f4e35]: Parcelle AMB-P01
+      - text: — Tanambao Haut
+      - generic [ref=f4e36]:
+        - term [ref=f4e37]: Variété
+        - definition [ref=f4e38]: Mauritius
+        - term [ref=f4e39]: Lieu
+        - definition [ref=f4e40]: Mahambo, Analanjirofo
+        - term [ref=f4e41]: Récolté le
+        - definition [ref=f4e42]: 26/10/2026
+        - term [ref=f4e43]: Quantité
+        - definition [ref=f4e44]: 400,00 kg
+        - term [ref=f4e45]: Calibre
+        - definition [ref=f4e46]: moyen
+  - paragraph [ref=f4e47]: Cette page ne contient aucune donnée financière.
