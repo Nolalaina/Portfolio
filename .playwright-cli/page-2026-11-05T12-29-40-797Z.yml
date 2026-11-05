@@ -1,0 +1,116 @@
+- generic [ref=f6e2]:
+  - complementary [ref=f6e3]:
+    - generic [ref=f6e4]:
+      - generic [ref=f6e5]: 
+      - generic [ref=f6e7]:
+        - generic [ref=f6e8]: AttestPro
+        - generic [ref=f6e9]: Queue & Attestations
+    - navigation [ref=f6e10]:
+      - generic [ref=f6e11]: ESPACE ÉTUDIANT
+      - link " Tableau de bord" [ref=f6e12] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/dashboard
+        - generic [ref=f6e13]: 
+        - generic [ref=f6e14]: Tableau de bord
+      - link " Nouvelle demande" [ref=f6e15] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/nouvelleDemande
+        - generic [ref=f6e16]: 
+        - generic [ref=f6e17]: Nouvelle demande
+      - link " Mes demandes" [ref=f6e18] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/mesDemandes
+        - generic [ref=f6e19]: 
+        - generic [ref=f6e20]: Mes demandes
+      - generic [ref=f6e21]: PROFIL
+      - link " Mon profil" [ref=f6e22] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/profil
+        - generic [ref=f6e23]: 
+        - generic [ref=f6e24]: Mon profil
+    - generic [ref=f6e25]:
+      - generic [ref=f6e26]:
+        - generic [ref=f6e27]: H
+        - generic [ref=f6e28]:
+          - generic [ref=f6e29]: Haja Rakoto
+          - generic [ref=f6e30]: Étudiant
+      - link "" [ref=f6e31] [cursor=pointer]:
+        - /url: http://localhost:8000/auth/logout
+  - main [ref=f6e33]:
+    - generic [ref=f6e34]:
+      - generic [ref=f6e35]:
+        - heading "Portail Étudiant" [level=1] [ref=f6e36]
+        - paragraph [ref=f6e37]: Suivi en temps réel des tickets et demandes d'attestations
+      - generic [ref=f6e38]:
+        - generic [ref=f6e39]: Guichet En Ligne
+        - generic [ref=f6e41]: 15:29:40
+    - generic [ref=f6e42]:
+      - generic [ref=f6e43]:
+        - paragraph [ref=f6e44]: Historique des Tickets
+        - heading "Mes demandes d'attestation" [level=1] [ref=f6e45]
+        - paragraph [ref=f6e46]: Suivez l'avancement de vos dossiers en temps réel et imprimez vos reçus de guichet.
+      - link " Nouvelle demande" [ref=f6e47] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/nouvelleDemande
+        - generic [ref=f6e48]: 
+        - text: Nouvelle demande
+    - table [ref=f6e50]:
+      - rowgroup [ref=f6e51]:
+        - row [ref=f6e52]:
+          - columnheader "N° Ticket" [ref=f6e53]
+          - columnheader "Type d'Attestation" [ref=f6e54]
+          - columnheader "Objet" [ref=f6e55]
+          - columnheader "Date Dépôt" [ref=f6e56]
+          - columnheader "Retrait Prévu" [ref=f6e57]
+          - columnheader "Statut" [ref=f6e58]
+          - columnheader "Actions" [ref=f6e59]
+      - rowgroup [ref=f6e60]:
+        - row [ref=f6e61]:
+          - cell "ATT-2026-0002" [ref=f6e62]
+          - cell [ref=f6e63]:
+            - strong [ref=f6e64]: Relevé de notes
+          - cell "Demande de Stage de Fin d'Études en Entreprise" [ref=f6e65]
+          - cell "20/08/2026" [ref=f6e66]
+          - cell "24/08/2026" [ref=f6e67]
+          - cell "Traitee" [ref=f6e68]
+          - cell [ref=f6e70]:
+            - generic [ref=f6e71]:
+              - link " Détails" [ref=f6e72] [cursor=pointer]:
+                - /url: http://localhost:8000/etudiant/detail/2
+                - generic [ref=f6e73]: 
+                - text: Détails
+              - link " Ticket" [ref=f6e74] [cursor=pointer]:
+                - /url: http://localhost:8000/etudiant/ticket/2
+                - generic [ref=f6e75]: 
+                - text: Ticket
+        - row [ref=f6e76]:
+          - cell "ATT-2026-0001" [ref=f6e77]
+          - cell [ref=f6e78]:
+            - strong [ref=f6e79]: Certificat de scolarité
+          - cell "Dossier de candidature Master International" [ref=f6e80]
+          - cell "15/08/2026" [ref=f6e81]
+          - cell "17/08/2026" [ref=f6e82]
+          - cell "Retiree" [ref=f6e83]
+          - cell [ref=f6e85]:
+            - generic [ref=f6e86]:
+              - link " Détails" [ref=f6e87] [cursor=pointer]:
+                - /url: http://localhost:8000/etudiant/detail/1
+                - generic [ref=f6e88]: 
+                - text: Détails
+              - link " Ticket" [ref=f6e89] [cursor=pointer]:
+                - /url: http://localhost:8000/etudiant/ticket/1
+                - generic [ref=f6e90]: 
+                - text: Ticket
+        - row [ref=f6e91]:
+          - cell "ATT-2026-0007" [ref=f6e92]
+          - cell [ref=f6e93]:
+            - strong [ref=f6e94]: Attestation d'inscription
+          - cell "Ouverture de compte bancaire étudiant" [ref=f6e95]
+          - cell "10/08/2026" [ref=f6e96]
+          - cell "12/08/2026" [ref=f6e97]
+          - cell "Retiree" [ref=f6e98]
+          - cell [ref=f6e100]:
+            - generic [ref=f6e101]:
+              - link " Détails" [ref=f6e102] [cursor=pointer]:
+                - /url: http://localhost:8000/etudiant/detail/7
+                - generic [ref=f6e103]: 
+                - text: Détails
+              - link " Ticket" [ref=f6e104] [cursor=pointer]:
+                - /url: http://localhost:8000/etudiant/ticket/7
+                - generic [ref=f6e105]: 
+                - text: Ticket

@@ -1,0 +1,98 @@
+- generic [ref=f33e3]:
+  - navigation [ref=f33e4]:
+    - link [ref=f33e5] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f33e10]:
+      - link "Tableau de bord" [ref=f33e11] [cursor=pointer]:
+        - /url: /student
+      - link "Explorer les stages" [ref=f33e18] [cursor=pointer]:
+        - /url: /internships
+      - link "Candidatures" [ref=f33e23] [cursor=pointer]:
+        - /url: /student/applications
+      - link "Mon Profil & CV" [ref=f33e28] [cursor=pointer]:
+        - /url: /student/profile
+      - button "Notifications" [ref=f33e34] [cursor=pointer]
+      - button "Déconnexion" [ref=f33e38] [cursor=pointer]
+  - generic [ref=f33e43]:
+    - generic [ref=f33e44]:
+      - heading "Explorer les Offres de Stage" [level=1] [ref=f33e45]:
+        - text: Explorer les
+        - generic [ref=f33e46]: Offres de Stage
+      - paragraph [ref=f33e47]: 1 opportunité disponible
+    - generic [ref=f33e49]:
+      - generic [ref=f33e50]:
+        - generic [ref=f33e51]: Localisation
+        - textbox "Localisation" [ref=f33e55]:
+          - /placeholder: "Ex : Antananarivo"
+      - generic [ref=f33e56]:
+        - generic [ref=f33e57]: Domaine / Secteur
+        - textbox "Domaine / Secteur" [ref=f33e62]:
+          - /placeholder: "Ex : Technologies, Finance"
+      - generic [ref=f33e63] [cursor=pointer]:
+        - checkbox "Télétravail uniquement" [ref=f33e64]
+        - generic [ref=f33e68]: Télétravail uniquement
+      - generic [ref=f33e69]:
+        - button "Rechercher" [ref=f33e70] [cursor=pointer]
+        - button "Réinitialiser" [ref=f33e75] [cursor=pointer]
+    - link "Développeur Web Full-Stack Orange Digital Center Antananarivo 12 semaines 0 Détails" [ref=f33e80] [cursor=pointer]:
+      - /url: /internships/1
+      - generic [ref=f33e81]:
+        - heading "Développeur Web Full-Stack" [level=3] [ref=f33e82]
+        - generic [ref=f33e83]:
+          - generic [ref=f33e84]: Orange Digital Center
+          - generic [ref=f33e89]: Antananarivo
+          - generic [ref=f33e93]: 12 semaines
+      - generic [ref=f33e97]:
+        - text: "0"
+        - generic [ref=f33e98]: Détails
+  - contentinfo [ref=f33e102]:
+    - generic [ref=f33e103]:
+      - generic [ref=f33e104]:
+        - generic [ref=f33e105]:
+          - link [ref=f33e106] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f33e111]: Plateforme SaaS de mise en relation intelligente entre candidats et recruteurs. Algorithme propriétaire de matching prédictif et d'analyse de compétences.
+        - generic [ref=f33e112]:
+          - generic [ref=f33e113]: Plateforme
+          - list [ref=f33e114]:
+            - listitem [ref=f33e115]:
+              - link "Offres de stages" [ref=f33e116] [cursor=pointer]:
+                - /url: /internships
+            - listitem [ref=f33e117]:
+              - link "Espace Connexion" [ref=f33e118] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f33e119]:
+              - link "Créer un compte" [ref=f33e120] [cursor=pointer]:
+                - /url: /register
+        - generic [ref=f33e121]:
+          - generic [ref=f33e122]: Solutions
+          - list [ref=f33e123]:
+            - listitem [ref=f33e124]:
+              - link "Portail Candidat" [ref=f33e125] [cursor=pointer]:
+                - /url: /student
+            - listitem [ref=f33e126]:
+              - link "Portail Recruteur" [ref=f33e127] [cursor=pointer]:
+                - /url: /company
+            - listitem [ref=f33e128]:
+              - link "Console d'Administration" [ref=f33e129] [cursor=pointer]:
+                - /url: /admin
+        - generic [ref=f33e130]:
+          - generic [ref=f33e131]: Infrastructure & Securité
+          - generic [ref=f33e132]:
+            - generic [ref=f33e133]: TF-IDF Engine
+            - generic [ref=f33e134]: Vector Math
+            - generic [ref=f33e135]: Enterprise Auth
+            - generic [ref=f33e136]: SaaS Core
+            - generic [ref=f33e137]: TLS Encrypted
+          - generic [ref=f33e138]:
+            - text: "Domain officiel :"
+            - link "stagematch.io" [ref=f33e142] [cursor=pointer]:
+              - /url: https://stagematch.io
+      - generic [ref=f33e143]:
+        - generic [ref=f33e144]: © 2026 StageMatch Technologies Inc. Tous droits réservés.
+        - generic [ref=f33e145]:
+          - generic [ref=f33e146] [cursor=pointer]: Confidentialité
+          - generic [ref=f33e147]: ·
+          - generic [ref=f33e148] [cursor=pointer]: Conditions d'utilisation
+          - generic [ref=f33e149]: ·
+          - generic [ref=f33e150] [cursor=pointer]: Sécurisé SSL

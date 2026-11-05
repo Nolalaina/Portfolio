@@ -1,0 +1,93 @@
+- generic [ref=f32e3]:
+  - navigation [ref=f32e4]:
+    - link [ref=f32e5] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f32e10]:
+      - link "Tableau de bord" [ref=f32e11] [cursor=pointer]:
+        - /url: /student
+      - link "Explorer les stages" [ref=f32e18] [cursor=pointer]:
+        - /url: /internships
+      - link "Candidatures" [ref=f32e23] [cursor=pointer]:
+        - /url: /student/applications
+      - link "Mon Profil & CV" [ref=f32e28] [cursor=pointer]:
+        - /url: /student/profile
+      - button "Notifications" [ref=f32e34] [cursor=pointer]
+      - button "Déconnexion" [ref=f32e38] [cursor=pointer]
+  - generic [ref=f32e43]:
+    - link "Retour au catalogue des offres" [ref=f32e44] [cursor=pointer]:
+      - /url: /internships
+    - generic [ref=f32e48]:
+      - generic [ref=f32e49]:
+        - generic [ref=f32e50]: Orange Digital Center · Technologies de l'information
+        - heading "Développeur Web Full-Stack" [level=1] [ref=f32e56]
+        - generic [ref=f32e57]:
+          - generic [ref=f32e58]: Antananarivo
+          - generic [ref=f32e62]: 12 semaines
+          - generic [ref=f32e66]: Présentiel
+        - separator [ref=f32e70]
+        - heading "Description du poste" [level=2] [ref=f32e71]
+        - paragraph [ref=f32e72]: Rejoignez l'équipe produit pour concevoir et développer des fonctionnalités web de bout en bout avec React, Node.js et MySQL.
+        - heading "Compétences requises" [level=2] [ref=f32e73]
+        - generic [ref=f32e74]:
+          - generic [ref=f32e75]: React
+          - generic [ref=f32e76]: Node.js
+          - generic [ref=f32e77]: MySQL
+          - generic [ref=f32e78]: REST API
+          - generic [ref=f32e79]: Git
+      - complementary [ref=f32e80]:
+        - generic [ref=f32e81]: Score d'Adéquation Profil
+        - img [ref=f32e83]:
+          - generic [ref=f32e86]: 69%
+          - generic [ref=f32e87]: MATCH
+        - button "Postuler en un clic" [ref=f32e88] [cursor=pointer]
+  - contentinfo [ref=f32e93]:
+    - generic [ref=f32e94]:
+      - generic [ref=f32e95]:
+        - generic [ref=f32e96]:
+          - link [ref=f32e97] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f32e102]: Plateforme SaaS de mise en relation intelligente entre candidats et recruteurs. Algorithme propriétaire de matching prédictif et d'analyse de compétences.
+        - generic [ref=f32e103]:
+          - generic [ref=f32e104]: Plateforme
+          - list [ref=f32e105]:
+            - listitem [ref=f32e106]:
+              - link "Offres de stages" [ref=f32e107] [cursor=pointer]:
+                - /url: /internships
+            - listitem [ref=f32e108]:
+              - link "Espace Connexion" [ref=f32e109] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f32e110]:
+              - link "Créer un compte" [ref=f32e111] [cursor=pointer]:
+                - /url: /register
+        - generic [ref=f32e112]:
+          - generic [ref=f32e113]: Solutions
+          - list [ref=f32e114]:
+            - listitem [ref=f32e115]:
+              - link "Portail Candidat" [ref=f32e116] [cursor=pointer]:
+                - /url: /student
+            - listitem [ref=f32e117]:
+              - link "Portail Recruteur" [ref=f32e118] [cursor=pointer]:
+                - /url: /company
+            - listitem [ref=f32e119]:
+              - link "Console d'Administration" [ref=f32e120] [cursor=pointer]:
+                - /url: /admin
+        - generic [ref=f32e121]:
+          - generic [ref=f32e122]: Infrastructure & Securité
+          - generic [ref=f32e123]:
+            - generic [ref=f32e124]: TF-IDF Engine
+            - generic [ref=f32e125]: Vector Math
+            - generic [ref=f32e126]: Enterprise Auth
+            - generic [ref=f32e127]: SaaS Core
+            - generic [ref=f32e128]: TLS Encrypted
+          - generic [ref=f32e129]:
+            - text: "Domain officiel :"
+            - link "stagematch.io" [ref=f32e133] [cursor=pointer]:
+              - /url: https://stagematch.io
+      - generic [ref=f32e134]:
+        - generic [ref=f32e135]: © 2026 StageMatch Technologies Inc. Tous droits réservés.
+        - generic [ref=f32e136]:
+          - generic [ref=f32e137] [cursor=pointer]: Confidentialité
+          - generic [ref=f32e138]: ·
+          - generic [ref=f32e139] [cursor=pointer]: Conditions d'utilisation
+          - generic [ref=f32e140]: ·
+          - generic [ref=f32e141] [cursor=pointer]: Sécurisé SSL

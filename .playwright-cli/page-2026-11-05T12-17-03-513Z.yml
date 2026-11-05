@@ -1,0 +1,45 @@
+- generic [ref=f1e2]:
+  - generic [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - generic [ref=f1e5]: 
+      - generic [ref=f1e7]:
+        - text: AttestPro
+        - generic [ref=f1e8]: Système de File d'Attente
+    - generic [ref=f1e9]:
+      - heading "Le guichet digital de vos attestations académiques." [level=2] [ref=f1e10]
+      - paragraph [ref=f1e11]: Soumettez votre demande en quelques secondes, obtenez votre ticket de file d'attente sécurisé et suivez chaque étape jusqu'au retrait.
+      - generic [ref=f1e12]:
+        - generic [ref=f1e13]:
+          - generic [ref=f1e14]: 
+          - generic [ref=f1e15]: Suivi du statut de ticket en temps réel
+        - generic [ref=f1e16]:
+          - generic [ref=f1e17]: 
+          - generic [ref=f1e18]: Reçu de guichet avec code unique
+        - generic [ref=f1e19]:
+          - generic [ref=f1e20]: 
+          - generic [ref=f1e21]: Affichage d'appel en direct sur écran de hall
+    - paragraph [ref=f1e22]: « Fini les heures d'attente physiques devant le bureau de la scolarité. »
+  - generic [ref=f1e24]:
+    - generic [ref=f1e25]: Espace Personnel & Guichet
+    - heading "Connexion" [level=1] [ref=f1e26]
+    - paragraph [ref=f1e27]: Accédez à votre espace étudiant ou administratif.
+    - generic [ref=f1e28]:
+      - generic [ref=f1e29]:
+        - generic [ref=f1e30]:
+          - generic [ref=f1e31]: 
+          - text: Adresse email
+        - textbox " Adresse email" [active] [ref=f1e32]:
+          - /placeholder: ex. admin@universite.mg ou etudiant@universite.mg
+      - generic [ref=f1e33]:
+        - generic [ref=f1e34]:
+          - generic [ref=f1e35]: 
+          - text: Mot de passe
+        - textbox " Mot de passe" [ref=f1e36]:
+          - /placeholder: ••••••••
+      - button " Se connecter" [ref=f1e37] [cursor=pointer]:
+        - generic [ref=f1e38]: 
+        - text: Se connecter
+    - paragraph [ref=f1e40]:
+      - text: Pas encore de compte ?
+      - link "Créer un compte étudiant →" [ref=f1e41] [cursor=pointer]:
+        - /url: http://localhost:8000/auth/register

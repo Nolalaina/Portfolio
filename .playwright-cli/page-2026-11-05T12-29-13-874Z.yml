@@ -1,0 +1,109 @@
+- generic [ref=f5e2]:
+  - complementary [ref=f5e3]:
+    - generic [ref=f5e4]:
+      - generic [ref=f5e5]: 
+      - generic [ref=f5e7]:
+        - generic [ref=f5e8]: AttestPro
+        - generic [ref=f5e9]: Queue & Attestations
+    - navigation [ref=f5e10]:
+      - generic [ref=f5e11]: ESPACE ÉTUDIANT
+      - link " Tableau de bord" [ref=f5e12] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/dashboard
+        - generic [ref=f5e13]: 
+        - generic [ref=f5e14]: Tableau de bord
+      - link " Nouvelle demande" [ref=f5e15] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/nouvelleDemande
+        - generic [ref=f5e16]: 
+        - generic [ref=f5e17]: Nouvelle demande
+      - link " Mes demandes" [ref=f5e18] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/mesDemandes
+        - generic [ref=f5e19]: 
+        - generic [ref=f5e20]: Mes demandes
+      - generic [ref=f5e21]: PROFIL
+      - link " Mon profil" [ref=f5e22] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/profil
+        - generic [ref=f5e23]: 
+        - generic [ref=f5e24]: Mon profil
+    - generic [ref=f5e25]:
+      - generic [ref=f5e26]:
+        - generic [ref=f5e27]: H
+        - generic [ref=f5e28]:
+          - generic [ref=f5e29]: Haja Rakoto
+          - generic [ref=f5e30]: Étudiant
+      - link "" [ref=f5e31] [cursor=pointer]:
+        - /url: http://localhost:8000/auth/logout
+  - main [ref=f5e33]:
+    - generic [ref=f5e34]:
+      - generic [ref=f5e35]:
+        - heading "Portail Étudiant" [level=1] [ref=f5e36]
+        - paragraph [ref=f5e37]: Suivi en temps réel des tickets et demandes d'attestations
+      - generic [ref=f5e38]:
+        - generic [ref=f5e39]: Guichet En Ligne
+        - generic [ref=f5e41]: 15:29:13
+    - generic [ref=f5e42]:
+      - generic [ref=f5e43]:
+        - paragraph [ref=f5e44]: Formulaire Officiel
+        - heading "Nouvelle demande d'attestation" [level=1] [ref=f5e45]
+        - paragraph [ref=f5e46]: Générez votre ticket de file d'attente en sélectionnant le document souhaité.
+      - link "← Annuler & Retour" [ref=f5e47] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/mesDemandes
+    - generic [ref=f5e48]:
+      - generic [ref=f5e50]:
+        - generic [ref=f5e51]:
+          - generic [ref=f5e52]:
+            - generic [ref=f5e53]: 
+            - text: Type d'attestation demandée
+          - combobox " Type d'attestation demandée" [ref=f5e54]:
+            - option "— Sélectionner le type d'attestation —" [selected]
+            - 'option "Attestation d''inscription (Délai moyen : 2 jours ouvrés)"'
+            - 'option "Attestation de présence (Délai moyen : 2 jours ouvrés)"'
+            - 'option "Attestation de réussite (Délai moyen : 5 jours ouvrés)"'
+            - 'option "Certificat de scolarité (Délai moyen : 2 jours ouvrés)"'
+            - 'option "Duplicata de Diplôme (Délai moyen : 7 jours ouvrés)"'
+            - 'option "Relevé de notes (Délai moyen : 4 jours ouvrés)"'
+        - generic [ref=f5e55]:
+          - generic [ref=f5e56]:
+            - generic [ref=f5e57]: 
+            - text: Motif ou Objet de la demande
+          - textbox " Motif ou Objet de la demande" [ref=f5e58]:
+            - /placeholder: ex. Dossier de bourse, stage en entreprise, candidature Master...
+          - paragraph [ref=f5e59]: Précisez l'usage prévu pour votre attestation.
+        - generic [ref=f5e60]:
+          - generic [ref=f5e61]:
+            - generic [ref=f5e62]: 
+            - text: Observations ou remarques (Facultatif)
+          - textbox " Observations ou remarques (Facultatif)" [ref=f5e63]:
+            - /placeholder: Précisez toute information utile au bureau de la scolarité...
+        - button " Soumettre la demande & Obtenir mon ticket" [ref=f5e64] [cursor=pointer]:
+          - generic [ref=f5e65]: 
+          - text: Soumettre la demande & Obtenir mon ticket
+      - generic [ref=f5e66]:
+        - heading " Parcours du ticket en 4 étapes" [level=3] [ref=f5e67]:
+          - generic [ref=f5e68]: 
+          - text: Parcours du ticket en 4 étapes
+        - generic [ref=f5e69]:
+          - generic [ref=f5e70]:
+            - generic [ref=f5e71]: Étape 1
+            - generic [ref=f5e72]: Soumission du ticket
+            - generic [ref=f5e73]:
+              - text: Attribution instantanée d'un numéro unique (ex. ATT-2026-0001) au statut
+              - strong [ref=f5e74]: En attente
+              - text: .
+          - generic [ref=f5e75]:
+            - generic [ref=f5e76]: Étape 2
+            - generic [ref=f5e77]: Prise en charge guichet
+            - generic [ref=f5e78]:
+              - text: L'agent vérifie votre dossier académique et passe le statut à
+              - strong [ref=f5e79]: En cours
+              - text: .
+          - generic [ref=f5e80]:
+            - generic [ref=f5e81]: Étape 3
+            - generic [ref=f5e82]: Impression & Sceau
+            - generic [ref=f5e83]:
+              - text: Le document est signé et marqué comme
+              - strong [ref=f5e84]: Traitée
+              - text: ", disponible pour retrait."
+          - generic [ref=f5e85]:
+            - generic [ref=f5e86]: Étape 4
+            - generic [ref=f5e87]: Retrait physique
+            - generic [ref=f5e88]: Présentez votre reçu de ticket imprimé ou sur smartphone au guichet pour récupérer l'original.

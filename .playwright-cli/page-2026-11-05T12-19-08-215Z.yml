@@ -1,0 +1,110 @@
+- generic [ref=f2e2]:
+  - complementary [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - generic [ref=f2e5]: 
+      - generic [ref=f2e7]:
+        - generic [ref=f2e8]: AttestPro
+        - generic [ref=f2e9]: Queue & Attestations
+    - navigation [ref=f2e10]:
+      - generic [ref=f2e11]: ESPACE ÉTUDIANT
+      - link " Tableau de bord" [ref=f2e12] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/dashboard
+        - generic [ref=f2e13]: 
+        - generic [ref=f2e14]: Tableau de bord
+      - link " Nouvelle demande" [ref=f2e15] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/nouvelleDemande
+        - generic [ref=f2e16]: 
+        - generic [ref=f2e17]: Nouvelle demande
+      - link " Mes demandes" [ref=f2e18] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/mesDemandes
+        - generic [ref=f2e19]: 
+        - generic [ref=f2e20]: Mes demandes
+      - generic [ref=f2e21]: PROFIL
+      - link " Mon profil" [ref=f2e22] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/profil
+        - generic [ref=f2e23]: 
+        - generic [ref=f2e24]: Mon profil
+    - generic [ref=f2e25]:
+      - generic [ref=f2e26]:
+        - generic [ref=f2e27]: H
+        - generic [ref=f2e28]:
+          - generic [ref=f2e29]: Haja Rakoto
+          - generic [ref=f2e30]: Étudiant
+      - link "" [ref=f2e31] [cursor=pointer]:
+        - /url: http://localhost:8000/auth/logout
+  - main [ref=f2e33]:
+    - generic [ref=f2e34]:
+      - generic [ref=f2e35]:
+        - heading "Portail Étudiant" [level=1] [ref=f2e36]
+        - paragraph [ref=f2e37]: Suivi en temps réel des tickets et demandes d'attestations
+      - generic [ref=f2e38]:
+        - generic [ref=f2e39]: Guichet En Ligne
+        - generic [ref=f2e41]: 15:19:07
+    - generic [ref=f2e42]:
+      - generic [ref=f2e43]:
+        - paragraph [ref=f2e44]: Tableau de Bord Étudiant
+        - heading "Bonjour, Haja Rakoto 👋" [level=1] [ref=f2e45]
+        - paragraph [ref=f2e46]: Bienvenue sur votre espace de gestion des tickets d'attestation.
+      - link " Nouvelle Demande" [ref=f2e47] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/nouvelleDemande
+        - generic [ref=f2e48]: 
+        - text: Nouvelle Demande
+    - generic [ref=f2e49]:
+      - generic [ref=f2e50]:
+        - generic [ref=f2e51]: Total Demandes
+        - generic [ref=f2e52]: "3"
+      - generic [ref=f2e55]:
+        - generic [ref=f2e56]: En Cours de Traitement
+        - generic [ref=f2e57]: "0"
+      - generic [ref=f2e59]:
+        - generic [ref=f2e60]: Attestations Prêtes / Retirées
+        - generic [ref=f2e61]: "3"
+      - generic [ref=f2e64]:
+        - generic [ref=f2e65]: Refusées
+        - generic [ref=f2e66]: "0"
+    - generic [ref=f2e68]:
+      - heading "Derniers tickets soumis" [level=2] [ref=f2e69]
+      - link "Tout afficher →" [ref=f2e70] [cursor=pointer]:
+        - /url: http://localhost:8000/etudiant/mesDemandes
+    - table [ref=f2e72]:
+      - rowgroup [ref=f2e73]:
+        - row [ref=f2e74]:
+          - columnheader "N° Ticket" [ref=f2e75]
+          - columnheader "Type d'Attestation" [ref=f2e76]
+          - columnheader "Date Soumission" [ref=f2e77]
+          - columnheader "Statut" [ref=f2e78]
+          - columnheader "Action" [ref=f2e79]
+      - rowgroup [ref=f2e80]:
+        - row [ref=f2e81]:
+          - cell "ATT-2026-0002" [ref=f2e82]
+          - cell [ref=f2e83]:
+            - strong [ref=f2e84]: Relevé de notes
+          - cell "20/08/2026" [ref=f2e85]
+          - cell "Traitee" [ref=f2e86]
+          - cell [ref=f2e88]:
+            - link "Suivre →" [ref=f2e89] [cursor=pointer]:
+              - /url: http://localhost:8000/etudiant/detail/2
+            - link "" [ref=f2e90] [cursor=pointer]:
+              - /url: http://localhost:8000/etudiant/ticket/2
+        - row [ref=f2e92]:
+          - cell "ATT-2026-0001" [ref=f2e93]
+          - cell [ref=f2e94]:
+            - strong [ref=f2e95]: Certificat de scolarité
+          - cell "15/08/2026" [ref=f2e96]
+          - cell "Retiree" [ref=f2e97]
+          - cell [ref=f2e99]:
+            - link "Suivre →" [ref=f2e100] [cursor=pointer]:
+              - /url: http://localhost:8000/etudiant/detail/1
+            - link "" [ref=f2e101] [cursor=pointer]:
+              - /url: http://localhost:8000/etudiant/ticket/1
+        - row [ref=f2e103]:
+          - cell "ATT-2026-0007" [ref=f2e104]
+          - cell [ref=f2e105]:
+            - strong [ref=f2e106]: Attestation d'inscription
+          - cell "10/08/2026" [ref=f2e107]
+          - cell "Retiree" [ref=f2e108]
+          - cell [ref=f2e110]:
+            - link "Suivre →" [ref=f2e111] [cursor=pointer]:
+              - /url: http://localhost:8000/etudiant/detail/7
+            - link "" [ref=f2e112] [cursor=pointer]:
+              - /url: http://localhost:8000/etudiant/ticket/7

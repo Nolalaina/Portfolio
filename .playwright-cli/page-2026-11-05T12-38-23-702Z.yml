@@ -1,0 +1,105 @@
+- generic [ref=f35e3]:
+  - navigation [ref=f35e4]:
+    - link [ref=f35e5] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f35e10]:
+      - link "Console d'Administration" [ref=f35e11] [cursor=pointer]:
+        - /url: /admin
+      - button "Notifications" [ref=f35e17] [cursor=pointer]
+      - button "Déconnexion" [ref=f35e21] [cursor=pointer]
+  - generic [ref=f35e26]:
+    - generic [ref=f35e27]:
+      - generic [ref=f35e28]:
+        - heading "Console d'Administration" [level=1] [ref=f35e29]
+        - generic [ref=f35e34]: Supervision globale et gestion des accès StageMatch
+      - generic [ref=f35e35]:
+        - button "Statistiques" [ref=f35e36] [cursor=pointer]
+        - button "Entreprises (0)" [ref=f35e40] [cursor=pointer]
+        - button "Utilisateurs (3)" [ref=f35e46] [cursor=pointer]
+        - button "Référentiel" [ref=f35e53] [cursor=pointer]
+    - generic [ref=f35e56]:
+      - generic [ref=f35e57]:
+        - generic [ref=f35e58]:
+          - generic [ref=f35e64]: "1"
+          - generic [ref=f35e65]: Stages publiés
+        - generic [ref=f35e66]:
+          - generic [ref=f35e71]: "0"
+          - generic [ref=f35e72]: Candidatures
+        - generic [ref=f35e73]:
+          - generic [ref=f35e78]: —
+          - generic [ref=f35e79]: Score moyen
+        - generic [ref=f35e80]:
+          - generic [ref=f35e86]: "1"
+          - generic [ref=f35e87]: Entreprises validées
+        - generic [ref=f35e88]:
+          - generic [ref=f35e93]: "1"
+          - generic [ref=f35e94]: Étudiants inscrits
+      - generic [ref=f35e95]:
+        - generic [ref=f35e96]:
+          - heading "Répartition des candidatures" [level=3] [ref=f35e97]
+          - generic [ref=f35e98]: Aucune candidature enregistrée.
+        - generic [ref=f35e99]:
+          - heading "Adéquation Moteur Matching" [level=3] [ref=f35e100]
+          - generic [ref=f35e101]:
+            - generic [ref=f35e102]:
+              - img [ref=f35e103]:
+                - generic [ref=f35e106]: 0%
+              - generic [ref=f35e107]: Score Moyen Global
+            - generic [ref=f35e108]:
+              - generic [ref=f35e109]:
+                - generic [ref=f35e110]: Comptes Validés
+                - generic [ref=f35e111]: "1"
+              - generic [ref=f35e112]:
+                - generic [ref=f35e113]: Demandes en Attente
+                - generic [ref=f35e114]: "0"
+  - contentinfo [ref=f35e115]:
+    - generic [ref=f35e116]:
+      - generic [ref=f35e117]:
+        - generic [ref=f35e118]:
+          - link [ref=f35e119] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f35e124]: Plateforme SaaS de mise en relation intelligente entre candidats et recruteurs. Algorithme propriétaire de matching prédictif et d'analyse de compétences.
+        - generic [ref=f35e125]:
+          - generic [ref=f35e126]: Plateforme
+          - list [ref=f35e127]:
+            - listitem [ref=f35e128]:
+              - link "Offres de stages" [ref=f35e129] [cursor=pointer]:
+                - /url: /internships
+            - listitem [ref=f35e130]:
+              - link "Espace Connexion" [ref=f35e131] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f35e132]:
+              - link "Créer un compte" [ref=f35e133] [cursor=pointer]:
+                - /url: /register
+        - generic [ref=f35e134]:
+          - generic [ref=f35e135]: Solutions
+          - list [ref=f35e136]:
+            - listitem [ref=f35e137]:
+              - link "Portail Candidat" [ref=f35e138] [cursor=pointer]:
+                - /url: /student
+            - listitem [ref=f35e139]:
+              - link "Portail Recruteur" [ref=f35e140] [cursor=pointer]:
+                - /url: /company
+            - listitem [ref=f35e141]:
+              - link "Console d'Administration" [ref=f35e142] [cursor=pointer]:
+                - /url: /admin
+        - generic [ref=f35e143]:
+          - generic [ref=f35e144]: Infrastructure & Securité
+          - generic [ref=f35e145]:
+            - generic [ref=f35e146]: TF-IDF Engine
+            - generic [ref=f35e147]: Vector Math
+            - generic [ref=f35e148]: Enterprise Auth
+            - generic [ref=f35e149]: SaaS Core
+            - generic [ref=f35e150]: TLS Encrypted
+          - generic [ref=f35e151]:
+            - text: "Domain officiel :"
+            - link "stagematch.io" [ref=f35e155] [cursor=pointer]:
+              - /url: https://stagematch.io
+      - generic [ref=f35e156]:
+        - generic [ref=f35e157]: © 2026 StageMatch Technologies Inc. Tous droits réservés.
+        - generic [ref=f35e158]:
+          - generic [ref=f35e159] [cursor=pointer]: Confidentialité
+          - generic [ref=f35e160]: ·
+          - generic [ref=f35e161] [cursor=pointer]: Conditions d'utilisation
+          - generic [ref=f35e162]: ·
+          - generic [ref=f35e163] [cursor=pointer]: Sécurisé SSL

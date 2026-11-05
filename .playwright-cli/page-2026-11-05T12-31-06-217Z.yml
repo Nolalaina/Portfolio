@@ -1,0 +1,179 @@
+- generic [ref=f9e2]:
+  - complementary [ref=f9e3]:
+    - generic [ref=f9e4]:
+      - generic [ref=f9e5]: 
+      - generic [ref=f9e7]:
+        - generic [ref=f9e8]: AttestPro
+        - generic [ref=f9e9]: Queue & Attestations
+    - navigation [ref=f9e10]:
+      - generic [ref=f9e11]: PILOTAGE & GUICHET
+      - link " Tableau de bord" [ref=f9e12] [cursor=pointer]:
+        - /url: http://localhost:8000/admin/dashboard
+        - generic [ref=f9e13]: 
+        - generic [ref=f9e14]: Tableau de bord
+      - link " Registre des demandes" [ref=f9e15] [cursor=pointer]:
+        - /url: http://localhost:8000/admin/registre
+        - generic [ref=f9e16]: 
+        - generic [ref=f9e17]: Registre des demandes
+      - link " Statistiques & Flux" [ref=f9e18] [cursor=pointer]:
+        - /url: http://localhost:8000/admin/statistiques
+        - generic [ref=f9e19]: 
+        - generic [ref=f9e20]: Statistiques & Flux
+      - link " Écran Guichet Hall ↗" [ref=f9e21] [cursor=pointer]:
+        - /url: http://localhost:8000/admin/ecranGuichet
+        - generic [ref=f9e22]: 
+        - generic [ref=f9e23]: Écran Guichet Hall ↗
+      - generic [ref=f9e24]: CONFIGURATIONS
+      - link " Catalogue Attestations" [ref=f9e25] [cursor=pointer]:
+        - /url: http://localhost:8000/admin/typesAttestation
+        - generic [ref=f9e26]: 
+        - generic [ref=f9e27]: Catalogue Attestations
+    - generic [ref=f9e28]:
+      - generic [ref=f9e29]:
+        - generic [ref=f9e30]: F
+        - generic [ref=f9e31]:
+          - generic [ref=f9e32]: Fara Andria
+          - generic [ref=f9e33]: Agent Administratif
+      - link "" [ref=f9e34] [cursor=pointer]:
+        - /url: http://localhost:8000/auth/logout
+  - main [ref=f9e36]:
+    - generic [ref=f9e37]:
+      - generic [ref=f9e38]:
+        - heading "Espace Administratif / Guichet" [level=1] [ref=f9e39]
+        - paragraph [ref=f9e40]: Suivi en temps réel des tickets et demandes d'attestations
+      - generic [ref=f9e41]:
+        - generic [ref=f9e42]: Guichet En Ligne
+        - generic [ref=f9e44]: 15:31:05
+    - generic [ref=f9e45]:
+      - generic [ref=f9e46]:
+        - paragraph [ref=f9e47]: Guichet & Pilotage
+        - heading "Tableau de bord de la file d'attente" [level=1] [ref=f9e48]
+        - paragraph [ref=f9e49]: Vue d'ensemble de l'activité du bureau et gestion des flux d'attestation.
+      - generic [ref=f9e50]:
+        - link " Écran Guichet (Hall)" [ref=f9e51] [cursor=pointer]:
+          - /url: http://localhost:8000/admin/ecranGuichet
+          - generic [ref=f9e52]: 
+          - text: Écran Guichet (Hall)
+        - link " Ouvrir le registre" [ref=f9e53] [cursor=pointer]:
+          - /url: http://localhost:8000/admin/registre
+          - generic [ref=f9e54]: 
+          - text: Ouvrir le registre
+    - generic [ref=f9e55]:
+      - generic [ref=f9e56]:
+        - generic [ref=f9e57]: Total des demandes
+        - generic [ref=f9e58]: "12"
+      - generic [ref=f9e61]:
+        - generic [ref=f9e62]: En attente
+        - generic [ref=f9e63]: "2"
+      - generic [ref=f9e66]:
+        - generic [ref=f9e67]: En cours de traitement
+        - generic [ref=f9e68]: "2"
+      - generic [ref=f9e71]:
+        - generic [ref=f9e72]: Prêtes pour retrait
+        - generic [ref=f9e73]: "2"
+      - generic [ref=f9e76]:
+        - generic [ref=f9e77]: Document Retirés
+        - generic [ref=f9e78]: "5"
+      - generic [ref=f9e81]:
+        - generic [ref=f9e82]: Refusées
+        - generic [ref=f9e83]: "1"
+    - generic [ref=f9e86]:
+      - heading "Volume hebdomadaire des tickets" [level=2] [ref=f9e87]
+      - link "Statistiques détaillées →" [ref=f9e88] [cursor=pointer]:
+        - /url: http://localhost:8000/admin/statistiques
+    - generic [ref=f9e90]:
+      - generic [ref=f9e91]:
+        - generic "2 demande(s)" [ref=f9e93]
+        - generic [ref=f9e94]: 10/08
+        - generic [ref=f9e95]: "2"
+      - generic [ref=f9e96]:
+        - generic "2 demande(s)" [ref=f9e98]
+        - generic [ref=f9e99]: 18/08
+        - generic [ref=f9e100]: "2"
+      - generic [ref=f9e101]:
+        - generic "8 demande(s)" [ref=f9e103]
+        - generic [ref=f9e104]: 25/08
+        - generic [ref=f9e105]: "8"
+    - heading "Dernières demandes reçues à guichet" [level=2] [ref=f9e107]
+    - table [ref=f9e109]:
+      - rowgroup [ref=f9e110]:
+        - row [ref=f9e111]:
+          - columnheader "N° Ticket" [ref=f9e112]
+          - columnheader "Étudiant" [ref=f9e113]
+          - columnheader "Type Attestation" [ref=f9e114]
+          - columnheader "Date" [ref=f9e115]
+          - columnheader "Statut" [ref=f9e116]
+          - columnheader "Actions" [ref=f9e117]
+      - rowgroup [ref=f9e118]:
+        - row [ref=f9e119]:
+          - cell "ATT-2026-000012" [ref=f9e120]
+          - cell [ref=f9e121]:
+            - strong [ref=f9e122]: Hery Ravelo
+          - cell "Certificat de scolarité" [ref=f9e123]
+          - cell "30/08/2026" [ref=f9e124]
+          - cell "Retiree" [ref=f9e125]
+          - cell [ref=f9e127]:
+            - link "Traiter" [ref=f9e128] [cursor=pointer]:
+              - /url: http://localhost:8000/admin/detail/12
+            - link "" [ref=f9e129] [cursor=pointer]:
+              - /url: http://localhost:8000/admin/ticket/12
+        - row [ref=f9e131]:
+          - cell "ATT-2026-000011" [ref=f9e132]
+          - cell [ref=f9e133]:
+            - strong [ref=f9e134]: Hery Ravelo
+          - cell "Certificat de scolarité" [ref=f9e135]
+          - cell "30/08/2026" [ref=f9e136]
+          - cell "Retiree" [ref=f9e137]
+          - cell [ref=f9e139]:
+            - link "Traiter" [ref=f9e140] [cursor=pointer]:
+              - /url: http://localhost:8000/admin/detail/11
+            - link "" [ref=f9e141] [cursor=pointer]:
+              - /url: http://localhost:8000/admin/ticket/11
+        - row [ref=f9e143]:
+          - cell "ATT-2026-000010" [ref=f9e144]
+          - cell [ref=f9e145]:
+            - strong [ref=f9e146]: Hery Ravelo
+          - cell "Certificat de scolarité" [ref=f9e147]
+          - cell "30/08/2026" [ref=f9e148]
+          - cell "Retiree" [ref=f9e149]
+          - cell [ref=f9e151]:
+            - link "Traiter" [ref=f9e152] [cursor=pointer]:
+              - /url: http://localhost:8000/admin/detail/10
+            - link "" [ref=f9e153] [cursor=pointer]:
+              - /url: http://localhost:8000/admin/ticket/10
+        - row [ref=f9e155]:
+          - cell "ATT-2026-0005" [ref=f9e156]
+          - cell [ref=f9e157]:
+            - strong [ref=f9e158]: Soafara Haja
+          - cell "Attestation de réussite" [ref=f9e159]
+          - cell "29/08/2026" [ref=f9e160]
+          - cell "En attente" [ref=f9e161]
+          - cell [ref=f9e163]:
+            - link "Traiter" [ref=f9e164] [cursor=pointer]:
+              - /url: http://localhost:8000/admin/detail/5
+            - link "" [ref=f9e165] [cursor=pointer]:
+              - /url: http://localhost:8000/admin/ticket/5
+        - row [ref=f9e167]:
+          - cell "ATT-2026-0004" [ref=f9e168]
+          - cell [ref=f9e169]:
+            - strong [ref=f9e170]: Toky Randria
+          - cell "Certificat de scolarité" [ref=f9e171]
+          - cell "28/08/2026" [ref=f9e172]
+          - cell "En attente" [ref=f9e173]
+          - cell [ref=f9e175]:
+            - link "Traiter" [ref=f9e176] [cursor=pointer]:
+              - /url: http://localhost:8000/admin/detail/4
+            - link "" [ref=f9e177] [cursor=pointer]:
+              - /url: http://localhost:8000/admin/ticket/4
+        - row [ref=f9e179]:
+          - cell "ATT-2026-0008" [ref=f9e180]
+          - cell [ref=f9e181]:
+            - strong [ref=f9e182]: Mira Rasoa
+          - cell "Certificat de scolarité" [ref=f9e183]
+          - cell "28/08/2026" [ref=f9e184]
+          - cell "En cours" [ref=f9e185]
+          - cell [ref=f9e187]:
+            - link "Traiter" [ref=f9e188] [cursor=pointer]:
+              - /url: http://localhost:8000/admin/detail/8
+            - link "" [ref=f9e189] [cursor=pointer]:
+              - /url: http://localhost:8000/admin/ticket/8

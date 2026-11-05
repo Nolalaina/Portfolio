@@ -1,0 +1,285 @@
+- generic [active] [ref=f3e1]:
+  - link "Aller aux projets" [ref=f3e2] [cursor=pointer]:
+    - /url: "#projets"
+  - generic [ref=f3e3]:
+    - complementary "Navigation principale" [ref=f3e4]:
+      - link "N Nolalaina R. Génie Logiciel" [ref=f3e5] [cursor=pointer]:
+        - /url: "#accueil"
+        - generic [ref=f3e6]: "N"
+        - generic [ref=f3e7]:
+          - generic [ref=f3e8]: Nolalaina R.
+          - text: Génie Logiciel
+      - navigation [ref=f3e9]:
+        - link "Accueil" [ref=f3e10] [cursor=pointer]:
+          - /url: "#accueil"
+        - link "À propos" [ref=f3e13] [cursor=pointer]:
+          - /url: "#apropos"
+        - link "Ce que je fais" [ref=f3e16] [cursor=pointer]:
+          - /url: "#services"
+        - link "Projets" [ref=f3e19] [cursor=pointer]:
+          - /url: "#projets"
+        - link "Compétences" [ref=f3e22] [cursor=pointer]:
+          - /url: "#competences"
+        - link "Parcours" [ref=f3e25] [cursor=pointer]:
+          - /url: "#parcours"
+        - link "Contact" [ref=f3e28] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=f3e31]:
+        - generic [ref=f3e32]: Disponible pour un stage de 6 mois
+        - paragraph [ref=f3e33]: Développement web et mobile. Parlons de votre projet.
+        - link "Me contacter" [ref=f3e34] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=f3e37]:
+        - generic [ref=f3e38]: RETROUVEZ-MOI
+        - link "GitHub" [ref=f3e39] [cursor=pointer]:
+          - /url: https://github.com/Nolalaina
+        - link "LinkedIn" [ref=f3e42] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/nolalaina-harintsoa-b5949538a/
+        - link "E-mail" [ref=f3e45] [cursor=pointer]:
+          - /url: mailto:hnolalaina@gmail.com
+    - main [ref=f3e48]:
+      - generic [ref=f3e49]:
+        - generic [ref=f3e50]:
+          - link "Accueil" [ref=f3e51] [cursor=pointer]:
+            - /url: "#accueil"
+          - link "À propos" [ref=f3e52] [cursor=pointer]:
+            - /url: "#apropos"
+          - link "Projets" [ref=f3e53] [cursor=pointer]:
+            - /url: "#projets"
+          - link "Compétences" [ref=f3e54] [cursor=pointer]:
+            - /url: "#competences"
+          - link "Parcours" [ref=f3e55] [cursor=pointer]:
+            - /url: "#parcours"
+          - link "Contact" [ref=f3e56] [cursor=pointer]:
+            - /url: "#contact"
+        - link "Parlons-en" [ref=f3e57] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=f3e60]:
+        - generic [ref=f3e61]:
+          - generic [ref=f3e62]:
+            - text: Bonjour, je suis
+            - heading [level=1] [ref=f3e63]:
+              - text: Nolalaina
+              - emphasis [ref=f3e64]: Rakotovahiny
+            - heading "Je conçois des applications web et mobile de bout en bout." [level=2] [ref=f3e65]
+            - paragraph [ref=f3e66]: "Étudiante en Licence 3 Génie Logiciel à Antananarivo : frontend, backend et base de données."
+            - generic [ref=f3e67]:
+              - link "Voir mes projets" [ref=f3e68] [cursor=pointer]:
+                - /url: "#projets"
+              - link "GitHub" [ref=f3e71] [cursor=pointer]:
+                - /url: https://github.com/Nolalaina
+              - link "LinkedIn" [ref=f3e74] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/nolalaina-harintsoa-b5949538a/
+          - generic [ref=f3e77]:
+            - img "Portrait de Nolalaina Rakotovahiny" [ref=f3e81]
+            - generic [ref=f3e82]:
+              - generic [ref=f3e83]: L3
+              - text: Génie Logiciel
+        - generic [ref=f3e84]:
+          - text: Technologies que j’utilise
+          - generic [ref=f3e85]:
+            - generic [ref=f3e86]: React
+            - generic [ref=f3e87]: Node.js
+            - generic [ref=f3e88]: React Native
+            - generic [ref=f3e89]: Python
+            - generic [ref=f3e90]: PHP
+            - generic [ref=f3e91]: MySQL
+      - generic [ref=f3e92]:
+        - text: Qui suis-je
+        - heading "À propos" [level=2] [ref=f3e94]
+        - generic [ref=f3e95]:
+          - generic [ref=f3e96]:
+            - paragraph [ref=f3e97]: Étudiante en Licence 3 Services Informatiques aux Organisations (Génie Logiciel) à l’ESMIA Innovation, je conçois et développe des applications web et mobile de bout en bout.
+            - paragraph [ref=f3e98]: Je recherche un stage de 6 mois pour approfondir mes compétences, acquérir une expérience professionnelle et participer à des projets concrets en développement web et mobile.
+          - generic [ref=f3e99]:
+            - generic [ref=f3e100]:
+              - heading "Langues" [level=3] [ref=f3e101]
+              - list [ref=f3e102]:
+                - listitem [ref=f3e103]: Malagasylangue maternelle
+                - listitem [ref=f3e104]: Françaisniveau intermédiaire
+                - listitem [ref=f3e105]: Anglaisniveau intermédiaire
+            - generic [ref=f3e106]:
+              - heading "Centres d’intérêt" [level=3] [ref=f3e107]
+              - list [ref=f3e108]:
+                - listitem [ref=f3e109]: Lecture
+                - listitem [ref=f3e110]: Sports collectifs
+      - generic [ref=f3e111]:
+        - text: Ce que je fais
+        - heading "Mes domaines" [level=2] [ref=f3e113]
+        - generic [ref=f3e114]:
+          - generic [ref=f3e115]:
+            - heading "Développement web" [level=3] [ref=f3e119]
+            - paragraph [ref=f3e120]: Interfaces React et API REST avec Node.js et Express.
+            - link "En savoir plus" [ref=f3e121] [cursor=pointer]:
+              - /url: "#competences"
+          - generic [ref=f3e124]:
+            - heading "Développement mobile" [level=3] [ref=f3e128]
+            - paragraph [ref=f3e129]: Applications React Native avec TypeScript.
+            - link "En savoir plus" [ref=f3e130] [cursor=pointer]:
+              - /url: "#competences"
+          - generic [ref=f3e133]:
+            - heading "Bases de données" [level=3] [ref=f3e137]
+            - paragraph [ref=f3e138]: Modélisation relationnelle MySQL, jusqu’à 13 tables.
+            - link "En savoir plus" [ref=f3e139] [cursor=pointer]:
+              - /url: "#competences"
+          - generic [ref=f3e142]:
+            - heading "Temps réel et sécurité" [level=3] [ref=f3e146]
+            - paragraph [ref=f3e147]: WebSocket (Socket.IO), JWT et bcrypt.
+            - link "En savoir plus" [ref=f3e148] [cursor=pointer]:
+              - /url: "#competences"
+      - generic [ref=f3e151]:
+        - text: Mes réalisations
+        - generic [ref=f3e152]:
+          - heading "Projets" [level=2] [ref=f3e153]
+          - link "Tout voir sur GitHub" [ref=f3e154] [cursor=pointer]:
+            - /url: https://github.com/Nolalaina
+        - generic [ref=f3e157]:
+          - button "Voir les captures de Mandeha" [ref=f3e158] [cursor=pointer]:
+            - img "Réservation avec devis calculé en direct" [ref=f3e160]
+            - generic [ref=f3e161]: Web
+            - heading "Mandeha" [level=3] [ref=f3e162]
+            - paragraph [ref=f3e163]: Location de voitures et de logements
+          - button "Voir les captures de QueueFlow" [ref=f3e164] [cursor=pointer]:
+            - 'img "Console agent : ticket appelé et file du guichet" [ref=f3e166]'
+            - generic [ref=f3e167]: Web et mobile
+            - heading "QueueFlow" [level=3] [ref=f3e168]
+            - paragraph [ref=f3e169]: Gestion de file d’attente bancaire
+          - button "Voir les captures de AttestPro" [ref=f3e170] [cursor=pointer]:
+            - 'img "Espace étudiant : suivi des demandes" [ref=f3e172]'
+            - generic [ref=f3e173]: Web
+            - heading "AttestPro" [level=3] [ref=f3e174]
+            - paragraph [ref=f3e175]: Demande d’attestations en ligne
+          - button "Voir les captures de StageMatch" [ref=f3e176] [cursor=pointer]:
+            - img "Recommandations classées par score de correspondance" [ref=f3e178]
+            - generic [ref=f3e179]: Web
+            - heading "StageMatch" [level=3] [ref=f3e180]
+            - paragraph [ref=f3e181]: Matching de stages
+          - button "Voir les captures de PharmaGest" [ref=f3e182] [cursor=pointer]:
+            - img "Tableau de bord avec indicateurs clés de la pharmacie" [ref=f3e184]
+            - generic [ref=f3e185]: Web
+            - heading "PharmaGest" [level=3] [ref=f3e186]
+            - paragraph [ref=f3e187]: Gestion d'officine pharmaceutique
+          - button "Voir les captures de AgroTrace" [ref=f3e188] [cursor=pointer]:
+            - 'img "Tableau de bord : indicateurs, stocks et alertes" [ref=f3e190]'
+            - generic [ref=f3e191]: Web
+            - heading "AgroTrace" [level=3] [ref=f3e192]
+            - paragraph [ref=f3e193]: Traçabilité de lots fruitiers
+        - paragraph [ref=f3e194]: Cliquez sur un projet pour voir ses captures et son code source.
+      - generic [ref=f3e195]:
+        - text: Savoir-faire
+        - heading "Compétences" [level=2] [ref=f3e197]
+        - generic [ref=f3e198]:
+          - generic [ref=f3e199]:
+            - heading "Développement web" [level=3] [ref=f3e200]
+            - list [ref=f3e201]:
+              - listitem [ref=f3e202]: React.js
+              - listitem [ref=f3e203]: Laravel
+              - listitem [ref=f3e204]: HTML / CSS
+              - listitem [ref=f3e205]: API REST
+              - listitem [ref=f3e206]: Node.js / Express
+          - generic [ref=f3e207]:
+            - heading "Développement mobile" [level=3] [ref=f3e208]
+            - list [ref=f3e209]:
+              - listitem [ref=f3e210]: React Native
+              - listitem [ref=f3e211]: TypeScript
+          - generic [ref=f3e212]:
+            - heading "Langages" [level=3] [ref=f3e213]
+            - list [ref=f3e214]:
+              - listitem [ref=f3e215]: Python
+              - listitem [ref=f3e216]: PHP
+              - listitem [ref=f3e217]: SQL
+          - generic [ref=f3e218]:
+            - heading "Bases de données" [level=3] [ref=f3e219]
+            - list [ref=f3e220]:
+              - listitem [ref=f3e221]: MySQL
+              - listitem [ref=f3e222]: Schémas relationnels (jusqu’à 13 tables)
+          - generic [ref=f3e223]:
+            - heading "Sécurité et temps réel" [level=3] [ref=f3e224]
+            - list [ref=f3e225]:
+              - listitem [ref=f3e226]: JWT
+              - listitem [ref=f3e227]: bcrypt
+              - listitem [ref=f3e228]: WebSocket (Socket.IO)
+          - generic [ref=f3e229]:
+            - heading "Algorithmique" [level=3] [ref=f3e230]
+            - list [ref=f3e231]:
+              - listitem [ref=f3e232]: Kruskal, Prim
+              - listitem [ref=f3e233]: Union-Find, MinHeap
+              - listitem [ref=f3e234]: Projet Lalan-drano
+          - generic [ref=f3e235]:
+            - heading "Méthodologie" [level=3] [ref=f3e236]
+            - list [ref=f3e237]:
+              - listitem [ref=f3e238]: UML
+              - listitem [ref=f3e239]: Cahiers des normes
+              - listitem [ref=f3e240]: Spécifications fonctionnelles
+              - listitem [ref=f3e241]: Rapports techniques
+          - generic [ref=f3e242]:
+            - heading "Outils" [level=3] [ref=f3e243]
+            - list [ref=f3e244]:
+              - listitem [ref=f3e245]: VS Code, WAMP
+              - listitem [ref=f3e246]: Git, GitHub
+              - listitem [ref=f3e247]: Windows, Linux
+      - generic "Chiffres clés" [ref=f3e248]:
+        - paragraph [ref=f3e252]:
+          - generic [ref=f3e253]: "6"
+          - generic [ref=f3e254]: Projets sur GitHub
+        - paragraph [ref=f3e258]:
+          - generic [ref=f3e259]: 3 ans
+          - generic [ref=f3e260]: d’études en SIO
+        - paragraph [ref=f3e264]:
+          - generic [ref=f3e265]: "13"
+          - generic [ref=f3e266]: tables dans mon plus gros schéma
+        - paragraph [ref=f3e270]:
+          - generic [ref=f3e271]: 6 mois
+          - generic [ref=f3e272]: de stage recherché
+      - generic [ref=f3e273]:
+        - text: Formation
+        - heading "Parcours" [level=2] [ref=f3e275]
+        - generic [ref=f3e276]:
+          - generic [ref=f3e277]:
+            - text: 2026 – aujourd’hui
+            - heading "Licence 3 SIO" [level=3] [ref=f3e278]
+            - generic [ref=f3e279]: Génie Logiciel · ESMIA Innovation, Antanimena
+            - paragraph [ref=f3e280]: "Spécialisation en génie logiciel : conception et développement d’applications web et mobile."
+          - generic [ref=f3e281]:
+            - text: 2025 – 2026
+            - heading "Licence 2 SIO" [level=3] [ref=f3e282]
+            - generic [ref=f3e283]: ESMIA Innovation, Antanimena
+            - paragraph [ref=f3e284]: "Projet individuel : application web et mobile de gestion de files d’attente."
+          - generic [ref=f3e285]:
+            - text: 2024 – 2025
+            - heading "Licence 1 SIO" [level=3] [ref=f3e286]
+            - generic [ref=f3e287]: ESMIA Innovation, Antanimena
+            - paragraph [ref=f3e288]: "Travail de groupe : site web de demande d’attestation en ligne."
+        - paragraph [ref=f3e289]: Baccalauréat série D, Sekoly Katolika Masina Marie Mpanampy Soanierana, 2023 – 2024.
+      - generic [ref=f3e290]:
+        - generic [ref=f3e291]:
+          - generic [ref=f3e292]:
+            - heading "Travaillons ensemble !" [level=2] [ref=f3e295]
+            - paragraph [ref=f3e296]: Un stage ou un projet en tête ? Écrivez-moi, je réponds vite.
+          - generic [ref=f3e297]:
+            - generic [ref=f3e298]:
+              - textbox "Votre nom" [ref=f3e299]
+              - textbox "Votre e-mail" [ref=f3e300]
+            - textbox "Votre message" [ref=f3e301]
+            - button "Envoyer" [ref=f3e302] [cursor=pointer]
+            - status [ref=f3e305]
+          - generic [ref=f3e306]:
+            - generic [ref=f3e310]:
+              - generic [ref=f3e311]: E-mail
+              - link "hnolalaina@gmail.com" [ref=f3e312] [cursor=pointer]:
+                - /url: mailto:hnolalaina@gmail.com
+            - generic [ref=f3e316]:
+              - generic [ref=f3e317]: Téléphone
+              - link "038 33 124 78" [ref=f3e318] [cursor=pointer]:
+                - /url: tel:+261383312478
+            - generic [ref=f3e322]:
+              - generic [ref=f3e323]: Localisation
+              - text: Antananarivo, Madagascar
+            - generic [ref=f3e327]:
+              - generic [ref=f3e328]: LinkedIn
+              - link "nolalaina-harintsoa" [ref=f3e329] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/nolalaina-harintsoa-b5949538a/
+        - generic [ref=f3e330]:
+          - generic [ref=f3e331]: © 2026 Nolalaina Rakotovahiny
+          - link "Retour en haut ↑" [ref=f3e332] [cursor=pointer]:
+            - /url: "#accueil"

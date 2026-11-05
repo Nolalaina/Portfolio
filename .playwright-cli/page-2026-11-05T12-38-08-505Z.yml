@@ -1,0 +1,83 @@
+- generic [ref=f33e3]:
+  - navigation [ref=f33e4]:
+    - link [ref=f33e5] [cursor=pointer]:
+      - /url: /
+    - link "Se connecter" [ref=f33e153] [cursor=pointer]:
+      - /url: /login
+  - generic [ref=f33e159]:
+    - generic [ref=f33e160]:
+      - heading "Connexion StageMatch" [level=1] [ref=f33e161]:
+        - text: Connexion
+        - generic [ref=f33e162]: StageMatch
+      - paragraph [ref=f33e163]: Accédez à votre espace sécurisé
+    - generic [ref=f33e164]:
+      - generic [ref=f33e165]: Accès rapide environnement de test
+      - generic [ref=f33e169]:
+        - button "Entreprise" [ref=f33e170] [cursor=pointer]
+        - button "Étudiant" [ref=f33e175] [cursor=pointer]
+        - button "Admin" [ref=f33e180] [cursor=pointer]
+    - generic [ref=f33e185]:
+      - generic [ref=f33e186]:
+        - generic [ref=f33e187]: Adresse email
+        - textbox "Adresse email" [ref=f33e191]:
+          - /placeholder: nom@entreprise.com
+      - generic [ref=f33e192]:
+        - generic [ref=f33e193]: Mot de passe
+        - textbox "Mot de passe" [ref=f33e197]:
+          - /placeholder: ••••••••
+      - button "Se connecter" [ref=f33e198] [cursor=pointer]
+    - paragraph [ref=f33e202]:
+      - text: Vous n'avez pas encore de compte ?
+      - link "Créer un compte" [ref=f33e203] [cursor=pointer]:
+        - /url: /register
+  - contentinfo [ref=f33e102]:
+    - generic [ref=f33e103]:
+      - generic [ref=f33e104]:
+        - generic [ref=f33e105]:
+          - link [ref=f33e106] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f33e111]: Plateforme SaaS de mise en relation intelligente entre candidats et recruteurs. Algorithme propriétaire de matching prédictif et d'analyse de compétences.
+        - generic [ref=f33e112]:
+          - generic [ref=f33e113]: Plateforme
+          - list [ref=f33e114]:
+            - listitem [ref=f33e115]:
+              - link "Offres de stages" [ref=f33e116] [cursor=pointer]:
+                - /url: /internships
+            - listitem [ref=f33e117]:
+              - link "Espace Connexion" [ref=f33e118] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f33e119]:
+              - link "Créer un compte" [ref=f33e120] [cursor=pointer]:
+                - /url: /register
+        - generic [ref=f33e121]:
+          - generic [ref=f33e122]: Solutions
+          - list [ref=f33e123]:
+            - listitem [ref=f33e124]:
+              - link "Portail Candidat" [ref=f33e125] [cursor=pointer]:
+                - /url: /student
+            - listitem [ref=f33e126]:
+              - link "Portail Recruteur" [ref=f33e127] [cursor=pointer]:
+                - /url: /company
+            - listitem [ref=f33e128]:
+              - link "Console d'Administration" [ref=f33e129] [cursor=pointer]:
+                - /url: /admin
+        - generic [ref=f33e130]:
+          - generic [ref=f33e131]: Infrastructure & Securité
+          - generic [ref=f33e132]:
+            - generic [ref=f33e133]: TF-IDF Engine
+            - generic [ref=f33e134]: Vector Math
+            - generic [ref=f33e135]: Enterprise Auth
+            - generic [ref=f33e136]: SaaS Core
+            - generic [ref=f33e137]: TLS Encrypted
+          - generic [ref=f33e138]:
+            - text: "Domain officiel :"
+            - link "stagematch.io" [ref=f33e142] [cursor=pointer]:
+              - /url: https://stagematch.io
+      - generic [ref=f33e143]:
+        - generic [ref=f33e144]: © 2026 StageMatch Technologies Inc. Tous droits réservés.
+        - generic [ref=f33e145]:
+          - generic [ref=f33e146] [cursor=pointer]: Confidentialité
+          - generic [ref=f33e147]: ·
+          - generic [ref=f33e148] [cursor=pointer]: Conditions d'utilisation
+          - generic [ref=f33e149]: ·
+          - generic [ref=f33e150] [cursor=pointer]: Sécurisé SSL

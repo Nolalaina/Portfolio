@@ -1,0 +1,102 @@
+- generic [ref=f31e3]:
+  - navigation [ref=f31e4]:
+    - link [ref=f31e5] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f31e10]:
+      - link "Tableau de bord" [ref=f31e11] [cursor=pointer]:
+        - /url: /student
+      - link "Explorer les stages" [ref=f31e18] [cursor=pointer]:
+        - /url: /internships
+      - link "Candidatures" [ref=f31e23] [cursor=pointer]:
+        - /url: /student/applications
+      - link "Mon Profil & CV" [ref=f31e28] [cursor=pointer]:
+        - /url: /student/profile
+      - button "Notifications" [ref=f31e34] [cursor=pointer]
+      - button "Déconnexion" [ref=f31e38] [cursor=pointer]
+  - generic [ref=f31e43]:
+    - complementary [ref=f31e44]:
+      - generic [ref=f31e45]:
+        - generic [ref=f31e46]:
+          - generic [ref=f31e47]: RJ
+          - heading "Rakoto Jean" [level=2] [ref=f31e48]
+          - generic [ref=f31e49]: Génie Logiciel
+        - separator [ref=f31e53]
+        - generic [ref=f31e54]: Compétences clés
+        - generic [ref=f31e55]:
+          - generic [ref=f31e56]: React
+          - generic [ref=f31e57]: Node.js
+          - generic [ref=f31e58]: MySQL
+        - generic [ref=f31e59]: Antananarivo · Télétravail OK
+        - link "Modifier le profil" [ref=f31e64] [cursor=pointer]:
+          - /url: /student/profile
+        - link "Mes candidatures" [ref=f31e69] [cursor=pointer]:
+          - /url: /student/applications
+    - main [ref=f31e74]:
+      - generic [ref=f31e75]:
+        - heading "Recommandations Sur-Mesure" [level=1] [ref=f31e76]:
+          - text: Recommandations
+          - generic [ref=f31e77]: Sur-Mesure
+        - paragraph [ref=f31e78]: 1 offre analysée et classée par score d'adéquation sémantique
+      - 'link "Développeur Web Full-Stack Orange Digital Center Antananarivo À développer : REST API, Git Voir l''offre" [ref=f31e79] [cursor=pointer]':
+        - /url: /internships/1
+        - img [ref=f31e80]:
+          - generic [ref=f31e83]: 69%
+          - generic [ref=f31e84]: MATCH
+        - generic [ref=f31e85]:
+          - heading "Développeur Web Full-Stack" [level=3] [ref=f31e86]
+          - generic [ref=f31e87]:
+            - generic [ref=f31e88]: Orange Digital Center
+            - generic [ref=f31e93]: Antananarivo
+          - generic [ref=f31e97]: "À développer : REST API, Git"
+        - generic [ref=f31e103]: Voir l'offre
+  - contentinfo [ref=f31e107]:
+    - generic [ref=f31e108]:
+      - generic [ref=f31e109]:
+        - generic [ref=f31e110]:
+          - link [ref=f31e111] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f31e116]: Plateforme SaaS de mise en relation intelligente entre candidats et recruteurs. Algorithme propriétaire de matching prédictif et d'analyse de compétences.
+        - generic [ref=f31e117]:
+          - generic [ref=f31e118]: Plateforme
+          - list [ref=f31e119]:
+            - listitem [ref=f31e120]:
+              - link "Offres de stages" [ref=f31e121] [cursor=pointer]:
+                - /url: /internships
+            - listitem [ref=f31e122]:
+              - link "Espace Connexion" [ref=f31e123] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f31e124]:
+              - link "Créer un compte" [ref=f31e125] [cursor=pointer]:
+                - /url: /register
+        - generic [ref=f31e126]:
+          - generic [ref=f31e127]: Solutions
+          - list [ref=f31e128]:
+            - listitem [ref=f31e129]:
+              - link "Portail Candidat" [ref=f31e130] [cursor=pointer]:
+                - /url: /student
+            - listitem [ref=f31e131]:
+              - link "Portail Recruteur" [ref=f31e132] [cursor=pointer]:
+                - /url: /company
+            - listitem [ref=f31e133]:
+              - link "Console d'Administration" [ref=f31e134] [cursor=pointer]:
+                - /url: /admin
+        - generic [ref=f31e135]:
+          - generic [ref=f31e136]: Infrastructure & Securité
+          - generic [ref=f31e137]:
+            - generic [ref=f31e138]: TF-IDF Engine
+            - generic [ref=f31e139]: Vector Math
+            - generic [ref=f31e140]: Enterprise Auth
+            - generic [ref=f31e141]: SaaS Core
+            - generic [ref=f31e142]: TLS Encrypted
+          - generic [ref=f31e143]:
+            - text: "Domain officiel :"
+            - link "stagematch.io" [ref=f31e147] [cursor=pointer]:
+              - /url: https://stagematch.io
+      - generic [ref=f31e148]:
+        - generic [ref=f31e149]: © 2026 StageMatch Technologies Inc. Tous droits réservés.
+        - generic [ref=f31e150]:
+          - generic [ref=f31e151] [cursor=pointer]: Confidentialité
+          - generic [ref=f31e152]: ·
+          - generic [ref=f31e153] [cursor=pointer]: Conditions d'utilisation
+          - generic [ref=f31e154]: ·
+          - generic [ref=f31e155] [cursor=pointer]: Sécurisé SSL
