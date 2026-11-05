@@ -1,0 +1,317 @@
+- generic [ref=f81e1]:
+  - generic [ref=f81e2]:
+    - generic [ref=f81e3]:
+      - button "🇫🇷" [ref=f81e4] [cursor=pointer]
+      - button "🇲🇬" [ref=f81e5] [cursor=pointer]
+    - navigation "Navigation principale" [ref=f81e6]:
+      - generic [ref=f81e7]:
+        - link "Accueil" [ref=f81e8] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f81e9]: 🏦
+          - generic [ref=f81e10]: QueueFlow
+        - menubar [ref=f81e11]:
+          - menuitem "File en Direct" [ref=f81e12] [cursor=pointer]
+          - menuitem "Mon Guichet" [ref=f81e13] [cursor=pointer]
+          - menuitem "Console Admin" [ref=f81e14] [cursor=pointer]
+          - generic [ref=f81e15]:
+            - generic [ref=f81e16]:
+              - generic [ref=f81e17]: admin
+              - generic [ref=f81e18]: Administrateur
+            - button "⏏ Déconnexion" [ref=f81e19] [cursor=pointer]:
+              - generic [ref=f81e20]: ⏏
+              - text: Déconnexion
+    - main [ref=f81e21]:
+      - generic [ref=f81e22]:
+        - generic [ref=f81e25]:
+          - generic [ref=f81e26]:
+            - generic [ref=f81e27]: Console Admin 📊
+            - generic [ref=f81e28]: 5 nov. 2026
+          - generic [ref=f81e29]:
+            - button "➕ Simuler" [ref=f81e30] [cursor=pointer]
+            - button "🔄" [ref=f81e31] [cursor=pointer]
+            - button "Reset" [ref=f81e32] [cursor=pointer]
+        - generic [ref=f81e33]:
+          - generic [ref=f81e34]:
+            - generic [ref=f81e35]:
+              - generic [ref=f81e37]:
+                - generic [ref=f81e38]: 🎟️
+                - generic [ref=f81e39]: Tickets Total
+              - generic [ref=f81e40]: "20"
+            - generic [ref=f81e41]:
+              - generic [ref=f81e43]:
+                - generic [ref=f81e44]: ⏳
+                - generic [ref=f81e45]: Clients en Attente
+              - generic [ref=f81e46]: "15"
+            - generic [ref=f81e47]:
+              - generic [ref=f81e49]:
+                - generic [ref=f81e50]: ✨
+                - generic [ref=f81e51]: Service Terminé
+              - generic [ref=f81e52]: "0"
+            - generic [ref=f81e53]:
+              - generic [ref=f81e55]:
+                - generic [ref=f81e56]: ⏱️
+                - generic [ref=f81e57]: Temps Moyen
+              - generic [ref=f81e58]: 10.0m
+          - generic [ref=f81e59]:
+            - button "📈 Aperçu" [ref=f81e60] [cursor=pointer]
+            - button "🎫 File Globale" [active] [ref=f81e61] [cursor=pointer]
+            - button "🛠️ Assistant Agent" [ref=f81e62] [cursor=pointer]
+            - button "📅 Historique" [ref=f81e63] [cursor=pointer]
+            - button "⚙️ Services" [ref=f81e64] [cursor=pointer]
+            - button "👥 Agents" [ref=f81e65] [cursor=pointer]
+            - button "🏦 Banque" [ref=f81e66] [cursor=pointer]
+            - button "🔍 Logs" [ref=f81e67] [cursor=pointer]
+          - generic [ref=f81e69]:
+            - textbox "🔍 Rechercher..." [ref=f81e71]
+            - button "OK" [ref=f81e72] [cursor=pointer]
+          - table [ref=f81e74]:
+            - rowgroup [ref=f81e75]:
+              - row [ref=f81e76]:
+                - columnheader "Ticket" [ref=f81e77]
+                - columnheader "Client" [ref=f81e78]
+                - columnheader "Service Actuel" [ref=f81e79]
+                - columnheader "Statut" [ref=f81e80]
+                - columnheader "Réaffecter" [ref=f81e81]
+            - rowgroup [ref=f81e82]:
+              - row [ref=f81e83]:
+                - cell "LO-901" [ref=f81e84]
+                - cell "Rabe" [ref=f81e85]
+                - cell "Prêts & Crédits" [ref=f81e86]
+                - cell "waiting" [ref=f81e88]
+                - cell "Vers service..." [ref=f81e90]:
+                  - combobox [ref=f81e91]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Ouverture de Compte"
+                    - option "Support Technique"
+                    - option "Virement International"
+              - row [ref=f81e92]:
+                - cell "TE-901" [ref=f81e93]
+                - cell "Rabe" [ref=f81e94]
+                - cell "Support Technique" [ref=f81e95]
+                - cell "waiting" [ref=f81e97]
+                - cell "Vers service..." [ref=f81e99]:
+                  - combobox [ref=f81e100]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Ouverture de Compte"
+                    - option "Prêts & Crédits"
+                    - option "Virement International"
+              - row [ref=f81e101]:
+                - cell "IN-901" [ref=f81e102]
+                - cell "Tsiry" [ref=f81e103]
+                - cell "Virement International" [ref=f81e104]
+                - cell "waiting" [ref=f81e106]
+                - cell "Vers service..." [ref=f81e108]:
+                  - combobox [ref=f81e109]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Ouverture de Compte"
+                    - option "Prêts & Crédits"
+                    - option "Support Technique"
+              - row [ref=f81e110]:
+                - cell "EX-901" [ref=f81e111]
+                - cell "Fana" [ref=f81e112]
+                - cell "Caisse Express" [ref=f81e113]
+                - cell "waiting" [ref=f81e115]
+                - cell "Vers service..." [ref=f81e117]:
+                  - combobox [ref=f81e118]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Ouverture de Compte"
+                    - option "Prêts & Crédits"
+                    - option "Support Technique"
+                    - option "Virement International"
+              - row [ref=f81e119]:
+                - cell "AC-901" [ref=f81e120]
+                - cell "Noro" [ref=f81e121]
+                - cell "Ouverture de Compte" [ref=f81e122]
+                - cell "waiting" [ref=f81e124]
+                - cell "Vers service..." [ref=f81e126]:
+                  - combobox [ref=f81e127]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Prêts & Crédits"
+                    - option "Support Technique"
+                    - option "Virement International"
+              - row [ref=f81e128]:
+                - cell "AC-902" [ref=f81e129]
+                - cell "Aina" [ref=f81e130]
+                - cell "Ouverture de Compte" [ref=f81e131]
+                - cell "waiting" [ref=f81e133]
+                - cell "Vers service..." [ref=f81e135]:
+                  - combobox [ref=f81e136]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Prêts & Crédits"
+                    - option "Support Technique"
+                    - option "Virement International"
+              - row [ref=f81e137]:
+                - cell "LO-902" [ref=f81e138]
+                - cell "Tsiry" [ref=f81e139]
+                - cell "Prêts & Crédits" [ref=f81e140]
+                - cell "waiting" [ref=f81e142]
+                - cell "Vers service..." [ref=f81e144]:
+                  - combobox [ref=f81e145]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Ouverture de Compte"
+                    - option "Support Technique"
+                    - option "Virement International"
+              - row [ref=f81e146]:
+                - cell "TE-902" [ref=f81e147]
+                - cell "Lita" [ref=f81e148]
+                - cell "Support Technique" [ref=f81e149]
+                - cell "waiting" [ref=f81e151]
+                - cell "Vers service..." [ref=f81e153]:
+                  - combobox [ref=f81e154]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Ouverture de Compte"
+                    - option "Prêts & Crédits"
+                    - option "Virement International"
+              - row [ref=f81e155]:
+                - cell "IN-902" [ref=f81e156]
+                - cell "Hery" [ref=f81e157]
+                - cell "Virement International" [ref=f81e158]
+                - cell "waiting" [ref=f81e160]
+                - cell "Vers service..." [ref=f81e162]:
+                  - combobox [ref=f81e163]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Ouverture de Compte"
+                    - option "Prêts & Crédits"
+                    - option "Support Technique"
+              - row [ref=f81e164]:
+                - cell "EX-902" [ref=f81e165]
+                - cell "Tsiry" [ref=f81e166]
+                - cell "Caisse Express" [ref=f81e167]
+                - cell "waiting" [ref=f81e169]
+                - cell "Vers service..." [ref=f81e171]:
+                  - combobox [ref=f81e172]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Ouverture de Compte"
+                    - option "Prêts & Crédits"
+                    - option "Support Technique"
+                    - option "Virement International"
+              - row [ref=f81e173]:
+                - cell "AC-903" [ref=f81e174]
+                - cell "Rakoto" [ref=f81e175]
+                - cell "Ouverture de Compte" [ref=f81e176]
+                - cell "waiting" [ref=f81e178]
+                - cell "Vers service..." [ref=f81e180]:
+                  - combobox [ref=f81e181]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Prêts & Crédits"
+                    - option "Support Technique"
+                    - option "Virement International"
+              - row [ref=f81e182]:
+                - cell "LO-900" [ref=f81e183]
+                - cell "Rabe" [ref=f81e184]
+                - cell "Prêts & Crédits" [ref=f81e185]
+                - cell "serving" [ref=f81e187]
+                - cell "Vers service..." [ref=f81e189]:
+                  - combobox [ref=f81e190]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Ouverture de Compte"
+                    - option "Support Technique"
+                    - option "Virement International"
+              - row [ref=f81e191]:
+                - cell "LO-903" [ref=f81e192]
+                - cell "Hery" [ref=f81e193]
+                - cell "Prêts & Crédits" [ref=f81e194]
+                - cell "waiting" [ref=f81e196]
+                - cell "Vers service..." [ref=f81e198]:
+                  - combobox [ref=f81e199]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Ouverture de Compte"
+                    - option "Support Technique"
+                    - option "Virement International"
+              - row [ref=f81e200]:
+                - cell "TE-900" [ref=f81e201]
+                - cell "Hery" [ref=f81e202]
+                - cell "Support Technique" [ref=f81e203]
+                - cell "serving" [ref=f81e205]
+                - cell "Vers service..." [ref=f81e207]:
+                  - combobox [ref=f81e208]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Ouverture de Compte"
+                    - option "Prêts & Crédits"
+                    - option "Virement International"
+              - row [ref=f81e209]:
+                - cell "TE-903" [ref=f81e210]
+                - cell "Rabe" [ref=f81e211]
+                - cell "Support Technique" [ref=f81e212]
+                - cell "waiting" [ref=f81e214]
+                - cell "Vers service..." [ref=f81e216]:
+                  - combobox [ref=f81e217]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Ouverture de Compte"
+                    - option "Prêts & Crédits"
+                    - option "Virement International"
+              - row [ref=f81e218]:
+                - cell "IN-900" [ref=f81e219]
+                - cell "Lita" [ref=f81e220]
+                - cell "Virement International" [ref=f81e221]
+                - cell "serving" [ref=f81e223]
+                - cell "Vers service..." [ref=f81e225]:
+                  - combobox [ref=f81e226]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Ouverture de Compte"
+                    - option "Prêts & Crédits"
+                    - option "Support Technique"
+              - row [ref=f81e227]:
+                - cell "IN-903" [ref=f81e228]
+                - cell "Rasoa" [ref=f81e229]
+                - cell "Virement International" [ref=f81e230]
+                - cell "waiting" [ref=f81e232]
+                - cell "Vers service..." [ref=f81e234]:
+                  - combobox [ref=f81e235]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Ouverture de Compte"
+                    - option "Prêts & Crédits"
+                    - option "Support Technique"
+              - row [ref=f81e236]:
+                - cell "EX-900" [ref=f81e237]
+                - cell "Tsiry" [ref=f81e238]
+                - cell "Caisse Express" [ref=f81e239]
+                - cell "serving" [ref=f81e241]
+                - cell "Vers service..." [ref=f81e243]:
+                  - combobox [ref=f81e244]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Ouverture de Compte"
+                    - option "Prêts & Crédits"
+                    - option "Support Technique"
+                    - option "Virement International"
+              - row [ref=f81e245]:
+                - cell "EX-903" [ref=f81e246]
+                - cell "Lita" [ref=f81e247]
+                - cell "Caisse Express" [ref=f81e248]
+                - cell "waiting" [ref=f81e250]
+                - cell "Vers service..." [ref=f81e252]:
+                  - combobox [ref=f81e253]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Ouverture de Compte"
+                    - option "Prêts & Crédits"
+                    - option "Support Technique"
+                    - option "Virement International"
+              - row [ref=f81e254]:
+                - cell "AC-900" [ref=f81e255]
+                - cell "Noro" [ref=f81e256]
+                - cell "Ouverture de Compte" [ref=f81e257]
+                - cell "serving" [ref=f81e259]
+                - cell "Vers service..." [ref=f81e261]:
+                  - combobox [ref=f81e262]:
+                    - option "Vers service..." [disabled] [selected]
+                    - option "Caisse Express"
+                    - option "Prêts & Crédits"
+                    - option "Support Technique"
+                    - option "Virement International"
+    - alert
+  - generic [aria-hidden] [ref=f81e263]: "5"

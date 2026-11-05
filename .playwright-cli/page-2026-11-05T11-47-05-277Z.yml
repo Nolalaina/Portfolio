@@ -1,0 +1,38 @@
+- generic [ref=f93e1]:
+  - navigation [ref=f93e2]:
+    - generic [ref=f93e3]:
+      - link "MH MANDEHA" [ref=f93e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f93e5]: MH
+        - text: MANDEHA
+      - generic [ref=f93e6]:
+        - link "Connexion" [ref=f93e7] [cursor=pointer]:
+          - /url: /auth/connexion
+        - link "Créer un compte" [ref=f93e8] [cursor=pointer]:
+          - /url: /auth/inscription
+  - generic [ref=f93e9]: Vous avez été déconnecté.
+  - generic [ref=f93e12]:
+    - generic [ref=f93e13]:
+      - generic [ref=f93e14]: MH
+      - heading "Content de vous revoir" [level=1] [ref=f93e15]
+      - paragraph [ref=f93e16]: Connectez-vous à votre compte MANDEHA.
+    - generic [ref=f93e18]:
+      - generic [ref=f93e19]:
+        - generic [ref=f93e20]: Adresse email
+        - textbox "Adresse email" [active] [ref=f93e21]:
+          - /placeholder: vous@exemple.mg
+      - generic [ref=f93e22]:
+        - generic [ref=f93e23]: Mot de passe
+        - textbox "Mot de passe" [ref=f93e24]:
+          - /placeholder: ••••••••
+      - generic [ref=f93e25]:
+        - checkbox "Se souvenir de moi" [ref=f93e26]
+        - generic [ref=f93e27]: Se souvenir de moi
+      - button "Se connecter" [ref=f93e28] [cursor=pointer]
+    - paragraph [ref=f93e29]:
+      - text: Pas encore de compte ?
+      - link "Créer un compte" [ref=f93e30] [cursor=pointer]:
+        - /url: /auth/inscription
+    - paragraph [ref=f93e31]: "Démo — admin@mandeha.mg / hery.rakoto@mandeha.mg / jean.chauffeur@mandeha.mg · mot de passe : Passer123"
+  - contentinfo [ref=f93e32]:
+    - generic [ref=f93e33]: MANDEHA — plateforme de mobilité, location de véhicules et hébergement à Madagascar · Tarifs en Ariary (Ar) · 2026

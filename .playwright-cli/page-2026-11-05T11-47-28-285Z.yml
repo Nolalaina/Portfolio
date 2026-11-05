@@ -1,0 +1,107 @@
+- generic [active] [ref=f95e1]:
+  - navigation [ref=f95e2]:
+    - generic [ref=f95e3]:
+      - link "MH MANDEHA" [ref=f95e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f95e5]: MH
+        - text: MANDEHA
+      - generic [ref=f95e6]:
+        - link "Tableau de bord" [ref=f95e7] [cursor=pointer]:
+          - /url: /client/
+        - link "Voitures" [ref=f95e8] [cursor=pointer]:
+          - /url: /client/voitures
+        - link "Destinations" [ref=f95e9] [cursor=pointer]:
+          - /url: /client/destinations
+        - link "Mes réservations" [ref=f95e10] [cursor=pointer]:
+          - /url: /client/mes-reservations
+      - generic [ref=f95e11]:
+        - generic [ref=f95e12]:
+          - generic [ref=f95e13]: HR
+          - text: Hery
+        - link "Déconnexion" [ref=f95e14] [cursor=pointer]:
+          - /url: /auth/deconnexion
+  - generic [ref=f95e15]: Bienvenue, Hery !
+  - generic [ref=f95e17]:
+    - generic [ref=f95e18]:
+      - generic [ref=f95e19]:
+        - generic [ref=f95e20]: Espace client
+        - heading "Bonjour Hery" [level=1] [ref=f95e21]
+      - link "Réserver un trajet" [ref=f95e22] [cursor=pointer]:
+        - /url: /client/voitures
+    - generic [ref=f95e23]:
+      - generic [ref=f95e24]:
+        - heading "Vos dernières réservations" [level=2] [ref=f95e25]
+        - link "Voir tout →" [ref=f95e26] [cursor=pointer]:
+          - /url: /client/mes-reservations
+      - generic [ref=f95e27]:
+        - paragraph [ref=f95e28]: Vous n'avez pas encore de réservation. C'est le moment de partir !
+        - link "Voir les voitures disponibles" [ref=f95e29] [cursor=pointer]:
+          - /url: /client/voitures
+    - generic [ref=f95e30]:
+      - generic [ref=f95e31]:
+        - heading "Voitures disponibles" [level=2] [ref=f95e32]
+        - link "Tout voir →" [ref=f95e33] [cursor=pointer]:
+          - /url: /client/voitures
+      - generic [ref=f95e34]:
+        - link "4x4 Toyota Land Cruiser 5678 TBB · 7 places 250 000 Ar/jour" [ref=f95e35] [cursor=pointer]:
+          - /url: /client/reserver/2
+          - generic [ref=f95e36]: 4x4
+          - heading "Toyota Land Cruiser" [level=3] [ref=f95e37]
+          - paragraph [ref=f95e38]: 5678 TBB · 7 places
+          - generic [ref=f95e39]: 250 000 Ar/jour
+        - link "Petite voiture Suzuki Alto 9012 TCC · 4 places 100 000 Ar/jour" [ref=f95e40] [cursor=pointer]:
+          - /url: /client/reserver/3
+          - generic [ref=f95e41]: Petite voiture
+          - heading "Suzuki Alto" [level=3] [ref=f95e42]
+          - paragraph [ref=f95e43]: 9012 TCC · 4 places
+          - generic [ref=f95e44]: 100 000 Ar/jour
+        - link "Minibus Toyota Hiace 7890 TEE · 15 places 350 000 Ar/jour" [ref=f95e45] [cursor=pointer]:
+          - /url: /client/reserver/5
+          - generic [ref=f95e46]: Minibus
+          - heading "Toyota Hiace" [level=3] [ref=f95e47]
+          - paragraph [ref=f95e48]: 7890 TEE · 15 places
+          - generic [ref=f95e49]: 350 000 Ar/jour
+        - link "4x4 Nissan Patrol 9999 TBZ · 7 places 300 000 Ar/jour" [ref=f95e50] [cursor=pointer]:
+          - /url: /client/reserver/6
+          - generic [ref=f95e51]: 4x4
+          - heading "Nissan Patrol" [level=3] [ref=f95e52]
+          - paragraph [ref=f95e53]: 9999 TBZ · 7 places
+          - generic [ref=f95e54]: 300 000 Ar/jour
+    - generic [ref=f95e55]:
+      - generic [ref=f95e56]:
+        - heading "Destinations populaires" [level=2] [ref=f95e57]
+        - link "Tout voir →" [ref=f95e58] [cursor=pointer]:
+          - /url: /client/destinations
+      - generic [ref=f95e59]:
+        - link "Analamanga Antananarivo Capitale animée aux collines de brique rouge." [ref=f95e60] [cursor=pointer]:
+          - /url: /client/destinations/1
+          - generic [ref=f95e61]: Analamanga
+          - heading "Antananarivo" [level=3] [ref=f95e62]
+          - paragraph [ref=f95e63]: Capitale animée aux collines de brique rouge.
+        - link "Vakinankaratra Antsirabe Ville thermale connue pour ses pousse-pousse." [ref=f95e64] [cursor=pointer]:
+          - /url: /client/destinations/2
+          - generic [ref=f95e65]: Vakinankaratra
+          - heading "Antsirabe" [level=3] [ref=f95e66]
+          - paragraph [ref=f95e67]: Ville thermale connue pour ses pousse-pousse.
+        - link "Atsinanana Toamasina Grand port de l'océan Indien." [ref=f95e68] [cursor=pointer]:
+          - /url: /client/destinations/3
+          - generic [ref=f95e69]: Atsinanana
+          - heading "Toamasina" [level=3] [ref=f95e70]
+          - paragraph [ref=f95e71]: Grand port de l'océan Indien.
+        - link "Boeny Mahajanga Ville côtière au baobab centenaire." [ref=f95e72] [cursor=pointer]:
+          - /url: /client/destinations/4
+          - generic [ref=f95e73]: Boeny
+          - heading "Mahajanga" [level=3] [ref=f95e74]
+          - paragraph [ref=f95e75]: Ville côtière au baobab centenaire.
+        - link "Haute Matsiatra Fianarantsoa Terroir viticole et rizières en terrasses." [ref=f95e76] [cursor=pointer]:
+          - /url: /client/destinations/5
+          - generic [ref=f95e77]: Haute Matsiatra
+          - heading "Fianarantsoa" [level=3] [ref=f95e78]
+          - paragraph [ref=f95e79]: Terroir viticole et rizières en terrasses.
+        - link "Atsimo-Andrefana Toliara Portes du grand sud et récifs coralliens." [ref=f95e80] [cursor=pointer]:
+          - /url: /client/destinations/6
+          - generic [ref=f95e81]: Atsimo-Andrefana
+          - heading "Toliara" [level=3] [ref=f95e82]
+          - paragraph [ref=f95e83]: Portes du grand sud et récifs coralliens.
+  - contentinfo [ref=f95e84]:
+    - generic [ref=f95e85]: MANDEHA — plateforme de mobilité, location de véhicules et hébergement à Madagascar · Tarifs en Ariary (Ar) · 2026

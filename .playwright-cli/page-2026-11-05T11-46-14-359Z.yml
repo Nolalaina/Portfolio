@@ -1,0 +1,74 @@
+- generic [active] [ref=f92e1]:
+  - navigation [ref=f92e2]:
+    - generic [ref=f92e3]:
+      - link "MH MANDEHA" [ref=f92e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f92e5]: MH
+        - text: MANDEHA
+      - generic [ref=f92e6]:
+        - link "Tableau de bord" [ref=f92e7] [cursor=pointer]:
+          - /url: /admin/
+        - link "Voitures" [ref=f92e8] [cursor=pointer]:
+          - /url: /admin/voitures/
+        - link "Réservations" [ref=f92e9] [cursor=pointer]:
+          - /url: /admin/reservations/
+        - link "Logements" [ref=f92e10] [cursor=pointer]:
+          - /url: /admin/logements/
+        - link "Carte" [ref=f92e11] [cursor=pointer]:
+          - /url: /admin/carte
+      - generic [ref=f92e12]:
+        - generic [ref=f92e13]:
+          - generic [ref=f92e14]: AR
+          - text: Admin
+        - link "Déconnexion" [ref=f92e15] [cursor=pointer]:
+          - /url: /auth/deconnexion
+  - generic [ref=f92e16]:
+    - complementary [ref=f92e17]:
+      - generic [ref=f92e18]: Vue d'ensemble
+      - link "Tableau de bord" [ref=f92e19] [cursor=pointer]:
+        - /url: /admin/
+      - link "Carte de la flotte" [ref=f92e20] [cursor=pointer]:
+        - /url: /admin/carte
+      - generic [ref=f92e21]: Parc & personnel
+      - link "Voitures" [ref=f92e22] [cursor=pointer]:
+        - /url: /admin/voitures/
+      - link "Chauffeurs" [ref=f92e23] [cursor=pointer]:
+        - /url: /admin/chauffeurs
+      - link "Maintenance" [ref=f92e24] [cursor=pointer]:
+        - /url: /admin/maintenance
+      - generic [ref=f92e25]: Offre
+      - link "Destinations" [ref=f92e26] [cursor=pointer]:
+        - /url: /admin/destinations/
+      - link "Logements" [ref=f92e27] [cursor=pointer]:
+        - /url: /admin/logements/
+      - link "Tarifs" [ref=f92e28] [cursor=pointer]:
+        - /url: /admin/tarifs
+      - generic [ref=f92e29]: Activité
+      - link "Réservations" [ref=f92e30] [cursor=pointer]:
+        - /url: /admin/reservations/
+      - link "Paiements" [ref=f92e31] [cursor=pointer]:
+        - /url: /admin/paiements
+      - link "Clients" [ref=f92e32] [cursor=pointer]:
+        - /url: /admin/clients
+    - generic [ref=f92e33]:
+      - generic [ref=f92e35]:
+        - generic [ref=f92e36]: Géolocalisation
+        - heading "Carte de la flotte" [level=1] [ref=f92e37]
+      - generic:
+        - generic:
+          - generic:
+            - button [ref=f92e38] [cursor=pointer]
+            - button [ref=f92e40] [cursor=pointer]
+            - button [ref=f92e42] [cursor=pointer]
+        - generic:
+          - generic [ref=f92e44]:
+            - button "Zoom in" [ref=f92e45] [cursor=pointer]: +
+            - button "Zoom out" [ref=f92e46] [cursor=pointer]: −
+          - generic [ref=f92e47]:
+            - link "Leaflet" [ref=f92e48] [cursor=pointer]:
+              - /url: https://leafletjs.com
+            - text: "| © OpenStreetMap"
+      - generic [ref=f92e53]:
+        - generic [ref=f92e54]: Disponible
+        - generic [ref=f92e56]: Réservée
+        - generic [ref=f92e58]: En location

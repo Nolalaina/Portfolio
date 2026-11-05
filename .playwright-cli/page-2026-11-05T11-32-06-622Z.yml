@@ -1,0 +1,102 @@
+- generic [ref=f73e3]:
+  - navigation [ref=f73e4]:
+    - link [ref=f73e5] [cursor=pointer]:
+      - /url: /
+    - link "Se connecter" [ref=f73e11] [cursor=pointer]:
+      - /url: /login
+  - generic [ref=f73e16]:
+    - generic [ref=f73e18]:
+      - generic [ref=f73e19]: Moteur d'Algorithme Prédictif de Recruiting Match
+      - heading "Le matching intelligent qui propulse votre carrière" [level=1] [ref=f73e24]
+      - paragraph [ref=f73e25]: Analyse avancée de compétences techniques par vectorisation TF-IDF & similarité cosinus pour des connexions sur-mesure entre étudiants et entreprises de premier plan.
+      - generic [ref=f73e26]:
+        - link "Créer mon profil" [ref=f73e27] [cursor=pointer]:
+          - /url: /register
+        - link "Consulter les opportunités" [ref=f73e31] [cursor=pointer]:
+          - /url: /internships
+    - generic [ref=f73e38]:
+      - generic [ref=f73e39]:
+        - generic [ref=f73e40]: 98.4%
+        - generic [ref=f73e41]: Précision du matching
+      - generic [ref=f73e42]:
+        - generic [ref=f73e43]: 500+
+        - generic [ref=f73e44]: Entreprises partenaires
+      - generic [ref=f73e45]:
+        - generic [ref=f73e46]: 1 200+
+        - generic [ref=f73e47]: Talents qualifiés
+      - generic [ref=f73e48]:
+        - generic [ref=f73e49]: < 24h
+        - generic [ref=f73e50]: Temps moyen de réponse
+    - generic [ref=f73e52]:
+      - generic [ref=f73e53]:
+        - generic [ref=f73e54]: Workflow Optimisé
+        - heading "Comment fonctionne StageMatch ?" [level=2] [ref=f73e55]
+      - generic [ref=f73e56]:
+        - generic [ref=f73e57]:
+          - generic [ref=f73e58]: "01"
+          - heading "Extraction du CV & Compétences" [level=3] [ref=f73e64]
+          - paragraph [ref=f73e65]: Importez votre document. Notre analyseur extrait précisément vos compétences techniques et domaines d'expertise.
+        - generic [ref=f73e66]:
+          - generic [ref=f73e67]: "02"
+          - heading "Algorithme de Similarité" [level=3] [ref=f73e72]
+          - paragraph [ref=f73e73]: Notre moteur compare mathématiquement les vecteurs du profil aux critères des recruteurs pour générer un score de compatibilité.
+        - generic [ref=f73e74]:
+          - generic [ref=f73e75]: "03"
+          - heading "Candidature & Suivi Réseau" [level=3] [ref=f73e80]
+          - paragraph [ref=f73e81]: Postulez directement auprès des entreprises cibles et suivez chaque statut de candidature en temps réel.
+    - generic [ref=f73e84]:
+      - heading "Prêt à accélérer vos opportunités ?" [level=2] [ref=f73e85]
+      - paragraph [ref=f73e86]: Rejoignez les étudiants et recruteurs qui font confiance à StageMatch pour leurs opportunités de stage et de premier emploi.
+      - link "Démarrer dès maintenant" [ref=f73e87] [cursor=pointer]:
+        - /url: /register
+  - contentinfo [ref=f73e91]:
+    - generic [ref=f73e92]:
+      - generic [ref=f73e93]:
+        - generic [ref=f73e94]:
+          - link [ref=f73e95] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f73e100]: Plateforme SaaS de mise en relation intelligente entre candidats et recruteurs. Algorithme propriétaire de matching prédictif et d'analyse de compétences.
+        - generic [ref=f73e101]:
+          - generic [ref=f73e102]: Plateforme
+          - list [ref=f73e103]:
+            - listitem [ref=f73e104]:
+              - link "Offres de stages" [ref=f73e105] [cursor=pointer]:
+                - /url: /internships
+            - listitem [ref=f73e106]:
+              - link "Espace Connexion" [ref=f73e107] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f73e108]:
+              - link "Créer un compte" [ref=f73e109] [cursor=pointer]:
+                - /url: /register
+        - generic [ref=f73e110]:
+          - generic [ref=f73e111]: Solutions
+          - list [ref=f73e112]:
+            - listitem [ref=f73e113]:
+              - link "Portail Candidat" [ref=f73e114] [cursor=pointer]:
+                - /url: /student
+            - listitem [ref=f73e115]:
+              - link "Portail Recruteur" [ref=f73e116] [cursor=pointer]:
+                - /url: /company
+            - listitem [ref=f73e117]:
+              - link "Console d'Administration" [ref=f73e118] [cursor=pointer]:
+                - /url: /admin
+        - generic [ref=f73e119]:
+          - generic [ref=f73e120]: Infrastructure & Securité
+          - generic [ref=f73e121]:
+            - generic [ref=f73e122]: TF-IDF Engine
+            - generic [ref=f73e123]: Vector Math
+            - generic [ref=f73e124]: Enterprise Auth
+            - generic [ref=f73e125]: SaaS Core
+            - generic [ref=f73e126]: TLS Encrypted
+          - generic [ref=f73e127]:
+            - text: "Domain officiel :"
+            - link "stagematch.io" [ref=f73e131] [cursor=pointer]:
+              - /url: https://stagematch.io
+      - generic [ref=f73e132]:
+        - generic [ref=f73e133]: © 2026 StageMatch Technologies Inc. Tous droits réservés.
+        - generic [ref=f73e134]:
+          - generic [ref=f73e135] [cursor=pointer]: Confidentialité
+          - generic [ref=f73e136]: ·
+          - generic [ref=f73e137] [cursor=pointer]: Conditions d'utilisation
+          - generic [ref=f73e138]: ·
+          - generic [ref=f73e139] [cursor=pointer]: Sécurisé SSL

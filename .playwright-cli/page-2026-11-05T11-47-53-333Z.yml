@@ -1,0 +1,32 @@
+- generic [active] [ref=f96e1]:
+  - navigation [ref=f96e2]:
+    - generic [ref=f96e3]:
+      - link "MH MANDEHA" [ref=f96e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f96e5]: MH
+        - text: MANDEHA
+      - generic [ref=f96e6]:
+        - link "Tableau de bord" [ref=f96e7] [cursor=pointer]:
+          - /url: /client/
+        - link "Voitures" [ref=f96e8] [cursor=pointer]:
+          - /url: /client/voitures
+        - link "Destinations" [ref=f96e9] [cursor=pointer]:
+          - /url: /client/destinations
+        - link "Mes réservations" [ref=f96e10] [cursor=pointer]:
+          - /url: /client/mes-reservations
+      - generic [ref=f96e11]:
+        - generic [ref=f96e12]:
+          - generic [ref=f96e13]: HR
+          - text: Hery
+        - link "Déconnexion" [ref=f96e14] [cursor=pointer]:
+          - /url: /auth/deconnexion
+  - generic [ref=f96e15]:
+    - generic [ref=f96e17]:
+      - generic [ref=f96e18]: Historique
+      - heading "Mes réservations" [level=1] [ref=f96e19]
+    - generic [ref=f96e20]:
+      - paragraph [ref=f96e21]: Aucune réservation pour le moment.
+      - link "Réserver un trajet" [ref=f96e22] [cursor=pointer]:
+        - /url: /client/voitures
+  - contentinfo [ref=f96e23]:
+    - generic [ref=f96e24]: MANDEHA — plateforme de mobilité, location de véhicules et hébergement à Madagascar · Tarifs en Ariary (Ar) · 2026

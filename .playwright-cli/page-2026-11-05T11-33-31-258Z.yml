@@ -1,0 +1,140 @@
+- generic [ref=f75e3]:
+  - navigation [ref=f75e4]:
+    - link [ref=f75e5] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f75e10]:
+      - link "Tableau de bord" [ref=f75e11] [cursor=pointer]:
+        - /url: /student
+      - link "Explorer les stages" [ref=f75e18] [cursor=pointer]:
+        - /url: /internships
+      - link "Candidatures" [ref=f75e23] [cursor=pointer]:
+        - /url: /student/applications
+      - link "Mon Profil & CV" [ref=f75e28] [cursor=pointer]:
+        - /url: /student/profile
+      - button "Notifications" [ref=f75e34] [cursor=pointer]
+      - button "Déconnexion" [ref=f75e38] [cursor=pointer]
+  - generic [ref=f75e43]:
+    - generic [ref=f75e44]:
+      - heading "Mon Profil & CV" [level=1] [ref=f75e45]
+      - paragraph [ref=f75e46]: Gérez vos informations de carrière et compétences pour optimiser vos scores de matching
+    - generic [ref=f75e47]:
+      - generic [ref=f75e53]:
+        - heading "Analyseur Automatique de CV" [level=2] [ref=f75e54]
+        - paragraph [ref=f75e55]: Importez votre CV ou collez son contenu pour faire extraire automatiquement vos compétences
+      - generic [ref=f75e56]:
+        - generic [ref=f75e57]:
+          - generic [ref=f75e58]: Document CV (PDF, TXT, DOCX)
+          - button "Document CV (PDF, TXT, DOCX)" [ref=f75e62]
+        - generic [ref=f75e63]:
+          - generic [ref=f75e64]: Ou collez le texte extrait du CV
+          - textbox "Ou collez le texte extrait du CV" [ref=f75e65]:
+            - /placeholder: "Ex : Développeur Web React, Node.js, TypeScript, Docker, SQL, passionné d'architecture logicielle..."
+        - button "Lancer l'extraction de compétences" [ref=f75e66] [cursor=pointer]
+    - generic [ref=f75e71]:
+      - generic [ref=f75e72]:
+        - heading "Informations Personnelles" [level=2] [ref=f75e73]
+        - generic [ref=f75e74]:
+          - generic [ref=f75e75]:
+            - generic [ref=f75e76]: Nom & Prénom
+            - textbox "Nom & Prénom" [ref=f75e80]:
+              - /placeholder: "Ex : Jean Dupont"
+              - text: Rakoto Jean
+          - generic [ref=f75e81]:
+            - generic [ref=f75e82]: Niveau d'études
+            - textbox "Niveau d'études" [ref=f75e86]:
+              - /placeholder: "Ex : Master 1 Génie Logiciel"
+              - text: Licence 3
+          - generic [ref=f75e87]:
+            - generic [ref=f75e88]: Domaine recherché
+            - textbox "Domaine recherché" [ref=f75e92]:
+              - /placeholder: "Ex : Développement Web Full-Stack"
+              - text: Développement Web
+          - generic [ref=f75e93]:
+            - generic [ref=f75e94]: Localisation
+            - textbox "Localisation" [ref=f75e98]:
+              - /placeholder: "Ex : Antananarivo"
+              - text: Antananarivo
+        - generic [ref=f75e99] [cursor=pointer]:
+          - checkbox "Ouvert aux opportunités en télétravail" [checked] [ref=f75e100]
+          - generic [ref=f75e104]: Ouvert aux opportunités en télétravail
+      - generic [ref=f75e105]:
+        - generic [ref=f75e106]:
+          - heading "Référentiel de Compétences" [level=2] [ref=f75e107]
+          - generic [ref=f75e108]: 3 sélectionnées
+        - generic [ref=f75e109]:
+          - button "Tous" [ref=f75e110] [cursor=pointer]
+          - button "Frameworks" [ref=f75e111] [cursor=pointer]
+          - button "Langages" [ref=f75e112] [cursor=pointer]
+          - button "Bases de données" [ref=f75e113] [cursor=pointer]
+          - button "DevOps" [ref=f75e114] [cursor=pointer]
+          - button "Architecture" [ref=f75e115] [cursor=pointer]
+          - button "Outils" [ref=f75e116] [cursor=pointer]
+          - button "Mobile" [ref=f75e117] [cursor=pointer]
+        - generic [ref=f75e118]:
+          - button "REST API" [ref=f75e119] [cursor=pointer]
+          - button "MongoDB" [ref=f75e122] [cursor=pointer]
+          - button "MySQL" [ref=f75e125] [cursor=pointer]
+          - button "PostgreSQL" [ref=f75e129] [cursor=pointer]
+          - button "Docker" [ref=f75e132] [cursor=pointer]
+          - button "Angular" [ref=f75e135] [cursor=pointer]
+          - button "Node.js" [ref=f75e138] [cursor=pointer]
+          - button "React" [ref=f75e142] [cursor=pointer]
+          - button "Spring Boot" [ref=f75e146] [cursor=pointer]
+          - button "Vue.js" [ref=f75e149] [cursor=pointer]
+          - button "Java" [ref=f75e152] [cursor=pointer]
+          - button "Python" [ref=f75e155] [cursor=pointer]
+          - button "TypeScript" [ref=f75e158] [cursor=pointer]
+          - button "Flutter" [ref=f75e161] [cursor=pointer]
+          - button "Git" [ref=f75e164] [cursor=pointer]
+      - button "Enregistrer mon profil" [ref=f75e167] [cursor=pointer]
+  - contentinfo [ref=f75e173]:
+    - generic [ref=f75e174]:
+      - generic [ref=f75e175]:
+        - generic [ref=f75e176]:
+          - link [ref=f75e177] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f75e182]: Plateforme SaaS de mise en relation intelligente entre candidats et recruteurs. Algorithme propriétaire de matching prédictif et d'analyse de compétences.
+        - generic [ref=f75e183]:
+          - generic [ref=f75e184]: Plateforme
+          - list [ref=f75e185]:
+            - listitem [ref=f75e186]:
+              - link "Offres de stages" [ref=f75e187] [cursor=pointer]:
+                - /url: /internships
+            - listitem [ref=f75e188]:
+              - link "Espace Connexion" [ref=f75e189] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f75e190]:
+              - link "Créer un compte" [ref=f75e191] [cursor=pointer]:
+                - /url: /register
+        - generic [ref=f75e192]:
+          - generic [ref=f75e193]: Solutions
+          - list [ref=f75e194]:
+            - listitem [ref=f75e195]:
+              - link "Portail Candidat" [ref=f75e196] [cursor=pointer]:
+                - /url: /student
+            - listitem [ref=f75e197]:
+              - link "Portail Recruteur" [ref=f75e198] [cursor=pointer]:
+                - /url: /company
+            - listitem [ref=f75e199]:
+              - link "Console d'Administration" [ref=f75e200] [cursor=pointer]:
+                - /url: /admin
+        - generic [ref=f75e201]:
+          - generic [ref=f75e202]: Infrastructure & Securité
+          - generic [ref=f75e203]:
+            - generic [ref=f75e204]: TF-IDF Engine
+            - generic [ref=f75e205]: Vector Math
+            - generic [ref=f75e206]: Enterprise Auth
+            - generic [ref=f75e207]: SaaS Core
+            - generic [ref=f75e208]: TLS Encrypted
+          - generic [ref=f75e209]:
+            - text: "Domain officiel :"
+            - link "stagematch.io" [ref=f75e213] [cursor=pointer]:
+              - /url: https://stagematch.io
+      - generic [ref=f75e214]:
+        - generic [ref=f75e215]: © 2026 StageMatch Technologies Inc. Tous droits réservés.
+        - generic [ref=f75e216]:
+          - generic [ref=f75e217] [cursor=pointer]: Confidentialité
+          - generic [ref=f75e218]: ·
+          - generic [ref=f75e219] [cursor=pointer]: Conditions d'utilisation
+          - generic [ref=f75e220]: ·
+          - generic [ref=f75e221] [cursor=pointer]: Sécurisé SSL

@@ -1,0 +1,117 @@
+- generic [ref=f78e3]:
+  - navigation [ref=f78e4]:
+    - link [ref=f78e5] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f78e10]:
+      - link "Espace Entreprise" [ref=f78e11] [cursor=pointer]:
+        - /url: /company
+      - button "Notifications" [ref=f78e18] [cursor=pointer]
+      - button "Déconnexion" [ref=f78e22] [cursor=pointer]
+  - generic [ref=f78e27]:
+    - generic [ref=f78e28]:
+      - generic [ref=f78e29]:
+        - heading "Orange Digital Center" [level=1] [ref=f78e30]
+        - generic [ref=f78e36]: "Secteur d'activité : Technologies de l'information"
+      - generic [ref=f78e37]: Compte Validé
+    - generic [ref=f78e42]:
+      - generic [ref=f78e43]:
+        - heading "Publier une offre de stage" [level=2] [ref=f78e44]
+        - generic [ref=f78e48]:
+          - generic [ref=f78e49]:
+            - generic [ref=f78e50]: Intitulé du poste
+            - textbox "Intitulé du poste" [ref=f78e51]:
+              - /placeholder: "Ex : Développeur Web Full-Stack (React / Node.js)"
+          - generic [ref=f78e52]:
+            - generic [ref=f78e53]: Missions & profil recherché
+            - textbox "Missions & profil recherché" [ref=f78e54]:
+              - /placeholder: Descriptif détaillé du stage, technologies utilisées, exigences...
+          - generic [ref=f78e55]:
+            - generic [ref=f78e56]:
+              - generic [ref=f78e57]: Lieu
+              - textbox "Lieu" [ref=f78e61]:
+                - /placeholder: "Ex : Antananarivo"
+            - generic [ref=f78e62]:
+              - generic [ref=f78e63]: Durée (semaines)
+              - spinbutton "Durée (semaines)" [ref=f78e66]
+          - generic [ref=f78e67] [cursor=pointer]:
+            - checkbox "Poste ouvert au télétravail" [ref=f78e68]
+            - generic [ref=f78e72]: Poste ouvert au télétravail
+          - generic [ref=f78e73]:
+            - generic [ref=f78e74]: Compétences techniques clés
+            - generic [ref=f78e75]:
+              - button "REST API" [ref=f78e76] [cursor=pointer]
+              - button "MongoDB" [ref=f78e79] [cursor=pointer]
+              - button "MySQL" [ref=f78e82] [cursor=pointer]
+              - button "PostgreSQL" [ref=f78e85] [cursor=pointer]
+              - button "Docker" [ref=f78e88] [cursor=pointer]
+              - button "Angular" [ref=f78e91] [cursor=pointer]
+              - button "Node.js" [ref=f78e94] [cursor=pointer]
+              - button "React" [ref=f78e97] [cursor=pointer]
+              - button "Spring Boot" [ref=f78e100] [cursor=pointer]
+              - button "Vue.js" [ref=f78e103] [cursor=pointer]
+              - button "Java" [ref=f78e106] [cursor=pointer]
+              - button "Python" [ref=f78e109] [cursor=pointer]
+              - button "TypeScript" [ref=f78e112] [cursor=pointer]
+              - button "Flutter" [ref=f78e115] [cursor=pointer]
+              - button "Git" [ref=f78e118] [cursor=pointer]
+          - button "Publier l'offre de stage" [ref=f78e121] [cursor=pointer]
+      - generic [ref=f78e126]:
+        - heading "Offres publiées (1)" [level=2] [ref=f78e127]
+        - generic [ref=f78e128] [cursor=pointer]:
+          - generic [ref=f78e129]:
+            - heading "Développeur Web Full-Stack" [level=3] [ref=f78e130]
+            - generic [ref=f78e131]:
+              - generic [ref=f78e132]: Antananarivo
+              - generic [ref=f78e136]: 0 candidature(s)
+          - generic [ref=f78e142]: Candidats
+  - contentinfo [ref=f78e149]:
+    - generic [ref=f78e150]:
+      - generic [ref=f78e151]:
+        - generic [ref=f78e152]:
+          - link [ref=f78e153] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f78e158]: Plateforme SaaS de mise en relation intelligente entre candidats et recruteurs. Algorithme propriétaire de matching prédictif et d'analyse de compétences.
+        - generic [ref=f78e159]:
+          - generic [ref=f78e160]: Plateforme
+          - list [ref=f78e161]:
+            - listitem [ref=f78e162]:
+              - link "Offres de stages" [ref=f78e163] [cursor=pointer]:
+                - /url: /internships
+            - listitem [ref=f78e164]:
+              - link "Espace Connexion" [ref=f78e165] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f78e166]:
+              - link "Créer un compte" [ref=f78e167] [cursor=pointer]:
+                - /url: /register
+        - generic [ref=f78e168]:
+          - generic [ref=f78e169]: Solutions
+          - list [ref=f78e170]:
+            - listitem [ref=f78e171]:
+              - link "Portail Candidat" [ref=f78e172] [cursor=pointer]:
+                - /url: /student
+            - listitem [ref=f78e173]:
+              - link "Portail Recruteur" [ref=f78e174] [cursor=pointer]:
+                - /url: /company
+            - listitem [ref=f78e175]:
+              - link "Console d'Administration" [ref=f78e176] [cursor=pointer]:
+                - /url: /admin
+        - generic [ref=f78e177]:
+          - generic [ref=f78e178]: Infrastructure & Securité
+          - generic [ref=f78e179]:
+            - generic [ref=f78e180]: TF-IDF Engine
+            - generic [ref=f78e181]: Vector Math
+            - generic [ref=f78e182]: Enterprise Auth
+            - generic [ref=f78e183]: SaaS Core
+            - generic [ref=f78e184]: TLS Encrypted
+          - generic [ref=f78e185]:
+            - text: "Domain officiel :"
+            - link "stagematch.io" [ref=f78e189] [cursor=pointer]:
+              - /url: https://stagematch.io
+      - generic [ref=f78e190]:
+        - generic [ref=f78e191]: © 2026 StageMatch Technologies Inc. Tous droits réservés.
+        - generic [ref=f78e192]:
+          - generic [ref=f78e193] [cursor=pointer]: Confidentialité
+          - generic [ref=f78e194]: ·
+          - generic [ref=f78e195] [cursor=pointer]: Conditions d'utilisation
+          - generic [ref=f78e196]: ·
+          - generic [ref=f78e197] [cursor=pointer]: Sécurisé SSL

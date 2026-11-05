@@ -1,0 +1,61 @@
+- generic [ref=f98e3]:
+  - navigation [ref=f98e4]:
+    - link [ref=f98e5] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f98e10]:
+      - link "Console d'Administration" [ref=f98e11] [cursor=pointer]:
+        - /url: /admin
+      - button "Notifications" [ref=f98e17] [cursor=pointer]
+      - button "Déconnexion" [ref=f98e21] [cursor=pointer]
+  - generic [ref=f98e26]: Chargement de l'administration…
+  - contentinfo [ref=f98e30]:
+    - generic [ref=f98e31]:
+      - generic [ref=f98e32]:
+        - generic [ref=f98e33]:
+          - link [ref=f98e34] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f98e39]: Plateforme SaaS de mise en relation intelligente entre candidats et recruteurs. Algorithme propriétaire de matching prédictif et d'analyse de compétences.
+        - generic [ref=f98e40]:
+          - generic [ref=f98e41]: Plateforme
+          - list [ref=f98e42]:
+            - listitem [ref=f98e43]:
+              - link "Offres de stages" [ref=f98e44] [cursor=pointer]:
+                - /url: /internships
+            - listitem [ref=f98e45]:
+              - link "Espace Connexion" [ref=f98e46] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f98e47]:
+              - link "Créer un compte" [ref=f98e48] [cursor=pointer]:
+                - /url: /register
+        - generic [ref=f98e49]:
+          - generic [ref=f98e50]: Solutions
+          - list [ref=f98e51]:
+            - listitem [ref=f98e52]:
+              - link "Portail Candidat" [ref=f98e53] [cursor=pointer]:
+                - /url: /student
+            - listitem [ref=f98e54]:
+              - link "Portail Recruteur" [ref=f98e55] [cursor=pointer]:
+                - /url: /company
+            - listitem [ref=f98e56]:
+              - link "Console d'Administration" [ref=f98e57] [cursor=pointer]:
+                - /url: /admin
+        - generic [ref=f98e58]:
+          - generic [ref=f98e59]: Infrastructure & Securité
+          - generic [ref=f98e60]:
+            - generic [ref=f98e61]: TF-IDF Engine
+            - generic [ref=f98e62]: Vector Math
+            - generic [ref=f98e63]: Enterprise Auth
+            - generic [ref=f98e64]: SaaS Core
+            - generic [ref=f98e65]: TLS Encrypted
+          - generic [ref=f98e66]:
+            - text: "Domain officiel :"
+            - link "stagematch.io" [ref=f98e70] [cursor=pointer]:
+              - /url: https://stagematch.io
+      - generic [ref=f98e71]:
+        - generic [ref=f98e72]: © 2026 StageMatch Technologies Inc. Tous droits réservés.
+        - generic [ref=f98e73]:
+          - generic [ref=f98e74] [cursor=pointer]: Confidentialité
+          - generic [ref=f98e75]: ·
+          - generic [ref=f98e76] [cursor=pointer]: Conditions d'utilisation
+          - generic [ref=f98e77]: ·
+          - generic [ref=f98e78] [cursor=pointer]: Sécurisé SSL

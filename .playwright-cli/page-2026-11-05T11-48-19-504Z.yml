@@ -1,0 +1,107 @@
+- generic [active] [ref=f97e1]:
+  - navigation [ref=f97e2]:
+    - generic [ref=f97e3]:
+      - link "MH MANDEHA" [ref=f97e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f97e5]: MH
+        - text: MANDEHA
+      - generic [ref=f97e6]:
+        - link "Tableau de bord" [ref=f97e7] [cursor=pointer]:
+          - /url: /client/
+        - link "Voitures" [ref=f97e8] [cursor=pointer]:
+          - /url: /client/voitures
+        - link "Destinations" [ref=f97e9] [cursor=pointer]:
+          - /url: /client/destinations
+        - link "Mes réservations" [ref=f97e10] [cursor=pointer]:
+          - /url: /client/mes-reservations
+      - generic [ref=f97e11]:
+        - generic [ref=f97e12]:
+          - generic [ref=f97e13]: HR
+          - text: Hery
+        - link "Déconnexion" [ref=f97e14] [cursor=pointer]:
+          - /url: /auth/deconnexion
+  - generic [ref=f97e15]:
+    - generic [ref=f97e17]:
+      - generic [ref=f97e18]: 10 régions couvertes
+      - heading "Où voulez-vous aller ?" [level=1] [ref=f97e19]
+    - generic [ref=f97e20]:
+      - link "Analamanga Antananarivo Capitale animée aux collines de brique rouge. 0 km depuis Tana" [ref=f97e21] [cursor=pointer]:
+        - /url: /client/destinations/1
+        - generic [ref=f97e22]: Analamanga
+        - heading "Antananarivo" [level=3] [ref=f97e23]
+        - paragraph [ref=f97e24]: Capitale animée aux collines de brique rouge.
+        - generic [ref=f97e26]: 0 km depuis Tana
+      - link "Vakinankaratra Antsirabe Ville thermale connue pour ses pousse-pousse. 170 km depuis Tana dès 170 000 Ar" [ref=f97e28] [cursor=pointer]:
+        - /url: /client/destinations/2
+        - generic [ref=f97e29]: Vakinankaratra
+        - heading "Antsirabe" [level=3] [ref=f97e30]
+        - paragraph [ref=f97e31]: Ville thermale connue pour ses pousse-pousse.
+        - generic [ref=f97e33]:
+          - generic [ref=f97e34]: 170 km depuis Tana
+          - generic [ref=f97e35]: dès 170 000 Ar
+      - link "Diana Diego Suarez Baie spectaculaire et Tsingy Rouge. 950 km depuis Tana dès 950 000 Ar" [ref=f97e36] [cursor=pointer]:
+        - /url: /client/destinations/10
+        - generic [ref=f97e37]: Diana
+        - heading "Diego Suarez" [level=3] [ref=f97e38]
+        - paragraph [ref=f97e39]: Baie spectaculaire et Tsingy Rouge.
+        - generic [ref=f97e41]:
+          - generic [ref=f97e42]: 950 km depuis Tana
+          - generic [ref=f97e43]: dès 950 000 Ar
+      - link "Haute Matsiatra Fianarantsoa Terroir viticole et rizières en terrasses. 410 km depuis Tana dès 410 000 Ar" [ref=f97e44] [cursor=pointer]:
+        - /url: /client/destinations/5
+        - generic [ref=f97e45]: Haute Matsiatra
+        - heading "Fianarantsoa" [level=3] [ref=f97e46]
+        - paragraph [ref=f97e47]: Terroir viticole et rizières en terrasses.
+        - generic [ref=f97e49]:
+          - generic [ref=f97e50]: 410 km depuis Tana
+          - generic [ref=f97e51]: dès 410 000 Ar
+      - link "Boeny Mahajanga Ville côtière au baobab centenaire. 560 km depuis Tana dès 560 000 Ar" [ref=f97e52] [cursor=pointer]:
+        - /url: /client/destinations/4
+        - generic [ref=f97e53]: Boeny
+        - heading "Mahajanga" [level=3] [ref=f97e54]
+        - paragraph [ref=f97e55]: Ville côtière au baobab centenaire.
+        - generic [ref=f97e57]:
+          - generic [ref=f97e58]: 560 km depuis Tana
+          - generic [ref=f97e59]: dès 560 000 Ar
+      - link "Menabe Morondava Allée des baobabs au coucher du soleil. 700 km depuis Tana dès 700 000 Ar" [ref=f97e60] [cursor=pointer]:
+        - /url: /client/destinations/7
+        - generic [ref=f97e61]: Menabe
+        - heading "Morondava" [level=3] [ref=f97e62]
+        - paragraph [ref=f97e63]: Allée des baobabs au coucher du soleil.
+        - generic [ref=f97e65]:
+          - generic [ref=f97e66]: 700 km depuis Tana
+          - generic [ref=f97e67]: dès 700 000 Ar
+      - link "Diana Nosy Be Île aux parfums, ylang-ylang et lagons turquoise. 780 km depuis Tana dès 780 000 Ar" [ref=f97e68] [cursor=pointer]:
+        - /url: /client/destinations/9
+        - generic [ref=f97e69]: Diana
+        - heading "Nosy Be" [level=3] [ref=f97e70]
+        - paragraph [ref=f97e71]: Île aux parfums, ylang-ylang et lagons turquoise.
+        - generic [ref=f97e73]:
+          - generic [ref=f97e74]: 780 km depuis Tana
+          - generic [ref=f97e75]: dès 780 000 Ar
+      - link "Analanjirofo Sainte-Marie Île aux baleines et plages de sable blanc. 620 km depuis Tana dès 620 000 Ar" [ref=f97e76] [cursor=pointer]:
+        - /url: /client/destinations/8
+        - generic [ref=f97e77]: Analanjirofo
+        - heading "Sainte-Marie" [level=3] [ref=f97e78]
+        - paragraph [ref=f97e79]: Île aux baleines et plages de sable blanc.
+        - generic [ref=f97e81]:
+          - generic [ref=f97e82]: 620 km depuis Tana
+          - generic [ref=f97e83]: dès 620 000 Ar
+      - link "Atsinanana Toamasina Grand port de l'océan Indien. 350 km depuis Tana dès 350 000 Ar" [ref=f97e84] [cursor=pointer]:
+        - /url: /client/destinations/3
+        - generic [ref=f97e85]: Atsinanana
+        - heading "Toamasina" [level=3] [ref=f97e86]
+        - paragraph [ref=f97e87]: Grand port de l'océan Indien.
+        - generic [ref=f97e89]:
+          - generic [ref=f97e90]: 350 km depuis Tana
+          - generic [ref=f97e91]: dès 350 000 Ar
+      - link "Atsimo-Andrefana Toliara Portes du grand sud et récifs coralliens. 950 km depuis Tana dès 950 000 Ar" [ref=f97e92] [cursor=pointer]:
+        - /url: /client/destinations/6
+        - generic [ref=f97e93]: Atsimo-Andrefana
+        - heading "Toliara" [level=3] [ref=f97e94]
+        - paragraph [ref=f97e95]: Portes du grand sud et récifs coralliens.
+        - generic [ref=f97e97]:
+          - generic [ref=f97e98]: 950 km depuis Tana
+          - generic [ref=f97e99]: dès 950 000 Ar
+  - contentinfo [ref=f97e100]:
+    - generic [ref=f97e101]: MANDEHA — plateforme de mobilité, location de véhicules et hébergement à Madagascar · Tarifs en Ariary (Ar) · 2026
