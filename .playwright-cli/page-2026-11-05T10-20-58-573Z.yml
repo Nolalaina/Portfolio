@@ -1,0 +1,32 @@
+- generic [ref=f2e2]:
+  - generic [ref=f2e3]:
+    - link [ref=f2e4] [cursor=pointer]:
+      - /url: http://127.0.0.1:8123/login
+    - button "Activer le thème sombre" [ref=f2e9] [cursor=pointer]
+  - main [ref=f2e12]:
+    - generic [ref=f2e13]:
+      - generic [ref=f2e14]:
+        - heading "La traçabilité, du verger au lot." [level=1] [ref=f2e15]
+        - paragraph [ref=f2e16]: Centralisez les parcelles, les récoltes, les stocks et les activités agricoles dans une interface claire et rapide.
+        - list [ref=f2e17]:
+          - listitem [ref=f2e18]: Suivi de terrain
+          - listitem [ref=f2e22]: Traçabilité des lots
+          - listitem [ref=f2e26]: Alertes de stock
+      - generic [ref=f2e30]:
+        - generic [ref=f2e31]:
+          - heading "Connexion" [level=2] [ref=f2e32]
+          - paragraph [ref=f2e33]: Accédez à l'espace de votre exploitation.
+        - generic [ref=f2e34]:
+          - generic [ref=f2e35]:
+            - generic [ref=f2e36]: Adresse e-mail
+            - textbox "Adresse e-mail" [active] [ref=f2e37]
+          - generic [ref=f2e38]:
+            - generic [ref=f2e39]: Mot de passe
+            - textbox "Mot de passe" [ref=f2e40]
+          - generic [ref=f2e41]:
+            - generic [ref=f2e42] [cursor=pointer]:
+              - checkbox "Se souvenir de moi" [ref=f2e43]
+              - generic [ref=f2e44]: Se souvenir de moi
+            - link "Créer un compte" [ref=f2e45] [cursor=pointer]:
+              - /url: http://127.0.0.1:8123/register
+          - button "Se connecter" [ref=f2e46] [cursor=pointer]

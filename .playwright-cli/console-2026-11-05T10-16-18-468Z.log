@@ -1,0 +1,2 @@
+[    2664ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8123/_boost/browser-logs @ http://127.0.0.1:8123/login:27
+[  188828ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:8123/login:0

@@ -1,0 +1,97 @@
+- generic [ref=f9e2]:
+  - complementary [ref=f9e3]:
+    - generic [ref=f9e4]:
+      - link "AgroTrace — Tableau de bord" [ref=f9e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8123/dashboard
+        - generic [ref=f9e10]:
+          - strong [ref=f9e11]: AgroTrace
+          - generic [ref=f9e12]: Vergers Ambodisaina
+      - navigation "Navigation principale" [ref=f9e13]:
+        - paragraph [ref=f9e14]: Exploitation
+        - link "Tableau de bord" [ref=f9e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/dashboard
+        - link "Parcelles" [ref=f9e21] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/parcelles
+        - link "Campagnes" [ref=f9e26] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/campagnes
+        - link "Activités" [ref=f9e31] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/activites
+        - link "Récoltes" [ref=f9e35] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/recoltes
+        - link "Stocks" [ref=f9e40] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/intrants
+        - link "Lots" [ref=f9e45] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/lots
+        - paragraph [ref=f9e50]: Pilotage
+        - link "Finances" [ref=f9e51] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/finances
+        - link "Utilisateurs" [ref=f9e56] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/utilisateurs
+    - generic [ref=f9e62]:
+      - generic [ref=f9e63]:
+        - generic [ref=f9e64]: A
+        - generic [ref=f9e65]:
+          - strong [ref=f9e66]: Admin Vergers Ambodisaina
+          - generic [ref=f9e67]: admin
+      - button "Déconnexion" [ref=f9e69] [cursor=pointer]
+  - generic [ref=f9e73]:
+    - banner [ref=f9e74]:
+      - generic [ref=f9e76]:
+        - generic [ref=f9e77]: Utilisateurs
+        - generic [ref=f9e78]: jeudi 5 novembre 2026
+      - generic [ref=f9e79]:
+        - generic [ref=f9e80]: Vergers Ambodisaina
+        - button "Activer le thème sombre" [ref=f9e84] [cursor=pointer]
+    - main [ref=f9e87]:
+      - generic [ref=f9e89]:
+        - heading "Utilisateurs de l'exploitation" [level=1] [ref=f9e90]
+        - paragraph [ref=f9e91]: Gérez les rôles et les accès de l'équipe.
+      - table [ref=f9e94]:
+        - rowgroup [ref=f9e95]:
+          - row [ref=f9e96]:
+            - columnheader "Nom" [ref=f9e97]
+            - columnheader "Email" [ref=f9e98]
+            - columnheader "Rôle" [ref=f9e99]
+            - columnheader "Actions" [ref=f9e100]
+        - rowgroup [ref=f9e101]:
+          - row [ref=f9e102]:
+            - cell [ref=f9e103]:
+              - strong [ref=f9e104]: Admin Vergers Ambodisaina
+              - text: (vous)
+            - cell "admin@ambodisaina.test" [ref=f9e105]
+            - cell "admin" [ref=f9e106]
+            - cell [ref=f9e108]
+          - row [ref=f9e109]:
+            - cell [ref=f9e110]:
+              - strong [ref=f9e111]: Responsable Vergers Ambodisaina
+            - cell "responsable@ambodisaina.test" [ref=f9e112]
+            - cell "responsable" [ref=f9e113]
+            - cell [ref=f9e115]:
+              - button "Supprimer" [ref=f9e118] [cursor=pointer]
+          - row [ref=f9e119]:
+            - cell [ref=f9e120]:
+              - strong [ref=f9e121]: Technicien Vergers Ambodisaina
+            - cell "technicien@ambodisaina.test" [ref=f9e122]
+            - cell "technicien" [ref=f9e123]
+            - cell [ref=f9e125]:
+              - button "Supprimer" [ref=f9e128] [cursor=pointer]
+      - generic [ref=f9e129]:
+        - heading "Nouvel utilisateur" [level=3] [ref=f9e131]
+        - generic [ref=f9e133]:
+          - generic [ref=f9e134]:
+            - generic [ref=f9e135]:
+              - generic [ref=f9e136]: Nom
+              - textbox "Nom" [ref=f9e137]
+            - generic [ref=f9e138]:
+              - generic [ref=f9e139]: Email
+              - textbox "Email" [ref=f9e140]
+            - generic [ref=f9e141]:
+              - generic [ref=f9e142]: Rôle
+              - combobox "Rôle" [ref=f9e143]:
+                - option "Admin" [selected]
+                - option "Responsable"
+                - option "Technicien"
+            - generic [ref=f9e144]:
+              - generic [ref=f9e145]: Mot de passe
+              - textbox "Mot de passe" [ref=f9e146]
+          - button "Créer l'utilisateur" [ref=f9e148] [cursor=pointer]

@@ -1,0 +1,181 @@
+- generic [ref=f7e2]:
+  - complementary [ref=f7e3]:
+    - generic [ref=f7e4]:
+      - link "AgroTrace — Tableau de bord" [ref=f7e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8123/dashboard
+        - generic [ref=f7e10]:
+          - strong [ref=f7e11]: AgroTrace
+          - generic [ref=f7e12]: Vergers Ambodisaina
+      - navigation "Navigation principale" [ref=f7e13]:
+        - paragraph [ref=f7e14]: Exploitation
+        - link "Tableau de bord" [ref=f7e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/dashboard
+        - link "Parcelles" [ref=f7e21] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/parcelles
+        - link "Campagnes" [ref=f7e26] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/campagnes
+        - link "Activités" [ref=f7e31] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/activites
+        - link "Récoltes" [ref=f7e35] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/recoltes
+        - link "Stocks" [ref=f7e40] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/intrants
+        - link "Lots" [ref=f7e45] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/lots
+        - paragraph [ref=f7e50]: Pilotage
+        - link "Finances" [ref=f7e51] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/finances
+        - link "Utilisateurs" [ref=f7e56] [cursor=pointer]:
+          - /url: http://127.0.0.1:8123/utilisateurs
+    - generic [ref=f7e62]:
+      - generic [ref=f7e63]:
+        - generic [ref=f7e64]: A
+        - generic [ref=f7e65]:
+          - strong [ref=f7e66]: Admin Vergers Ambodisaina
+          - generic [ref=f7e67]: admin
+      - button "Déconnexion" [ref=f7e69] [cursor=pointer]
+  - generic [ref=f7e73]:
+    - banner [ref=f7e74]:
+      - generic [ref=f7e76]:
+        - generic [ref=f7e77]: Stocks et intrants
+        - generic [ref=f7e78]: jeudi 5 novembre 2026
+      - generic [ref=f7e79]:
+        - generic [ref=f7e80]: Vergers Ambodisaina
+        - button "Activer le thème sombre" [ref=f7e84] [cursor=pointer]
+    - main [ref=f7e87]:
+      - generic [ref=f7e89]:
+        - heading "Intrants et mouvements" [level=1] [ref=f7e90]
+        - paragraph [ref=f7e91]: Suivez les entrées, consommations et ajustements de stock sans jamais passer sous le seuil.
+      - table [ref=f7e94]:
+        - rowgroup [ref=f7e95]:
+          - row [ref=f7e96]:
+            - columnheader "Intrant" [ref=f7e97]
+            - columnheader "Catégorie" [ref=f7e98]
+            - columnheader "Disponible" [ref=f7e99]
+            - columnheader "Seuil" [ref=f7e100]
+            - columnheader "Nouveau mouvement" [ref=f7e101]
+        - rowgroup [ref=f7e102]:
+          - row [ref=f7e103]:
+            - cell [ref=f7e104]:
+              - strong [ref=f7e105]: Bouillie bordelaise
+            - cell "phytosanitaire" [ref=f7e106]
+            - cell "28.00 kg" [ref=f7e107]
+            - cell "10.00" [ref=f7e108]
+            - cell [ref=f7e109]:
+              - generic [ref=f7e110]:
+                - combobox "Type de mouvement" [ref=f7e111]:
+                  - option "Stock initial"
+                  - option "Entree" [selected]
+                  - option "Sortie"
+                  - option "Consommation"
+                  - option "Ajustement"
+                - spinbutton "Quantité" [ref=f7e112]
+                - spinbutton "Coût total" [ref=f7e113]
+                - button "Valider" [ref=f7e114] [cursor=pointer]
+          - row [ref=f7e115]:
+            - cell [ref=f7e116]:
+              - strong [ref=f7e117]: Caisses de 10 kg
+            - cell "emballage" [ref=f7e118]
+            - cell "600.00 pièce" [ref=f7e119]
+            - cell "100.00" [ref=f7e120]
+            - cell [ref=f7e121]:
+              - generic [ref=f7e122]:
+                - combobox "Type de mouvement" [ref=f7e123]:
+                  - option "Stock initial"
+                  - option "Entree" [selected]
+                  - option "Sortie"
+                  - option "Consommation"
+                  - option "Ajustement"
+                - spinbutton "Quantité" [ref=f7e124]
+                - spinbutton "Coût total" [ref=f7e125]
+                - button "Valider" [ref=f7e126] [cursor=pointer]
+          - row [ref=f7e127]:
+            - cell [ref=f7e128]:
+              - strong [ref=f7e129]: NPK 15-15-15
+            - cell "engrais" [ref=f7e130]
+            - cell "55.00 kg" [ref=f7e131]
+            - cell "50.00" [ref=f7e132]
+            - cell [ref=f7e133]:
+              - generic [ref=f7e134]:
+                - combobox "Type de mouvement" [ref=f7e135]:
+                  - option "Stock initial"
+                  - option "Entree" [selected]
+                  - option "Sortie"
+                  - option "Consommation"
+                  - option "Ajustement"
+                - spinbutton "Quantité" [ref=f7e136]
+                - spinbutton "Coût total" [ref=f7e137]
+                - button "Valider" [ref=f7e138] [cursor=pointer]
+      - generic [ref=f7e139]:
+        - heading "Nouvel intrant" [level=3] [ref=f7e141]
+        - generic [ref=f7e143]:
+          - generic [ref=f7e144]:
+            - generic [ref=f7e145]:
+              - generic [ref=f7e146]: Nom
+              - textbox "Nom" [ref=f7e147]:
+                - /placeholder: ex. NPK 15-15-15
+            - generic [ref=f7e148]:
+              - generic [ref=f7e149]: Catégorie
+              - combobox "Catégorie" [ref=f7e150]:
+                - option "Engrais" [selected]
+                - option "Phytosanitaire"
+                - option "Emballage"
+                - option "Carburant"
+                - option "Consommable"
+            - generic [ref=f7e151]:
+              - generic [ref=f7e152]: Unité
+              - textbox "Unité" [ref=f7e153]: kg
+            - generic [ref=f7e154]:
+              - generic [ref=f7e155]: Seuil minimum
+              - spinbutton "Seuil minimum" [ref=f7e156]
+            - generic [ref=f7e157]:
+              - generic [ref=f7e158]: Stock initial
+              - spinbutton "Stock initial" [ref=f7e159]
+          - button "Créer l'intrant" [ref=f7e161] [cursor=pointer]
+      - generic [ref=f7e164]:
+        - heading "Derniers mouvements" [level=3] [ref=f7e166]
+        - table [ref=f7e168]:
+          - rowgroup [ref=f7e169]:
+            - row [ref=f7e170]:
+              - columnheader "Date" [ref=f7e171]
+              - columnheader "Intrant" [ref=f7e172]
+              - columnheader "Type" [ref=f7e173]
+              - columnheader "Quantité" [ref=f7e174]
+              - columnheader "Stock après" [ref=f7e175]
+              - columnheader "Campagne" [ref=f7e176]
+          - rowgroup [ref=f7e177]:
+            - row [ref=f7e178]:
+              - cell "04/11/2026 07:05" [ref=f7e179]
+              - cell "NPK 15-15-15" [ref=f7e180]
+              - cell "consommation" [ref=f7e181]
+              - cell "145.00" [ref=f7e183]
+              - cell "55.00" [ref=f7e184]
+              - cell "Litchi AMB-P01 2026-2027" [ref=f7e185]
+            - row [ref=f7e186]:
+              - cell "04/11/2026 07:05" [ref=f7e187]
+              - cell "Bouillie bordelaise" [ref=f7e188]
+              - cell "consommation" [ref=f7e189]
+              - cell "12.00" [ref=f7e191]
+              - cell "28.00" [ref=f7e192]
+              - cell "Litchi AMB-P01 2026-2027" [ref=f7e193]
+            - row [ref=f7e194]:
+              - cell "04/11/2026 07:05" [ref=f7e195]
+              - cell "Caisses de 10 kg" [ref=f7e196]
+              - cell "stock initial" [ref=f7e197]
+              - cell "600.00" [ref=f7e199]
+              - cell "600.00" [ref=f7e200]
+              - cell [ref=f7e201]
+            - row [ref=f7e202]:
+              - cell "04/11/2026 07:05" [ref=f7e203]
+              - cell "Bouillie bordelaise" [ref=f7e204]
+              - cell "stock initial" [ref=f7e205]
+              - cell "40.00" [ref=f7e207]
+              - cell "40.00" [ref=f7e208]
+              - cell [ref=f7e209]
+            - row [ref=f7e210]:
+              - cell "04/11/2026 07:05" [ref=f7e211]
+              - cell "NPK 15-15-15" [ref=f7e212]
+              - cell "stock initial" [ref=f7e213]
+              - cell "200.00" [ref=f7e215]
+              - cell "200.00" [ref=f7e216]
+              - cell [ref=f7e217]
