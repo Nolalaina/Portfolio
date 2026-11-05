@@ -1,0 +1,41 @@
+- generic [ref=f71e2]:
+  - generic [ref=f71e3]:
+    - button "🇫🇷" [ref=f71e4] [cursor=pointer]
+    - button "🇲🇬" [ref=f71e5] [cursor=pointer]
+  - navigation "Navigation principale" [ref=f71e6]:
+    - generic [ref=f71e7]:
+      - link "Accueil" [ref=f71e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f71e9]: 🏦
+        - generic [ref=f71e10]: QueueFlow
+      - menubar [ref=f71e11]:
+        - menuitem "File en Direct" [ref=f71e12] [cursor=pointer]
+        - menuitem "Mon Guichet" [ref=f71e13] [cursor=pointer]
+        - menuitem "Console Admin" [ref=f71e14] [cursor=pointer]
+        - generic [ref=f71e15]:
+          - generic [ref=f71e16]:
+            - generic [ref=f71e17]: admin
+            - generic [ref=f71e18]: Administrateur
+          - button "⏏ Déconnexion" [ref=f71e19] [cursor=pointer]:
+            - generic [ref=f71e20]: ⏏
+            - text: Déconnexion
+  - main [ref=f71e21]:
+    - generic [ref=f71e22]:
+      - generic [ref=f71e24]:
+        - generic [ref=f71e25]:
+          - generic [ref=f71e26]: Ma Banque 🏦
+          - generic [ref=f71e27]: Mes Comptes
+        - generic [ref=f71e28]: Session Sécurisée
+      - generic [ref=f71e30]:
+        - generic [ref=f71e31]:
+          - heading "MES CARTES" [level=3] [ref=f71e32]
+          - generic [ref=f71e34] [cursor=pointer]:
+            - generic "Card Chip" [ref=f71e37]
+            - generic [ref=f71e39]: MG10 0000 0001
+            - generic [ref=f71e40]:
+              - generic [ref=f71e41]: 5000000 MGA
+              - generic [ref=f71e42]: STATUSACTIVE
+        - generic [ref=f71e43]:
+          - heading "DERNIÈRES TRANSACTIONS" [level=3] [ref=f71e44]
+          - paragraph [ref=f71e47]: Aucune transaction récente.
+  - alert

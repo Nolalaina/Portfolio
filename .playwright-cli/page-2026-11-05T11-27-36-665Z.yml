@@ -1,0 +1,143 @@
+- generic [ref=f68e2]:
+  - generic [ref=f68e3]:
+    - button "🇫🇷" [ref=f68e4] [cursor=pointer]
+    - button "🇲🇬" [ref=f68e5] [cursor=pointer]
+  - navigation "Navigation principale" [ref=f68e6]:
+    - generic [ref=f68e7]:
+      - link "Accueil" [ref=f68e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f68e9]: 🏦
+        - generic [ref=f68e10]: QueueFlow
+      - menubar [ref=f68e11]:
+        - menuitem "Accueil" [ref=f68e12] [cursor=pointer]
+        - menuitem "Prendre un Ticket" [ref=f68e13] [cursor=pointer]
+        - menuitem "File en Direct" [ref=f68e14] [cursor=pointer]
+        - generic [ref=f68e15]:
+          - link "Connexion" [ref=f68e16] [cursor=pointer]:
+            - /url: /login
+          - link "Inscription" [ref=f68e17] [cursor=pointer]:
+            - /url: /register
+  - main [ref=f68e18]:
+    - generic [ref=f68e19]:
+      - generic [ref=f68e20]:
+        - generic [ref=f68e21]: Système de gestion de file d'attente
+        - heading "La file d'attente, réinventée ✦" [level=1] [ref=f68e23]: La file d'attente,réinventée ✦
+        - paragraph [ref=f68e24]: Application intelligente pour Madagascar. Tickets en ligne, affichage temps réel et notifications automatiques — pour une expérience client sans stress.
+        - generic [ref=f68e25]:
+          - link "🎫 Prendre un ticket" [ref=f68e26] [cursor=pointer]:
+            - /url: /ticket
+          - link "📺 File en direct" [ref=f68e27] [cursor=pointer]:
+            - /url: /display
+          - link "Connexion →" [ref=f68e28] [cursor=pointer]:
+            - /url: /login
+      - generic [ref=f68e29]:
+        - generic [ref=f68e30]:
+          - generic [ref=f68e31]: 🎫
+          - generic [ref=f68e32]: "0"
+          - generic [ref=f68e33]: Tickets aujourd'hui
+        - generic [ref=f68e34]:
+          - generic [ref=f68e35]: ⏳
+          - generic [ref=f68e36]: "0"
+          - generic [ref=f68e37]: En attente
+        - generic [ref=f68e38]:
+          - generic [ref=f68e39]: ✅
+          - generic [ref=f68e40]: "0"
+          - generic [ref=f68e41]: Traités
+        - generic [ref=f68e42]:
+          - generic [ref=f68e43]: ⏱️
+          - generic [ref=f68e44]: 0m
+          - generic [ref=f68e45]: Attente moy.
+      - generic [ref=f68e46]:
+        - generic [ref=f68e47]:
+          - generic [ref=f68e48]:
+            - heading "Services disponibles" [level=2] [ref=f68e49]
+            - paragraph [ref=f68e50]: Cliquez sur un service pour prendre votre ticket
+          - generic [ref=f68e51]: 5 actifs
+        - generic [ref=f68e52]:
+          - link "EX Caisse Express ~5 min / ticket Prendre un ticket →" [ref=f68e53] [cursor=pointer]:
+            - /url: /ticket
+            - generic [ref=f68e55]: EX
+            - generic [ref=f68e57]: Caisse Express
+            - generic [ref=f68e58]: ~5 min / ticket
+            - generic [ref=f68e59]:
+              - generic [ref=f68e60]: Prendre un ticket
+              - generic [ref=f68e61]: →
+          - link "AC Ouverture de Compte ~30 min / ticket Prendre un ticket →" [ref=f68e62] [cursor=pointer]:
+            - /url: /ticket
+            - generic [ref=f68e64]: AC
+            - generic [ref=f68e66]: Ouverture de Compte
+            - generic [ref=f68e67]: ~30 min / ticket
+            - generic [ref=f68e68]:
+              - generic [ref=f68e69]: Prendre un ticket
+              - generic [ref=f68e70]: →
+          - link "LO Prêts & Crédits ~45 min / ticket Prendre un ticket →" [ref=f68e71] [cursor=pointer]:
+            - /url: /ticket
+            - generic [ref=f68e73]: LO
+            - generic [ref=f68e75]: Prêts & Crédits
+            - generic [ref=f68e76]: ~45 min / ticket
+            - generic [ref=f68e77]:
+              - generic [ref=f68e78]: Prendre un ticket
+              - generic [ref=f68e79]: →
+          - link "TE Support Technique ~15 min / ticket Prendre un ticket →" [ref=f68e80] [cursor=pointer]:
+            - /url: /ticket
+            - generic [ref=f68e82]: TE
+            - generic [ref=f68e84]: Support Technique
+            - generic [ref=f68e85]: ~15 min / ticket
+            - generic [ref=f68e86]:
+              - generic [ref=f68e87]: Prendre un ticket
+              - generic [ref=f68e88]: →
+          - link "IN Virement International ~20 min / ticket Prendre un ticket →" [ref=f68e89] [cursor=pointer]:
+            - /url: /ticket
+            - generic [ref=f68e91]: IN
+            - generic [ref=f68e93]: Virement International
+            - generic [ref=f68e94]: ~20 min / ticket
+            - generic [ref=f68e95]:
+              - generic [ref=f68e96]: Prendre un ticket
+              - generic [ref=f68e97]: →
+      - generic [ref=f68e98]:
+        - generic [ref=f68e99]:
+          - heading "Tout ce dont vous avez besoin" [level=2] [ref=f68e100]
+          - paragraph [ref=f68e101]: Une plateforme complète pour gérer vos files d'attente efficacement
+        - generic [ref=f68e102]:
+          - link "🎫 Ticket en ligne Prenez votre tour sans faire la queue physiquement, depuis votre téléphone ou ordinateur. Prendre un ticket →" [ref=f68e103] [cursor=pointer]:
+            - /url: /ticket
+            - generic [ref=f68e104]: 🎫
+            - heading "Ticket en ligne" [level=3] [ref=f68e105]
+            - paragraph [ref=f68e106]: Prenez votre tour sans faire la queue physiquement, depuis votre téléphone ou ordinateur.
+            - generic [ref=f68e107]:
+              - text: Prendre un ticket
+              - generic [ref=f68e108]: →
+          - link "📺 Affichage temps réel Suivez l'évolution de la file d'attente sur grand écran ou depuis votre mobile. Voir l'affichage →" [ref=f68e109] [cursor=pointer]:
+            - /url: /display
+            - generic [ref=f68e110]: 📺
+            - heading "Affichage temps réel" [level=3] [ref=f68e111]
+            - paragraph [ref=f68e112]: Suivez l'évolution de la file d'attente sur grand écran ou depuis votre mobile.
+            - generic [ref=f68e113]:
+              - text: Voir l'affichage
+              - generic [ref=f68e114]: →
+          - link "🔔 Notifications Recevez une alerte automatique quand votre tour approche — SMS ou notification push. S'inscrire →" [ref=f68e115] [cursor=pointer]:
+            - /url: /ticket
+            - generic [ref=f68e116]: 🔔
+            - heading "Notifications" [level=3] [ref=f68e117]
+            - paragraph [ref=f68e118]: Recevez une alerte automatique quand votre tour approche — SMS ou notification push.
+            - generic [ref=f68e119]:
+              - text: S'inscrire
+              - generic [ref=f68e120]: →
+          - link "📊 Tableau de bord Statistiques et gestion complète pour les administrateurs et agents de guichet. Accéder →" [ref=f68e121] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=f68e122]: 📊
+            - heading "Tableau de bord" [level=3] [ref=f68e123]
+            - paragraph [ref=f68e124]: Statistiques et gestion complète pour les administrateurs et agents de guichet.
+            - generic [ref=f68e125]:
+              - text: Accéder
+              - generic [ref=f68e126]: →
+      - generic [ref=f68e127]:
+        - generic [ref=f68e128]: 🚀
+        - heading "Prêt à commencer ?" [level=2] [ref=f68e129]
+        - paragraph [ref=f68e130]: Créez votre compte gratuitement et profitez d'un système de gestion de file d'attente moderne.
+        - generic [ref=f68e131]:
+          - link "✨ Créer un compte" [ref=f68e132] [cursor=pointer]:
+            - /url: /register
+          - link "🎫 Prendre un ticket" [ref=f68e133] [cursor=pointer]:
+            - /url: /ticket
+  - alert

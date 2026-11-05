@@ -1,0 +1,77 @@
+- generic [ref=f72e1]:
+  - generic [ref=f72e2]:
+    - generic [ref=f72e3]:
+      - button "🇫🇷" [ref=f72e4] [cursor=pointer]
+      - button "🇲🇬" [ref=f72e5] [cursor=pointer]
+    - navigation "Navigation principale" [ref=f72e6]:
+      - generic [ref=f72e7]:
+        - link "Accueil" [ref=f72e8] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f72e9]: 🏦
+          - generic [ref=f72e10]: QueueFlow
+        - menubar [ref=f72e11]:
+          - menuitem "File en Direct" [ref=f72e12] [cursor=pointer]
+          - menuitem "Mon Guichet" [ref=f72e13] [cursor=pointer]
+          - menuitem "Console Admin" [ref=f72e14] [cursor=pointer]
+          - generic [ref=f72e15]:
+            - generic [ref=f72e16]:
+              - generic [ref=f72e17]: admin
+              - generic [ref=f72e18]: Administrateur
+            - button "⏏ Déconnexion" [ref=f72e19] [cursor=pointer]:
+              - generic [ref=f72e20]: ⏏
+              - text: Déconnexion
+    - main [ref=f72e21]:
+      - generic [ref=f72e22]:
+        - generic [ref=f72e25]:
+          - generic [ref=f72e26]:
+            - generic [ref=f72e27]: Console Admin 📊
+            - generic [ref=f72e28]: 5 nov. 2026
+          - generic [ref=f72e29]:
+            - button "➕ Simuler" [ref=f72e30] [cursor=pointer]
+            - button "🔄" [ref=f72e31] [cursor=pointer]
+            - button "Reset" [ref=f72e32] [cursor=pointer]
+        - generic [ref=f72e33]:
+          - generic [ref=f72e34]:
+            - generic [ref=f72e35]:
+              - generic [ref=f72e37]:
+                - generic [ref=f72e38]: 🎟️
+                - generic [ref=f72e39]: Tickets Total
+              - generic [ref=f72e40]: "0"
+            - generic [ref=f72e41]:
+              - generic [ref=f72e43]:
+                - generic [ref=f72e44]: ⏳
+                - generic [ref=f72e45]: Clients en Attente
+              - generic [ref=f72e46]: "0"
+            - generic [ref=f72e47]:
+              - generic [ref=f72e49]:
+                - generic [ref=f72e50]: ✨
+                - generic [ref=f72e51]: Service Terminé
+              - generic [ref=f72e52]: "0"
+            - generic [ref=f72e53]:
+              - generic [ref=f72e55]:
+                - generic [ref=f72e56]: ⏱️
+                - generic [ref=f72e57]: Temps Moyen
+              - generic [ref=f72e58]: 0.0m
+          - generic [ref=f72e59]:
+            - button "📈 Aperçu" [ref=f72e60] [cursor=pointer]
+            - button "🎫 File Globale" [active] [ref=f72e61] [cursor=pointer]
+            - button "🛠️ Assistant Agent" [ref=f72e62] [cursor=pointer]
+            - button "📅 Historique" [ref=f72e63] [cursor=pointer]
+            - button "⚙️ Services" [ref=f72e64] [cursor=pointer]
+            - button "👥 Agents" [ref=f72e65] [cursor=pointer]
+            - button "🏦 Banque" [ref=f72e66] [cursor=pointer]
+            - button "🔍 Logs" [ref=f72e67] [cursor=pointer]
+          - generic [ref=f72e69]:
+            - textbox "🔍 Rechercher..." [ref=f72e71]
+            - button "OK" [ref=f72e72] [cursor=pointer]
+          - table [ref=f72e74]:
+            - rowgroup [ref=f72e75]:
+              - row [ref=f72e76]:
+                - columnheader "Ticket" [ref=f72e77]
+                - columnheader "Client" [ref=f72e78]
+                - columnheader "Service Actuel" [ref=f72e79]
+                - columnheader "Statut" [ref=f72e80]
+                - columnheader "Réaffecter" [ref=f72e81]
+            - rowgroup
+    - alert
+  - generic [aria-hidden] [ref=f72e82]: "0"

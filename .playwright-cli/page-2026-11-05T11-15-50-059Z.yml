@@ -1,0 +1,120 @@
+- generic [active] [ref=f20e1]:
+  - navigation [ref=f20e2]:
+    - generic [ref=f20e3]:
+      - link "MH MANDEHA" [ref=f20e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f20e5]: MH
+        - text: MANDEHA
+      - generic [ref=f20e6]:
+        - link "Tableau de bord" [ref=f20e7] [cursor=pointer]:
+          - /url: /admin/
+        - link "Voitures" [ref=f20e8] [cursor=pointer]:
+          - /url: /admin/voitures/
+        - link "Réservations" [ref=f20e9] [cursor=pointer]:
+          - /url: /admin/reservations/
+        - link "Logements" [ref=f20e10] [cursor=pointer]:
+          - /url: /admin/logements/
+        - link "Carte" [ref=f20e11] [cursor=pointer]:
+          - /url: /admin/carte
+      - generic [ref=f20e12]:
+        - generic [ref=f20e13]:
+          - generic [ref=f20e14]: AR
+          - text: Admin
+        - link "Déconnexion" [ref=f20e15] [cursor=pointer]:
+          - /url: /auth/deconnexion
+  - generic [ref=f20e16]: Bienvenue, Admin !
+  - generic [ref=f20e18]:
+    - complementary [ref=f20e19]:
+      - generic [ref=f20e20]: Vue d'ensemble
+      - link "Tableau de bord" [ref=f20e21] [cursor=pointer]:
+        - /url: /admin/
+      - link "Carte de la flotte" [ref=f20e22] [cursor=pointer]:
+        - /url: /admin/carte
+      - generic [ref=f20e23]: Parc & personnel
+      - link "Voitures" [ref=f20e24] [cursor=pointer]:
+        - /url: /admin/voitures/
+      - link "Chauffeurs" [ref=f20e25] [cursor=pointer]:
+        - /url: /admin/chauffeurs
+      - link "Maintenance" [ref=f20e26] [cursor=pointer]:
+        - /url: /admin/maintenance
+      - generic [ref=f20e27]: Offre
+      - link "Destinations" [ref=f20e28] [cursor=pointer]:
+        - /url: /admin/destinations/
+      - link "Logements" [ref=f20e29] [cursor=pointer]:
+        - /url: /admin/logements/
+      - link "Tarifs" [ref=f20e30] [cursor=pointer]:
+        - /url: /admin/tarifs
+      - generic [ref=f20e31]: Activité
+      - link "Réservations" [ref=f20e32] [cursor=pointer]:
+        - /url: /admin/reservations/
+      - link "Paiements" [ref=f20e33] [cursor=pointer]:
+        - /url: /admin/paiements
+      - link "Clients" [ref=f20e34] [cursor=pointer]:
+        - /url: /admin/clients
+    - generic [ref=f20e35]:
+      - generic [ref=f20e37]:
+        - generic [ref=f20e38]: Vue d'ensemble
+        - heading "Tableau de bord" [level=1] [ref=f20e39]
+      - generic [ref=f20e40]:
+        - generic [ref=f20e41]:
+          - generic [ref=f20e42]: "6"
+          - generic [ref=f20e43]: Voitures au parc
+        - generic [ref=f20e44]:
+          - generic [ref=f20e45]: "4"
+          - generic [ref=f20e46]: Disponibles
+        - generic [ref=f20e47]:
+          - generic [ref=f20e48]: "0"
+          - generic [ref=f20e49]: En location
+        - generic [ref=f20e50]:
+          - generic [ref=f20e51]: "2"
+          - generic [ref=f20e52]: En maintenance
+      - generic [ref=f20e53]:
+        - generic [ref=f20e54]:
+          - generic [ref=f20e55]: "1"
+          - generic [ref=f20e56]: Chauffeurs
+        - generic [ref=f20e57]:
+          - generic [ref=f20e58]: "4"
+          - generic [ref=f20e59]: Clients
+        - generic [ref=f20e60]:
+          - generic [ref=f20e61]: "1"
+          - generic [ref=f20e62]: Réservations
+        - generic [ref=f20e63]:
+          - generic [ref=f20e64]: 0 Ar
+          - generic [ref=f20e65]: Revenus du mois
+      - generic [ref=f20e66]:
+        - generic [ref=f20e67]:
+          - generic [ref=f20e68]:
+            - heading "Réservations récentes" [level=3] [ref=f20e69]
+            - link "Tout voir →" [ref=f20e70] [cursor=pointer]:
+              - /url: /admin/reservations/
+          - table [ref=f20e72]:
+            - rowgroup [ref=f20e73]:
+              - row [ref=f20e74]:
+                - columnheader "Réf." [ref=f20e75]
+                - columnheader "Client" [ref=f20e76]
+                - columnheader "Destination" [ref=f20e77]
+                - columnheader "Montant" [ref=f20e78]
+                - columnheader "Statut" [ref=f20e79]
+            - rowgroup [ref=f20e80]:
+              - row [ref=f20e81] [cursor=pointer]:
+                - cell "RES-20260830-090F" [ref=f20e82]
+                - cell "Marie Rasoa" [ref=f20e83]
+                - cell "Antsirabe" [ref=f20e84]
+                - cell "2 220 000 Ar" [ref=f20e85]
+                - cell "terminee" [ref=f20e86]
+        - generic [ref=f20e88]:
+          - generic [ref=f20e89]:
+            - heading "Destinations populaires" [level=3] [ref=f20e90]
+            - generic [ref=f20e92]:
+              - generic [ref=f20e93]: Antsirabe
+              - generic [ref=f20e94]: 1 résa.
+          - generic [ref=f20e95]:
+            - heading "Maintenance à surveiller" [level=3] [ref=f20e96]
+            - generic [ref=f20e98]:
+              - generic [ref=f20e99]: 3456 TDD — Revision
+              - generic [ref=f20e100]: 2026-08-30
+            - generic [ref=f20e101]:
+              - generic [ref=f20e102]: 1234 TAA — Vidange
+              - generic [ref=f20e103]: 2026-09-01
+            - link "Gérer la maintenance" [ref=f20e104] [cursor=pointer]:
+              - /url: /admin/maintenance

@@ -1,0 +1,81 @@
+- generic [active] [ref=f69e1]:
+  - generic [ref=f69e2]:
+    - generic [ref=f69e3]:
+      - button "🇫🇷" [ref=f69e4] [cursor=pointer]
+      - button "🇲🇬" [ref=f69e5] [cursor=pointer]
+    - navigation "Navigation principale" [ref=f69e6]:
+      - generic [ref=f69e7]:
+        - link "Accueil" [ref=f69e8] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f69e9]: 🏦
+          - generic [ref=f69e10]: QueueFlow
+        - menubar [ref=f69e11]:
+          - menuitem "File en Direct" [ref=f69e14] [cursor=pointer]
+          - menuitem "Mon Guichet" [ref=f69e64] [cursor=pointer]
+          - menuitem "Console Admin" [ref=f69e65] [cursor=pointer]
+          - generic [ref=f69e15]:
+            - generic [ref=f69e66]:
+              - generic [ref=f69e67]: admin
+              - generic [ref=f69e68]: Administrateur
+            - button "⏏ Déconnexion" [ref=f69e69] [cursor=pointer]:
+              - generic [ref=f69e70]: ⏏
+              - text: Déconnexion
+    - main [ref=f69e18]:
+      - generic [ref=f69e71]:
+        - generic [ref=f69e73]:
+          - generic [ref=f69e74]:
+            - generic [ref=f69e75]: Console Admin 📊
+            - generic [ref=f69e76]: 5 nov. 2026
+          - generic [ref=f69e77]:
+            - button "➕ Simuler" [ref=f69e78] [cursor=pointer]
+            - button "🔄" [ref=f69e79] [cursor=pointer]
+            - button "Reset" [ref=f69e80] [cursor=pointer]
+        - generic [ref=f69e81]:
+          - generic [ref=f69e82]:
+            - generic [ref=f69e83]:
+              - generic [ref=f69e85]:
+                - generic [ref=f69e86]: 🎟️
+                - generic [ref=f69e87]: Tickets Total
+              - generic [ref=f69e88]: "0"
+            - generic [ref=f69e89]:
+              - generic [ref=f69e91]:
+                - generic [ref=f69e92]: ⏳
+                - generic [ref=f69e93]: Clients en Attente
+              - generic [ref=f69e94]: "0"
+            - generic [ref=f69e95]:
+              - generic [ref=f69e97]:
+                - generic [ref=f69e98]: ✨
+                - generic [ref=f69e99]: Service Terminé
+              - generic [ref=f69e100]: "0"
+            - generic [ref=f69e101]:
+              - generic [ref=f69e103]:
+                - generic [ref=f69e104]: ⏱️
+                - generic [ref=f69e105]: Temps Moyen
+              - generic [ref=f69e106]: 0.0m
+          - generic [ref=f69e107]:
+            - button "📈 Aperçu" [ref=f69e108] [cursor=pointer]
+            - button "🎫 File Globale" [ref=f69e109] [cursor=pointer]
+            - button "🛠️ Assistant Agent" [ref=f69e110] [cursor=pointer]
+            - button "📅 Historique" [ref=f69e111] [cursor=pointer]
+            - button "⚙️ Services" [ref=f69e112] [cursor=pointer]
+            - button "👥 Agents" [ref=f69e113] [cursor=pointer]
+            - button "🏦 Banque" [ref=f69e114] [cursor=pointer]
+            - button "🔍 Logs" [ref=f69e115] [cursor=pointer]
+          - generic [ref=f69e116]:
+            - generic [ref=f69e117]:
+              - heading "Répartition par Service" [level=3] [ref=f69e118]
+              - img [ref=f69e121]:
+                - generic [ref=f69e125]:
+                  - generic [ref=f69e126]: Caisse Express
+                  - generic [ref=f69e128]: Prêts & Crédits
+                  - generic [ref=f69e130]: Virement International
+                - generic [ref=f69e133]:
+                  - generic [ref=f69e134]: "0"
+                  - generic [ref=f69e136]: "1"
+                  - generic [ref=f69e138]: "2"
+                  - generic [ref=f69e140]: "3"
+                  - generic [ref=f69e142]: "4"
+            - heading "Activité Horaire" [level=3] [ref=f69e145]
+    - alert [ref=f69e151]:
+      - generic [ref=f69e152]: Bienvenue, Administrateur ! 👋
+  - generic [aria-hidden] [ref=f69e154]: "0"

@@ -1,0 +1,103 @@
+- generic [active] [ref=f23e1]:
+  - navigation [ref=f23e2]:
+    - generic [ref=f23e3]:
+      - link "MH MANDEHA" [ref=f23e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f23e5]: MH
+        - text: MANDEHA
+      - generic [ref=f23e6]:
+        - link "Tableau de bord" [ref=f23e7] [cursor=pointer]:
+          - /url: /admin/
+        - link "Voitures" [ref=f23e8] [cursor=pointer]:
+          - /url: /admin/voitures/
+        - link "Réservations" [ref=f23e9] [cursor=pointer]:
+          - /url: /admin/reservations/
+        - link "Logements" [ref=f23e10] [cursor=pointer]:
+          - /url: /admin/logements/
+        - link "Carte" [ref=f23e11] [cursor=pointer]:
+          - /url: /admin/carte
+      - generic [ref=f23e12]:
+        - generic [ref=f23e13]:
+          - generic [ref=f23e14]: AR
+          - text: Admin
+        - link "Déconnexion" [ref=f23e15] [cursor=pointer]:
+          - /url: /auth/deconnexion
+  - generic [ref=f23e16]:
+    - complementary [ref=f23e17]:
+      - generic [ref=f23e18]: Vue d'ensemble
+      - link "Tableau de bord" [ref=f23e19] [cursor=pointer]:
+        - /url: /admin/
+      - link "Carte de la flotte" [ref=f23e20] [cursor=pointer]:
+        - /url: /admin/carte
+      - generic [ref=f23e21]: Parc & personnel
+      - link "Voitures" [ref=f23e22] [cursor=pointer]:
+        - /url: /admin/voitures/
+      - link "Chauffeurs" [ref=f23e23] [cursor=pointer]:
+        - /url: /admin/chauffeurs
+      - link "Maintenance" [ref=f23e24] [cursor=pointer]:
+        - /url: /admin/maintenance
+      - generic [ref=f23e25]: Offre
+      - link "Destinations" [ref=f23e26] [cursor=pointer]:
+        - /url: /admin/destinations/
+      - link "Logements" [ref=f23e27] [cursor=pointer]:
+        - /url: /admin/logements/
+      - link "Tarifs" [ref=f23e28] [cursor=pointer]:
+        - /url: /admin/tarifs
+      - generic [ref=f23e29]: Activité
+      - link "Réservations" [ref=f23e30] [cursor=pointer]:
+        - /url: /admin/reservations/
+      - link "Paiements" [ref=f23e31] [cursor=pointer]:
+        - /url: /admin/paiements
+      - link "Clients" [ref=f23e32] [cursor=pointer]:
+        - /url: /admin/clients
+    - generic [ref=f23e33]:
+      - generic [ref=f23e34]:
+        - generic [ref=f23e35]:
+          - generic [ref=f23e36]: Hébergements
+          - heading "Logements" [level=1] [ref=f23e37]
+        - link "+ Ajouter un logement" [ref=f23e38] [cursor=pointer]:
+          - /url: /admin/logements/ajouter
+      - table [ref=f23e40]:
+        - rowgroup [ref=f23e41]:
+          - row [ref=f23e42]:
+            - columnheader "Nom" [ref=f23e43]
+            - columnheader "Type" [ref=f23e44]
+            - columnheader "Destination" [ref=f23e45]
+            - columnheader "Capacité" [ref=f23e46]
+            - columnheader "Prix/nuit" [ref=f23e47]
+            - columnheader "Dispo." [ref=f23e48]
+            - columnheader [ref=f23e49]
+        - rowgroup [ref=f23e50]:
+          - row [ref=f23e51]:
+            - cell "Appartement Nosy Be" [ref=f23e52]
+            - cell "Appartement" [ref=f23e53]
+            - cell "Nosy Be" [ref=f23e54]
+            - cell "4 pers." [ref=f23e55]
+            - cell "300 000 Ar" [ref=f23e56]
+            - cell "Oui" [ref=f23e57]
+            - cell [ref=f23e59]:
+              - link "Modifier" [ref=f23e60] [cursor=pointer]:
+                - /url: /admin/logements/3/modifier
+              - button "Suppr." [ref=f23e62] [cursor=pointer]
+          - row [ref=f23e63]:
+            - cell "Bungalow Morondava" [ref=f23e64]
+            - cell "Chambre" [ref=f23e65]
+            - cell "Morondava" [ref=f23e66]
+            - cell "2 pers." [ref=f23e67]
+            - cell "180 000 Ar" [ref=f23e68]
+            - cell "Oui" [ref=f23e69]
+            - cell [ref=f23e71]:
+              - link "Modifier" [ref=f23e72] [cursor=pointer]:
+                - /url: /admin/logements/2/modifier
+              - button "Suppr." [ref=f23e74] [cursor=pointer]
+          - row [ref=f23e75]:
+            - cell "Villa Antsirabe" [ref=f23e76]
+            - cell "Villa" [ref=f23e77]
+            - cell "Antsirabe" [ref=f23e78]
+            - cell "6 pers." [ref=f23e79]
+            - cell "250 000 Ar" [ref=f23e80]
+            - cell "Oui" [ref=f23e81]
+            - cell [ref=f23e83]:
+              - link "Modifier" [ref=f23e84] [cursor=pointer]:
+                - /url: /admin/logements/1/modifier
+              - button "Suppr." [ref=f23e86] [cursor=pointer]

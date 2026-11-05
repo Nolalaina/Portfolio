@@ -1,0 +1,73 @@
+- generic [ref=f69e2]:
+  - generic [ref=f69e3]:
+    - button "🇫🇷" [ref=f69e4] [cursor=pointer]
+    - button "🇲🇬" [ref=f69e5] [cursor=pointer]
+  - navigation "Navigation principale" [ref=f69e6]:
+    - generic [ref=f69e7]:
+      - link "Accueil" [ref=f69e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f69e9]: 🏦
+        - generic [ref=f69e10]: QueueFlow
+      - menubar [ref=f69e11]:
+        - menuitem "Accueil" [ref=f69e12] [cursor=pointer]
+        - menuitem "Prendre un Ticket" [ref=f69e13] [cursor=pointer]
+        - menuitem "File en Direct" [ref=f69e14] [cursor=pointer]
+        - generic [ref=f69e15]:
+          - link "Connexion" [ref=f69e16] [cursor=pointer]:
+            - /url: /login
+          - link "Inscription" [ref=f69e17] [cursor=pointer]:
+            - /url: /register
+  - main [ref=f69e18]:
+    - generic [ref=f69e20]:
+      - generic [ref=f69e22]:
+        - generic [ref=f69e23]:
+          - generic [ref=f69e24]: 🏦
+          - generic [ref=f69e25]: QueueFlow
+        - generic [ref=f69e26]:
+          - generic [ref=f69e27]: 🔑
+          - heading "Bienvenue sur QueueFlow" [level=2] [ref=f69e28]: Bienvenue surQueueFlow
+          - paragraph [ref=f69e29]: Gérez votre file d'attente intelligemment. Tickets en ligne, affichage temps réel et notifications automatiques.
+          - generic [ref=f69e30]:
+            - generic [ref=f69e31]:
+              - generic [ref=f69e32]: ✓
+              - text: Tickets en ligne 24h/24
+            - generic [ref=f69e33]:
+              - generic [ref=f69e34]: ✓
+              - text: Notifications en temps réel
+            - generic [ref=f69e35]:
+              - generic [ref=f69e36]: ✓
+              - text: Tableau de bord analytique
+        - generic [ref=f69e37]:
+          - generic [ref=f69e38]: Comptes de démonstration
+          - generic [ref=f69e39]:
+            - generic [ref=f69e40]: admin@queue.mg — admin
+            - generic [ref=f69e41]: agent1@queue.mg — agent
+            - generic [ref=f69e42]:
+              - text: "Mot de passe :"
+              - code [ref=f69e43]: password123
+      - generic [ref=f69e44]:
+        - generic [ref=f69e45]:
+          - generic [ref=f69e46]: Étape 1 sur 1
+          - heading "Connexion" [level=1] [ref=f69e47]
+          - paragraph [ref=f69e48]: Connectez-vous pour accéder à votre espace
+        - generic [ref=f69e49]:
+          - generic [ref=f69e50]:
+            - generic [ref=f69e51]: Adresse email
+            - textbox "Adresse email" [active] [ref=f69e52]:
+              - /placeholder: votre@email.mg
+          - generic [ref=f69e53]:
+            - generic [ref=f69e54]: Mot de passe
+            - generic [ref=f69e55]:
+              - textbox "Mot de passe" [ref=f69e56]:
+                - /placeholder: ••••••••
+              - button "👁️" [ref=f69e57] [cursor=pointer]
+          - button "Se connecter →" [ref=f69e58] [cursor=pointer]
+        - generic [ref=f69e59]: ou
+        - generic [ref=f69e60]:
+          - paragraph [ref=f69e61]:
+            - text: Pas encore de compte ?
+            - link "Créer un compte" [ref=f69e62] [cursor=pointer]:
+              - /url: /register
+          - link "← Retour à l'accueil" [ref=f69e63] [cursor=pointer]:
+            - /url: /
+  - alert

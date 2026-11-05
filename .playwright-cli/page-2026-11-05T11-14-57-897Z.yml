@@ -1,0 +1,315 @@
+- generic [active] [ref=f17e1]:
+  - link "Aller au contenu" [ref=f17e2] [cursor=pointer]:
+    - /url: "#contenu"
+  - generic [ref=f17e3]:
+    - complementary "Menu principal de navigation" [ref=f17e4]:
+      - link "Accueil PharmaGest" [ref=f17e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f17e11]:
+          - generic [ref=f17e12]: PharmaGest
+          - generic [ref=f17e13]: Gestion pharmaceutique
+      - link " Nouvelle vente" [ref=f17e14] [cursor=pointer]:
+        - /url: /ventes/caisse/
+        - generic [ref=f17e15]: 
+        - generic [ref=f17e16]: Nouvelle vente
+      - navigation "Navigation" [ref=f17e17]:
+        - generic [ref=f17e18]:
+          - generic [ref=f17e19]: Principal
+          - generic [ref=f17e20]:
+            - link " Tableau de bord" [ref=f17e21] [cursor=pointer]:
+              - /url: /
+              - generic [ref=f17e22]: 
+              - generic [ref=f17e23]: Tableau de bord
+            - link " Caisse / vente" [ref=f17e24] [cursor=pointer]:
+              - /url: /ventes/caisse/
+              - generic [ref=f17e25]: 
+              - generic [ref=f17e26]: Caisse / vente
+            - link " Ventes" [ref=f17e27] [cursor=pointer]:
+              - /url: /ventes/
+              - generic [ref=f17e28]: 
+              - generic [ref=f17e29]: Ventes
+            - link " 4 Alertes" [ref=f17e30] [cursor=pointer]:
+              - /url: /stock/alertes/
+              - generic [ref=f17e31]: 
+              - generic [ref=f17e32]: "4"
+              - generic [ref=f17e33]: Alertes
+        - generic [ref=f17e34]:
+          - generic [ref=f17e35]: Catalogue
+          - generic [ref=f17e36]:
+            - link " Médicaments" [ref=f17e37] [cursor=pointer]:
+              - /url: /medicaments/
+              - generic [ref=f17e38]: 
+              - generic [ref=f17e39]: Médicaments
+            - link " Catégories" [ref=f17e40] [cursor=pointer]:
+              - /url: /categories/
+              - generic [ref=f17e41]: 
+              - generic [ref=f17e42]: Catégories
+            - link " Fournisseurs" [ref=f17e43] [cursor=pointer]:
+              - /url: /fournisseurs/
+              - generic [ref=f17e44]: 
+              - generic [ref=f17e45]: Fournisseurs
+            - link " Clients" [ref=f17e46] [cursor=pointer]:
+              - /url: /clients/
+              - generic [ref=f17e47]: 
+              - generic [ref=f17e48]: Clients
+        - generic [ref=f17e49]:
+          - generic [ref=f17e50]: Approvisionnement
+          - generic [ref=f17e51]:
+            - link " Commandes d'achat" [ref=f17e52] [cursor=pointer]:
+              - /url: /achats/
+              - generic [ref=f17e53]: 
+              - generic [ref=f17e54]: Commandes d'achat
+            - link " Réceptions" [ref=f17e55] [cursor=pointer]:
+              - /url: /receptions/
+              - generic [ref=f17e56]: 
+              - generic [ref=f17e57]: Réceptions
+        - generic [ref=f17e58]:
+          - generic [ref=f17e59]: Stock
+          - generic [ref=f17e60]:
+            - link " État du stock" [ref=f17e61] [cursor=pointer]:
+              - /url: /stock/
+              - generic [ref=f17e62]: 
+              - generic [ref=f17e63]: État du stock
+            - link " Mouvements" [ref=f17e64] [cursor=pointer]:
+              - /url: /stock/mouvements/
+              - generic [ref=f17e65]: 
+              - generic [ref=f17e66]: Mouvements
+            - link " Inventaire" [ref=f17e67] [cursor=pointer]:
+              - /url: /stock/inventaire/
+              - generic [ref=f17e68]: 
+              - generic [ref=f17e69]: Inventaire
+        - generic [ref=f17e70]:
+          - generic [ref=f17e71]: Pilotage
+          - generic [ref=f17e72]:
+            - link " Rapports & PDF" [ref=f17e73] [cursor=pointer]:
+              - /url: /rapports/
+              - generic [ref=f17e74]: 
+              - generic [ref=f17e75]: Rapports & PDF
+            - link " Journal d'audit" [ref=f17e76] [cursor=pointer]:
+              - /url: /journal/
+              - generic [ref=f17e77]: 
+              - generic [ref=f17e78]: Journal d'audit
+            - link " Utilisateurs" [ref=f17e79] [cursor=pointer]:
+              - /url: /utilisateurs/
+              - generic [ref=f17e80]: 
+              - generic [ref=f17e81]: Utilisateurs
+      - generic [ref=f17e82]:
+        - generic [ref=f17e83]:
+          - generic [ref=f17e84]: AP
+          - generic [ref=f17e85]:
+            - generic [ref=f17e86]: Admin PharmaGest
+            - generic [ref=f17e87]: Administrateur
+        - generic [ref=f17e88]:
+          - link " Mot de passe" [ref=f17e89] [cursor=pointer]:
+            - /url: /mot-de-passe/
+            - generic [ref=f17e90]: 
+            - generic [ref=f17e91]: Mot de passe
+          - generic "Déconnexion" [ref=f17e92]:
+            - button " Quitter" [ref=f17e93] [cursor=pointer]:
+              - generic [ref=f17e94]: 
+              - generic [ref=f17e95]: Quitter
+    - generic [ref=f17e96]:
+      - banner [ref=f17e97]:
+        - text: 
+        - generic [ref=f17e99]: 
+        - generic [ref=f17e100]:
+          - heading "Journal d'audit" [level=1] [ref=f17e101]
+          - paragraph [ref=f17e102]: Traçabilité des actions sensibles
+        - generic [ref=f17e103]:
+          - generic [ref=f17e104]:
+            - generic [ref=f17e105]: 
+            - text: 5 novembre 2026
+          - link "Alertes" [ref=f17e106] [cursor=pointer]:
+            - /url: /stock/alertes/
+            - generic [ref=f17e107]: 
+            - generic [ref=f17e108]: "4"
+          - button "Basculer le menu compact" [ref=f17e109] [cursor=pointer]:
+            - generic [ref=f17e110]: 
+      - main [ref=f17e111]:
+        - generic [ref=f17e113]:
+          - heading "Journal d'audit" [level=2] [ref=f17e114]
+          - generic [ref=f17e115]: 18 entrées
+        - generic [ref=f17e118]:
+          - generic [ref=f17e119]:
+            - generic [ref=f17e120]: Recherche
+            - searchbox "Action, détail ou utilisateur" [ref=f17e121]
+          - button " Rechercher" [ref=f17e123] [cursor=pointer]:
+            - generic [ref=f17e124]: 
+            - text: Rechercher
+          - link "Réinitialiser" [ref=f17e126] [cursor=pointer]:
+            - /url: /journal/
+        - table [ref=f17e129]:
+          - rowgroup [ref=f17e130]:
+            - row [ref=f17e131]:
+              - columnheader "Date" [ref=f17e132]
+              - columnheader "Utilisateur" [ref=f17e133]
+              - columnheader "Action" [ref=f17e134]
+              - columnheader "Objet" [ref=f17e135]
+              - columnheader "Détails" [ref=f17e136]
+              - columnheader "Adresse IP" [ref=f17e137]
+          - rowgroup [ref=f17e138]:
+            - row [ref=f17e139]:
+              - cell "05/11/2026 14:14:05" [ref=f17e140]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e141]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e142]: Administrateur
+              - cell "Connexion" [ref=f17e143]
+              - 'cell "Utilisateur #1" [ref=f17e145]'
+              - cell "Connexion de admin" [ref=f17e146]
+              - cell "127.0.0.1" [ref=f17e147]
+            - row [ref=f17e148]:
+              - cell "03/11/2026 11:24:59" [ref=f17e149]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e150]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e151]: Administrateur
+              - cell "Connexion" [ref=f17e152]
+              - 'cell "Utilisateur #1" [ref=f17e154]'
+              - cell "Connexion de admin" [ref=f17e155]
+              - cell "127.0.0.1" [ref=f17e156]
+            - row [ref=f17e157]:
+              - cell "02/11/2026 15:33:37" [ref=f17e158]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e159]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e160]: Administrateur
+              - cell "Connexion" [ref=f17e161]
+              - 'cell "Utilisateur #1" [ref=f17e163]'
+              - cell "Connexion de admin" [ref=f17e164]
+              - cell "127.0.0.1" [ref=f17e165]
+            - row [ref=f17e166]:
+              - cell "02/11/2026 13:56:08" [ref=f17e167]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e168]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e169]: Administrateur
+              - cell "Connexion" [ref=f17e170]
+              - 'cell "Utilisateur #1" [ref=f17e172]'
+              - cell "Connexion de admin" [ref=f17e173]
+              - cell "127.0.0.1" [ref=f17e174]
+            - row [ref=f17e175]:
+              - cell "02/11/2026 13:56:00" [ref=f17e176]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e177]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e178]: Administrateur
+              - cell "Connexion" [ref=f17e179]
+              - 'cell "Utilisateur #1" [ref=f17e181]'
+              - cell "Connexion de admin" [ref=f17e182]
+              - cell "127.0.0.1" [ref=f17e183]
+            - row [ref=f17e184]:
+              - cell "02/11/2026 13:55:44" [ref=f17e185]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e186]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e187]: Administrateur
+              - cell "Déconnexion" [ref=f17e188]
+              - 'cell "Utilisateur #1" [ref=f17e190]'
+              - cell "Déconnexion de admin" [ref=f17e191]
+              - cell "127.0.0.1" [ref=f17e192]
+            - row [ref=f17e193]:
+              - cell "02/11/2026 13:23:26" [ref=f17e194]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e195]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e196]: Administrateur
+              - cell "Déconnexion" [ref=f17e197]
+              - 'cell "Utilisateur #1" [ref=f17e199]'
+              - cell "Déconnexion de admin" [ref=f17e200]
+              - cell "127.0.0.1" [ref=f17e201]
+            - row [ref=f17e202]:
+              - cell "02/11/2026 13:21:19" [ref=f17e203]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e204]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e205]: Administrateur
+              - cell "Connexion" [ref=f17e206]
+              - 'cell "Utilisateur #1" [ref=f17e208]'
+              - cell "Connexion de admin" [ref=f17e209]
+              - cell "127.0.0.1" [ref=f17e210]
+            - row [ref=f17e211]:
+              - cell "02/11/2026 13:20:52" [ref=f17e212]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e213]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e214]: Administrateur
+              - cell "Déconnexion" [ref=f17e215]
+              - 'cell "Utilisateur #1" [ref=f17e217]'
+              - cell "Déconnexion de admin" [ref=f17e218]
+              - cell "127.0.0.1" [ref=f17e219]
+            - row [ref=f17e220]:
+              - cell "02/11/2026 13:16:49" [ref=f17e221]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e222]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e223]: Administrateur
+              - cell "Connexion" [ref=f17e224]
+              - 'cell "Utilisateur #1" [ref=f17e226]'
+              - cell "Connexion de admin" [ref=f17e227]
+              - cell "127.0.0.1" [ref=f17e228]
+            - row [ref=f17e229]:
+              - cell "26/10/2026 11:46:21" [ref=f17e230]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e231]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e232]: Administrateur
+              - cell "Connexion" [ref=f17e233]
+              - 'cell "Utilisateur #1" [ref=f17e235]'
+              - cell "Connexion de admin" [ref=f17e236]
+              - cell "127.0.0.1" [ref=f17e237]
+            - row [ref=f17e238]:
+              - cell "26/10/2026 11:46:03" [ref=f17e239]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e240]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e241]: Administrateur
+              - cell "Déconnexion" [ref=f17e242]
+              - 'cell "Utilisateur #1" [ref=f17e244]'
+              - cell "Déconnexion de admin" [ref=f17e245]
+              - cell "127.0.0.1" [ref=f17e246]
+            - row [ref=f17e247]:
+              - cell "26/10/2026 11:41:08" [ref=f17e248]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e249]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e250]: Administrateur
+              - cell "Connexion" [ref=f17e251]
+              - 'cell "Utilisateur #1" [ref=f17e253]'
+              - cell "Connexion de admin" [ref=f17e254]
+              - cell "127.0.0.1" [ref=f17e255]
+            - row [ref=f17e256]:
+              - cell "26/10/2026 11:31:09" [ref=f17e257]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e258]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e259]: Administrateur
+              - cell "Vente validée" [ref=f17e260]
+              - 'cell "Vente #1" [ref=f17e262]'
+              - cell "VE-20261026-113109-9FE6 - 9000.00 Ar" [ref=f17e263]
+              - cell "127.0.0.1" [ref=f17e264]
+            - row [ref=f17e265]:
+              - cell "26/10/2026 11:24:27" [ref=f17e266]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e267]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e268]: Administrateur
+              - cell "Connexion" [ref=f17e269]
+              - 'cell "Utilisateur #1" [ref=f17e271]'
+              - cell "Connexion de admin" [ref=f17e272]
+              - cell "127.0.0.1" [ref=f17e273]
+            - row [ref=f17e274]:
+              - cell "26/10/2026 11:18:36" [ref=f17e275]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e276]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e277]: Administrateur
+              - cell "Suppression médicament" [ref=f17e278]
+              - 'cell "Medicament #None" [ref=f17e280]'
+              - cell "Kapoty da ad" [ref=f17e281]
+              - cell "127.0.0.1" [ref=f17e282]
+            - row [ref=f17e283]:
+              - cell "26/10/2026 11:18:23" [ref=f17e284]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e285]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e286]: Administrateur
+              - cell "Création médicament" [ref=f17e287]
+              - 'cell "Medicament #6" [ref=f17e289]'
+              - cell "Kapoty da ad" [ref=f17e290]
+              - cell "127.0.0.1" [ref=f17e291]
+            - row [ref=f17e292]:
+              - cell "26/10/2026 11:09:30" [ref=f17e293]
+              - cell "Admin PharmaGest Administrateur" [ref=f17e294]:
+                - text: Admin PharmaGest
+                - generic [ref=f17e295]: Administrateur
+              - cell "Connexion" [ref=f17e296]
+              - 'cell "Utilisateur #1" [ref=f17e298]'
+              - cell "Connexion de admin" [ref=f17e299]
+              - cell "127.0.0.1" [ref=f17e300]
+      - contentinfo [ref=f17e301]:
+        - generic [ref=f17e302]: PharmaGest · Lot II B 12, Antananarivo, Madagascar · Tél. +261 34 00 000 00
+        - generic [ref=f17e303]: Application de gestion pharmaceutique

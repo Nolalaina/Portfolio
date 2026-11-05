@@ -1,0 +1,132 @@
+- generic [ref=f31e2]:
+  - complementary [ref=f31e3]:
+    - generic [ref=f31e4]:
+      - generic [ref=f31e5]: 
+      - generic [ref=f31e7]:
+        - generic [ref=f31e8]: AttestPro
+        - generic [ref=f31e9]: Queue & Attestations
+    - navigation [ref=f31e10]:
+      - generic [ref=f31e11]: PILOTAGE & GUICHET
+      - link " Tableau de bord" [ref=f31e12] [cursor=pointer]:
+        - /url: http://localhost:8000/admin/dashboard
+        - generic [ref=f31e13]: 
+        - generic [ref=f31e14]: Tableau de bord
+      - link " Registre des demandes" [ref=f31e15] [cursor=pointer]:
+        - /url: http://localhost:8000/admin/registre
+        - generic [ref=f31e16]: 
+        - generic [ref=f31e17]: Registre des demandes
+      - link " Statistiques & Flux" [ref=f31e18] [cursor=pointer]:
+        - /url: http://localhost:8000/admin/statistiques
+        - generic [ref=f31e19]: 
+        - generic [ref=f31e20]: Statistiques & Flux
+      - link " Écran Guichet Hall ↗" [ref=f31e21] [cursor=pointer]:
+        - /url: http://localhost:8000/admin/ecranGuichet
+        - generic [ref=f31e22]: 
+        - generic [ref=f31e23]: Écran Guichet Hall ↗
+      - generic [ref=f31e24]: CONFIGURATIONS
+      - link " Catalogue Attestations" [ref=f31e25] [cursor=pointer]:
+        - /url: http://localhost:8000/admin/typesAttestation
+        - generic [ref=f31e26]: 
+        - generic [ref=f31e27]: Catalogue Attestations
+    - generic [ref=f31e28]:
+      - generic [ref=f31e29]:
+        - generic [ref=f31e30]: F
+        - generic [ref=f31e31]:
+          - generic [ref=f31e32]: Fara Andria
+          - generic [ref=f31e33]: Agent Administratif
+      - link "" [ref=f31e34] [cursor=pointer]:
+        - /url: http://localhost:8000/auth/logout
+  - main [ref=f31e36]:
+    - generic [ref=f31e37]:
+      - generic [ref=f31e38]:
+        - heading "Espace Administratif / Guichet" [level=1] [ref=f31e39]
+        - paragraph [ref=f31e40]: Suivi en temps réel des tickets et demandes d'attestations
+      - generic [ref=f31e41]:
+        - generic [ref=f31e42]: Guichet En Ligne
+        - generic [ref=f31e44]: 14:20:23
+    - generic [ref=f31e46]:
+      - paragraph [ref=f31e47]: Catalogue & Paramètres
+      - heading "Types d'attestation" [level=1] [ref=f31e48]
+      - paragraph [ref=f31e49]: Gérez la liste des documents délivrés par le bureau et leurs délais de traitement.
+    - generic [ref=f31e50]:
+      - table [ref=f31e53]:
+        - rowgroup [ref=f31e54]:
+          - row [ref=f31e55]:
+            - columnheader "Nom du document" [ref=f31e56]
+            - columnheader "Délai Garanti" [ref=f31e57]
+            - columnheader "Statut" [ref=f31e58]
+            - columnheader "Actions" [ref=f31e59]
+        - rowgroup [ref=f31e60]:
+          - row [ref=f31e61]:
+            - cell [ref=f31e62]:
+              - strong [ref=f31e63]: Attestation d'inscription
+              - text: Confirme l'inscription administrative officielle de l'étudiant
+            - cell "2 j. ouvrés" [ref=f31e64]
+            - cell "Actif" [ref=f31e65]
+            - cell [ref=f31e67]:
+              - link "Désactiver" [ref=f31e68] [cursor=pointer]:
+                - /url: http://localhost:8000/admin/toggleType/2
+          - row [ref=f31e69]:
+            - cell [ref=f31e70]:
+              - strong [ref=f31e71]: Attestation de présence
+              - text: Justifie la présence effective de l'étudiant sur une période donnée
+            - cell "2 j. ouvrés" [ref=f31e72]
+            - cell "Actif" [ref=f31e73]
+            - cell [ref=f31e75]:
+              - link "Désactiver" [ref=f31e76] [cursor=pointer]:
+                - /url: http://localhost:8000/admin/toggleType/5
+          - row [ref=f31e77]:
+            - cell [ref=f31e78]:
+              - strong [ref=f31e79]: Attestation de réussite
+              - text: Confirme la validation d'un diplôme ou le passage en année supérieure
+            - cell "5 j. ouvrés" [ref=f31e80]
+            - cell "Actif" [ref=f31e81]
+            - cell [ref=f31e83]:
+              - link "Désactiver" [ref=f31e84] [cursor=pointer]:
+                - /url: http://localhost:8000/admin/toggleType/4
+          - row [ref=f31e85]:
+            - cell [ref=f31e86]:
+              - strong [ref=f31e87]: Certificat de scolarité
+              - text: Atteste de l'inscription en cours pour l'année académique actuelle
+            - cell "2 j. ouvrés" [ref=f31e88]
+            - cell "Actif" [ref=f31e89]
+            - cell [ref=f31e91]:
+              - link "Désactiver" [ref=f31e92] [cursor=pointer]:
+                - /url: http://localhost:8000/admin/toggleType/1
+          - row [ref=f31e93]:
+            - cell [ref=f31e94]:
+              - strong [ref=f31e95]: Duplicata de Diplôme
+              - text: Copie certifiée conforme du diplôme original délivré
+            - cell "7 j. ouvrés" [ref=f31e96]
+            - cell "Actif" [ref=f31e97]
+            - cell [ref=f31e99]:
+              - link "Désactiver" [ref=f31e100] [cursor=pointer]:
+                - /url: http://localhost:8000/admin/toggleType/6
+          - row [ref=f31e101]:
+            - cell [ref=f31e102]:
+              - strong [ref=f31e103]: Relevé de notes
+              - text: Récapitulatif officiel des notes et crédits ECTS par semestre
+            - cell "4 j. ouvrés" [ref=f31e104]
+            - cell "Actif" [ref=f31e105]
+            - cell [ref=f31e107]:
+              - link "Désactiver" [ref=f31e108] [cursor=pointer]:
+                - /url: http://localhost:8000/admin/toggleType/3
+      - generic [ref=f31e109]:
+        - heading " Ajouter un type d'attestation" [level=3] [ref=f31e110]:
+          - generic [ref=f31e111]: 
+          - text: Ajouter un type d'attestation
+        - generic [ref=f31e112]:
+          - generic [ref=f31e113]:
+            - generic [ref=f31e114]: Nom de l'attestation
+            - textbox "Nom de l'attestation" [ref=f31e115]:
+              - /placeholder: ex. Attestation de Réussite
+          - generic [ref=f31e116]:
+            - generic [ref=f31e117]: Description (facultatif)
+            - textbox "Description (facultatif)" [ref=f31e118]:
+              - /placeholder: Description du document...
+          - generic [ref=f31e119]:
+            - generic [ref=f31e120]: Délai de traitement estimé (jours ouvrés)
+            - spinbutton "Délai de traitement estimé (jours ouvrés)" [ref=f31e121]: "3"
+          - button " Enregistrer le type" [ref=f31e122] [cursor=pointer]:
+            - generic [ref=f31e123]: 
+            - text: Enregistrer le type

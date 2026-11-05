@@ -1,0 +1,41 @@
+- main [ref=f10e2]:
+  - region "Présentation de PharmaGest" [ref=f10e3]:
+    - generic [ref=f10e10]:
+      - generic [ref=f10e11]: PharmaGest
+      - generic [ref=f10e12]: Gestion pharmaceutique
+    - generic [ref=f10e13]:
+      - heading [level=1] [ref=f10e14]:
+        - text: La gestion de votre officine,
+        - emphasis [ref=f10e15]: claire et sereine.
+      - generic [ref=f10e16]:
+        - generic [ref=f10e17]:
+          - generic [ref=f10e18]: 
+          - text: Stock, lots et péremptions en temps réel
+        - generic [ref=f10e19]:
+          - generic [ref=f10e20]: 
+          - text: Ventes, encaissements et retours centralisés
+        - generic [ref=f10e21]:
+          - generic [ref=f10e22]: 
+          - text: Traçabilité complète des mouvements
+    - generic [ref=f10e23]:
+      - generic [ref=f10e24]: 
+      - text: Accès sécurisé réservé aux équipes de PharmaGest
+  - generic [ref=f10e26]:
+    - heading "Connexion" [level=1] [ref=f10e27]
+    - paragraph [ref=f10e28]: Identifiez-vous pour accéder à votre espace de gestion.
+    - generic [ref=f10e29]:
+      - generic [ref=f10e30]:
+        - generic [ref=f10e31]: Nom d'utilisateur
+        - textbox "Nom d'utilisateur" [ref=f10e32]
+      - generic [ref=f10e33]:
+        - generic [ref=f10e34]: Mot de passe
+        - textbox "Mot de passe" [ref=f10e35]
+      - button " Se connecter" [ref=f10e36] [cursor=pointer]:
+        - generic [ref=f10e37]: 
+        - text: Se connecter
+    - generic [ref=f10e38]:
+      - text: Mot de passe oublié ? Contactez l'administrateur.
+      - group [ref=f10e39]:
+        - generic " Afficher les identifiants de démonstration" [ref=f10e40] [cursor=pointer]:
+          - generic [ref=f10e41]: 
+          - text: Afficher les identifiants de démonstration

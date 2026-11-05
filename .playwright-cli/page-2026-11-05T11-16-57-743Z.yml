@@ -1,0 +1,108 @@
+- generic [active] [ref=f26e1]:
+  - navigation [ref=f26e2]:
+    - generic [ref=f26e3]:
+      - link "MH MANDEHA" [ref=f26e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f26e5]: MH
+        - text: MANDEHA
+      - generic [ref=f26e6]:
+        - link "Tableau de bord" [ref=f26e7] [cursor=pointer]:
+          - /url: /admin/
+        - link "Voitures" [ref=f26e8] [cursor=pointer]:
+          - /url: /admin/voitures/
+        - link "Réservations" [ref=f26e9] [cursor=pointer]:
+          - /url: /admin/reservations/
+        - link "Logements" [ref=f26e10] [cursor=pointer]:
+          - /url: /admin/logements/
+        - link "Carte" [ref=f26e11] [cursor=pointer]:
+          - /url: /admin/carte
+      - generic [ref=f26e12]:
+        - generic [ref=f26e13]:
+          - generic [ref=f26e14]: AR
+          - text: Admin
+        - link "Déconnexion" [ref=f26e15] [cursor=pointer]:
+          - /url: /auth/deconnexion
+  - generic [ref=f26e16]:
+    - complementary [ref=f26e17]:
+      - generic [ref=f26e18]: Vue d'ensemble
+      - link "Tableau de bord" [ref=f26e19] [cursor=pointer]:
+        - /url: /admin/
+      - link "Carte de la flotte" [ref=f26e20] [cursor=pointer]:
+        - /url: /admin/carte
+      - generic [ref=f26e21]: Parc & personnel
+      - link "Voitures" [ref=f26e22] [cursor=pointer]:
+        - /url: /admin/voitures/
+      - link "Chauffeurs" [ref=f26e23] [cursor=pointer]:
+        - /url: /admin/chauffeurs
+      - link "Maintenance" [ref=f26e24] [cursor=pointer]:
+        - /url: /admin/maintenance
+      - generic [ref=f26e25]: Offre
+      - link "Destinations" [ref=f26e26] [cursor=pointer]:
+        - /url: /admin/destinations/
+      - link "Logements" [ref=f26e27] [cursor=pointer]:
+        - /url: /admin/logements/
+      - link "Tarifs" [ref=f26e28] [cursor=pointer]:
+        - /url: /admin/tarifs
+      - generic [ref=f26e29]: Activité
+      - link "Réservations" [ref=f26e30] [cursor=pointer]:
+        - /url: /admin/reservations/
+      - link "Paiements" [ref=f26e31] [cursor=pointer]:
+        - /url: /admin/paiements
+      - link "Clients" [ref=f26e32] [cursor=pointer]:
+        - /url: /admin/clients
+    - generic [ref=f26e33]:
+      - generic [ref=f26e35]:
+        - generic [ref=f26e36]: Entretien du parc
+        - heading "Maintenance" [level=1] [ref=f26e37]
+      - generic [ref=f26e38]:
+        - generic [ref=f26e39]:
+          - heading "Planifier une intervention" [level=3] [ref=f26e40]
+          - generic [ref=f26e41]:
+            - generic [ref=f26e42]: Véhicule
+            - combobox "Véhicule" [ref=f26e43]:
+              - option "1234 TAA — Toyota Corolla" [selected]
+              - option "3456 TDD — Hyundai Tucson"
+              - option "5678 TBB — Toyota Land Cruiser"
+              - option "7890 TEE — Toyota Hiace"
+              - option "9012 TCC — Suzuki Alto"
+              - option "9999 TBZ — Nissan Patrol"
+          - generic [ref=f26e44]:
+            - generic [ref=f26e45]: Type d'intervention
+            - combobox "Type d'intervention" [ref=f26e46]:
+              - option "Vidange" [selected]
+              - option "Changement de pneus"
+              - option "Revision"
+              - option "Reparation"
+              - option "Controle technique"
+          - generic [ref=f26e47]:
+            - generic [ref=f26e48]: Date de début
+            - textbox "Date de début" [ref=f26e49]
+          - generic [ref=f26e50]:
+            - generic [ref=f26e51]: Description
+            - textbox "Description" [ref=f26e52]:
+              - /placeholder: Détails de l'intervention...
+          - generic [ref=f26e53]: Le véhicule sera automatiquement marqué "en maintenance".
+          - button "Planifier" [ref=f26e54] [cursor=pointer]
+        - table [ref=f26e56]:
+          - rowgroup [ref=f26e57]:
+            - row [ref=f26e58]:
+              - columnheader "Véhicule" [ref=f26e59]
+              - columnheader "Intervention" [ref=f26e60]
+              - columnheader "Début" [ref=f26e61]
+              - columnheader "Statut" [ref=f26e62]
+              - columnheader [ref=f26e63]
+          - rowgroup [ref=f26e64]:
+            - row [ref=f26e65]:
+              - cell "1234 TAA" [ref=f26e66]
+              - cell "Vidange" [ref=f26e67]
+              - cell "2026-09-01" [ref=f26e68]
+              - cell "planifiee" [ref=f26e69]
+              - cell [ref=f26e71]:
+                - button "Clôturer" [ref=f26e73] [cursor=pointer]
+            - row [ref=f26e74]:
+              - cell "3456 TDD" [ref=f26e75]
+              - cell "Revision" [ref=f26e76]
+              - cell "2026-08-30" [ref=f26e77]
+              - cell "en cours" [ref=f26e78]
+              - cell [ref=f26e80]:
+                - button "Clôturer" [ref=f26e82] [cursor=pointer]
