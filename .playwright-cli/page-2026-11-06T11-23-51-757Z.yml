@@ -1,0 +1,87 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - button "🇫🇷" [ref=f5e4] [cursor=pointer]
+      - button "🇲🇬" [ref=f5e5] [cursor=pointer]
+    - navigation "Navigation principale" [ref=f5e6]:
+      - generic [ref=f5e7]:
+        - link "Accueil" [ref=f5e8] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f5e9]: 🏦
+          - generic [ref=f5e10]: QueueFlow
+        - menubar [ref=f5e11]:
+          - menuitem "Accueil" [ref=f5e12] [cursor=pointer]
+          - menuitem "Prendre un Ticket" [ref=f5e13] [cursor=pointer]
+          - menuitem "File en Direct" [ref=f5e14] [cursor=pointer]
+          - generic [ref=f5e15]:
+            - link "Connexion" [ref=f5e16] [cursor=pointer]:
+              - /url: /login
+            - link "Inscription" [ref=f5e17] [cursor=pointer]:
+              - /url: /register
+    - main [ref=f5e18]:
+      - generic [ref=f5e19]:
+        - generic [ref=f5e20]:
+          - generic [ref=f5e21]: Système de gestion de file d'attente
+          - heading "La file d'attente, réinventée ✦" [level=1] [ref=f5e23]: La file d'attente,réinventée ✦
+          - paragraph [ref=f5e24]: Application intelligente pour Madagascar. Tickets en ligne, affichage temps réel et notifications automatiques — pour une expérience client sans stress.
+          - generic [ref=f5e25]:
+            - link "🎫 Prendre un ticket" [ref=f5e26] [cursor=pointer]:
+              - /url: /ticket
+            - link "📺 File en direct" [ref=f5e27] [cursor=pointer]:
+              - /url: /display
+            - link "Connexion →" [ref=f5e28] [cursor=pointer]:
+              - /url: /login
+        - generic [ref=f5e29]:
+          - generic [ref=f5e30]:
+            - heading "Tout ce dont vous avez besoin" [level=2] [ref=f5e31]
+            - paragraph [ref=f5e32]: Une plateforme complète pour gérer vos files d'attente efficacement
+          - generic [ref=f5e33]:
+            - link "🎫 Ticket en ligne Prenez votre tour sans faire la queue physiquement, depuis votre téléphone ou ordinateur. Prendre un ticket →" [ref=f5e34] [cursor=pointer]:
+              - /url: /ticket
+              - generic [ref=f5e35]: 🎫
+              - heading "Ticket en ligne" [level=3] [ref=f5e36]
+              - paragraph [ref=f5e37]: Prenez votre tour sans faire la queue physiquement, depuis votre téléphone ou ordinateur.
+              - generic [ref=f5e38]:
+                - text: Prendre un ticket
+                - generic [ref=f5e39]: →
+            - link "📺 Affichage temps réel Suivez l'évolution de la file d'attente sur grand écran ou depuis votre mobile. Voir l'affichage →" [ref=f5e40] [cursor=pointer]:
+              - /url: /display
+              - generic [ref=f5e41]: 📺
+              - heading "Affichage temps réel" [level=3] [ref=f5e42]
+              - paragraph [ref=f5e43]: Suivez l'évolution de la file d'attente sur grand écran ou depuis votre mobile.
+              - generic [ref=f5e44]:
+                - text: Voir l'affichage
+                - generic [ref=f5e45]: →
+            - link "🔔 Notifications Recevez une alerte automatique quand votre tour approche — SMS ou notification push. S'inscrire →" [ref=f5e46] [cursor=pointer]:
+              - /url: /ticket
+              - generic [ref=f5e47]: 🔔
+              - heading "Notifications" [level=3] [ref=f5e48]
+              - paragraph [ref=f5e49]: Recevez une alerte automatique quand votre tour approche — SMS ou notification push.
+              - generic [ref=f5e50]:
+                - text: S'inscrire
+                - generic [ref=f5e51]: →
+            - link "📊 Tableau de bord Statistiques et gestion complète pour les administrateurs et agents de guichet. Accéder →" [ref=f5e52] [cursor=pointer]:
+              - /url: /admin
+              - generic [ref=f5e53]: 📊
+              - heading "Tableau de bord" [level=3] [ref=f5e54]
+              - paragraph [ref=f5e55]: Statistiques et gestion complète pour les administrateurs et agents de guichet.
+              - generic [ref=f5e56]:
+                - text: Accéder
+                - generic [ref=f5e57]: →
+        - generic [ref=f5e58]:
+          - generic [ref=f5e59]: 🚀
+          - heading "Prêt à commencer ?" [level=2] [ref=f5e60]
+          - paragraph [ref=f5e61]: Créez votre compte gratuitement et profitez d'un système de gestion de file d'attente moderne.
+          - generic [ref=f5e62]:
+            - link "✨ Créer un compte" [ref=f5e63] [cursor=pointer]:
+              - /url: /register
+            - link "🎫 Prendre un ticket" [ref=f5e64] [cursor=pointer]:
+              - /url: /ticket
+    - alert
+  - iframe [ref=f5e65]:
+    - generic [ref=f6e2]:
+      - generic [ref=f6e3]: "Compiled with problems:"
+      - button "Dismiss" [ref=f6e4] [cursor=pointer]: ×
+      - generic [ref=f6e6]:
+        - generic [ref=f6e7]: ERROR
+        - generic [ref=f6e8]: "[eslint] src\\App.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 1:10: 'useState' is defined but never used no-unused-vars src\\components\\LanguageSelector.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\Navbar.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\StatCard.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\TicketForm.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 25:34: Unnecessary escape character: \\- no-useless-escape Line 63:48: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities src\\context\\AuthContext.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\context\\LanguageContext.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 1:8: 'React' is defined but never used no-unused-vars src\\context\\NotificationContext.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\hooks\\useQueue.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\hooks\\useTickets.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\index.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\locales\\index.js Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\AdminPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 263:14: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities Line 263:90: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities Line 268:56: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities src\\pages\\AgentPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 97:54: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities src\\pages\\BankPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\HomePage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 81:11: 't' is assigned a value but never used no-unused-vars Line 132:39: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities Line 136:20: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities Line 203:59: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities Line 219:56: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities Line 219:88: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities src\\pages\\LoginPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 36:29: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities Line 64:11: 't' is assigned a value but never used no-unused-vars Line 171:93: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities src\\pages\\QueueDisplay.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 73:55: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities src\\pages\\RegisterPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 135:51: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities Line 236:65: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities src\\pages\\TicketPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 14:11: 'addToast' is assigned a value but never used no-unused-vars Line 114:79: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities src\\pages\\UsagerDashboard.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\VerifyEmailPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 63:26: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` react/no-unescaped-entities src\\services\\api.js Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Search for the keywords to learn more about each error."

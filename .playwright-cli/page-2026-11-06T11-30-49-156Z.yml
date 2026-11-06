@@ -1,0 +1,47 @@
+- generic [ref=f8e2]:
+  - generic [ref=f8e3]:
+    - button "🇫🇷" [ref=f8e4] [cursor=pointer]
+    - button "🇲🇬" [ref=f8e5] [cursor=pointer]
+  - navigation "Navigation principale" [ref=f8e6]:
+    - generic [ref=f8e7]:
+      - link "Accueil" [ref=f8e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f8e9]: 🏦
+        - generic [ref=f8e10]: QueueFlow
+      - menubar [ref=f8e11]:
+        - menuitem "Accueil" [ref=f8e12] [cursor=pointer]
+        - menuitem "Prendre un Ticket" [ref=f8e13] [cursor=pointer]
+        - menuitem "File en Direct" [ref=f8e14] [cursor=pointer]
+        - generic [ref=f8e15]:
+          - link "Connexion" [ref=f8e16] [cursor=pointer]:
+            - /url: /login
+          - link "Inscription" [ref=f8e17] [cursor=pointer]:
+            - /url: /register
+  - main [ref=f8e18]:
+    - generic [ref=f8e19]:
+      - generic [ref=f8e22]:
+        - generic [ref=f8e23]: Service Ticket 🎫
+        - generic [ref=f8e24]: Prendre un Ticket
+      - generic [ref=f8e25]:
+        - button "🎫 Nouveau" [ref=f8e27] [cursor=pointer]
+        - generic [ref=f8e29]:
+          - generic [ref=f8e30]:
+            - generic [ref=f8e31]: Vos infos
+            - generic [ref=f8e33]: Service
+            - generic [ref=f8e35]: Confirmation
+          - heading "🎫 Prendre un ticket" [level=2] [ref=f8e37]
+          - generic [ref=f8e38]:
+            - generic [ref=f8e39]:
+              - generic [ref=f8e40]: Nom complet *
+              - textbox "Nom complet *" [active] [ref=f8e41]:
+                - /placeholder: Jean Rakoto
+            - generic [ref=f8e42]:
+              - generic [ref=f8e43]: Téléphone (optionnel)
+              - textbox "Téléphone (optionnel)" [ref=f8e44]:
+                - /placeholder: +261 34 00 000 00
+            - generic [ref=f8e45]:
+              - generic [ref=f8e46]: Email (optionnel)
+              - textbox "Email (optionnel)" [ref=f8e47]:
+                - /placeholder: jean@exemple.mg
+            - button "Suivant →" [ref=f8e48] [cursor=pointer]
+  - alert

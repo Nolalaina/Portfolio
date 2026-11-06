@@ -1,0 +1,144 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - button "🇫🇷" [ref=e4] [cursor=pointer]
+      - button "🇲🇬" [ref=e5] [cursor=pointer]
+    - navigation "Navigation principale" [ref=e6]:
+      - generic [ref=e7]:
+        - link "Accueil" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e9]: 🏦
+          - generic [ref=e10]: QueueFlow
+        - menubar [ref=e11]:
+          - menuitem "Accueil" [ref=e12] [cursor=pointer]
+          - menuitem "Prendre un Ticket" [ref=e13] [cursor=pointer]
+          - menuitem "File en Direct" [ref=e14] [cursor=pointer]
+          - generic [ref=e15]:
+            - link "Connexion" [ref=e16] [cursor=pointer]:
+              - /url: /login
+            - link "Inscription" [ref=e17] [cursor=pointer]:
+              - /url: /register
+    - main [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: Système de gestion de file d'attente
+          - heading "La file d'attente, réinventée ✦" [level=1] [ref=e23]: La file d'attente,réinventée ✦
+          - paragraph [ref=e24]: Application intelligente pour Madagascar. Tickets en ligne, affichage temps réel et notifications automatiques — pour une expérience client sans stress.
+          - generic [ref=e25]:
+            - link "🎫 Prendre un ticket" [ref=e26] [cursor=pointer]:
+              - /url: /ticket
+            - link "📺 File en direct" [ref=e27] [cursor=pointer]:
+              - /url: /display
+            - link "Connexion →" [ref=e28] [cursor=pointer]:
+              - /url: /login
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - heading "Services disponibles" [level=2] [ref=e32]
+              - paragraph [ref=e33]: Cliquez sur un service pour prendre votre ticket
+            - generic [ref=e34]: 5 actifs
+          - generic [ref=e35]:
+            - link "EX 3 en attente Caisse Express ~5 min / ticket Prendre un ticket →" [ref=e36] [cursor=pointer]:
+              - /url: /ticket
+              - generic [ref=e38]:
+                - generic [ref=e39]: EX
+                - generic [ref=e40]: 3 en attente
+              - generic [ref=e41]: Caisse Express
+              - generic [ref=e42]: ~5 min / ticket
+              - generic [ref=e43]:
+                - generic [ref=e44]: Prendre un ticket
+                - generic [ref=e45]: →
+            - link "AC 3 en attente Ouverture de Compte ~30 min / ticket Prendre un ticket →" [ref=e46] [cursor=pointer]:
+              - /url: /ticket
+              - generic [ref=e48]:
+                - generic [ref=e49]: AC
+                - generic [ref=e50]: 3 en attente
+              - generic [ref=e51]: Ouverture de Compte
+              - generic [ref=e52]: ~30 min / ticket
+              - generic [ref=e53]:
+                - generic [ref=e54]: Prendre un ticket
+                - generic [ref=e55]: →
+            - link "LO 3 en attente Prêts & Crédits ~45 min / ticket Prendre un ticket →" [ref=e56] [cursor=pointer]:
+              - /url: /ticket
+              - generic [ref=e58]:
+                - generic [ref=e59]: LO
+                - generic [ref=e60]: 3 en attente
+              - generic [ref=e61]: Prêts & Crédits
+              - generic [ref=e62]: ~45 min / ticket
+              - generic [ref=e63]:
+                - generic [ref=e64]: Prendre un ticket
+                - generic [ref=e65]: →
+            - link "TE 3 en attente Support Technique ~15 min / ticket Prendre un ticket →" [ref=e66] [cursor=pointer]:
+              - /url: /ticket
+              - generic [ref=e68]:
+                - generic [ref=e69]: TE
+                - generic [ref=e70]: 3 en attente
+              - generic [ref=e71]: Support Technique
+              - generic [ref=e72]: ~15 min / ticket
+              - generic [ref=e73]:
+                - generic [ref=e74]: Prendre un ticket
+                - generic [ref=e75]: →
+            - link "IN 3 en attente Virement International ~20 min / ticket Prendre un ticket →" [ref=e76] [cursor=pointer]:
+              - /url: /ticket
+              - generic [ref=e78]:
+                - generic [ref=e79]: IN
+                - generic [ref=e80]: 3 en attente
+              - generic [ref=e81]: Virement International
+              - generic [ref=e82]: ~20 min / ticket
+              - generic [ref=e83]:
+                - generic [ref=e84]: Prendre un ticket
+                - generic [ref=e85]: →
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - heading "Tout ce dont vous avez besoin" [level=2] [ref=e88]
+            - paragraph [ref=e89]: Une plateforme complète pour gérer vos files d'attente efficacement
+          - generic [ref=e90]:
+            - link "🎫 Ticket en ligne Prenez votre tour sans faire la queue physiquement, depuis votre téléphone ou ordinateur. Prendre un ticket →" [ref=e91] [cursor=pointer]:
+              - /url: /ticket
+              - generic [ref=e92]: 🎫
+              - heading "Ticket en ligne" [level=3] [ref=e93]
+              - paragraph [ref=e94]: Prenez votre tour sans faire la queue physiquement, depuis votre téléphone ou ordinateur.
+              - generic [ref=e95]:
+                - text: Prendre un ticket
+                - generic [ref=e96]: →
+            - link "📺 Affichage temps réel Suivez l'évolution de la file d'attente sur grand écran ou depuis votre mobile. Voir l'affichage →" [ref=e97] [cursor=pointer]:
+              - /url: /display
+              - generic [ref=e98]: 📺
+              - heading "Affichage temps réel" [level=3] [ref=e99]
+              - paragraph [ref=e100]: Suivez l'évolution de la file d'attente sur grand écran ou depuis votre mobile.
+              - generic [ref=e101]:
+                - text: Voir l'affichage
+                - generic [ref=e102]: →
+            - link "🔔 Notifications Recevez une alerte automatique quand votre tour approche — SMS ou notification push. S'inscrire →" [ref=e103] [cursor=pointer]:
+              - /url: /ticket
+              - generic [ref=e104]: 🔔
+              - heading "Notifications" [level=3] [ref=e105]
+              - paragraph [ref=e106]: Recevez une alerte automatique quand votre tour approche — SMS ou notification push.
+              - generic [ref=e107]:
+                - text: S'inscrire
+                - generic [ref=e108]: →
+            - link "📊 Tableau de bord Statistiques et gestion complète pour les administrateurs et agents de guichet. Accéder →" [ref=e109] [cursor=pointer]:
+              - /url: /admin
+              - generic [ref=e110]: 📊
+              - heading "Tableau de bord" [level=3] [ref=e111]
+              - paragraph [ref=e112]: Statistiques et gestion complète pour les administrateurs et agents de guichet.
+              - generic [ref=e113]:
+                - text: Accéder
+                - generic [ref=e114]: →
+        - generic [ref=e115]:
+          - generic [ref=e116]: 🚀
+          - heading "Prêt à commencer ?" [level=2] [ref=e117]
+          - paragraph [ref=e118]: Créez votre compte gratuitement et profitez d'un système de gestion de file d'attente moderne.
+          - generic [ref=e119]:
+            - link "✨ Créer un compte" [ref=e120] [cursor=pointer]:
+              - /url: /register
+            - link "🎫 Prendre un ticket" [ref=e121] [cursor=pointer]:
+              - /url: /ticket
+    - alert
+  - iframe [ref=e122]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e3]: "Compiled with problems:"
+      - button "Dismiss" [ref=f1e4] [cursor=pointer]: ×
+      - generic [ref=f1e6]:
+        - generic [ref=f1e7]: ERROR
+        - generic [ref=f1e8]: "[eslint] Failed to load plugin 'react-refresh' declared in '.eslintrc.cjs': Cannot find module 'eslint-plugin-react-refresh' Require stack: - C:\\Users\\hnola\\AppData\\Local\\Temp\\opencode\\gestion-files-attente\\frontend\\node_modules\\react-scripts\\config\\__placeholder__.js"
