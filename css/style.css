@@ -139,8 +139,8 @@ footer a{text-decoration:none}
 .mmain{border-radius:14px;overflow:hidden;background:#04040F;border:1px solid var(--line)}
 .mmain img{display:block;width:100%;height:auto}
 .mcap{font-size:13px;color:var(--muted);margin:10px 2px 0}
-.mthumbs{display:flex;gap:10px;margin-top:12px}
-.mthumbs button{padding:0;width:25%;border-radius:10px;overflow:hidden;border:2px solid var(--line);background:none;cursor:pointer;opacity:.6}
+.mthumbs{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.mthumbs button{padding:0;width:calc((100% - 30px)/4);border-radius:10px;overflow:hidden;border:2px solid var(--line);background:none;cursor:pointer;opacity:.6}
 .mthumbs button.on{border-color:var(--lilac);opacity:1}
 .mthumbs img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top}
 .mtxt h2{font-size:30px;margin:6px 0 4px}.mtxt .pyear{color:var(--lilac);font-size:13px;font-weight:600;margin:0 0 14px}

@@ -11,7 +11,7 @@ portfolio/
 │   └── script.js       Les interactions (menu actif, fenêtre des projets, formulaire)
 └── images/
     ├── photo-nolalaina.jpg
-    └── <projet>-1.jpg ... <projet>-4.jpg   (4 captures par projet)
+    └── <projet>-1.jpg ... <projet>-7.jpg   (7 captures par projet)
 ```
 
 ## Où modifier quoi
