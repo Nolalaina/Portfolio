@@ -1,0 +1,18 @@
+[     113ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://127.0.0.1:3000/static/js/bundle.js:51347
+[     353ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://127.0.0.1:3000/static/js/bundle.js:54633
+[     354ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://127.0.0.1:3000/static/js/bundle.js:54633
+[     473ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/socket.io/?EIO=4&transport=polling&t=v0jklzja:0
+[     473ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/socket.io/?EIO=4&transport=polling&t=v0jkrb7n:0
+[     477ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/services:0
+[     480ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/services:0
+[    1177ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/socket.io/?EIO=4&transport=polling&t=v0k77uu7:0
+[    3547ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/socket.io/?EIO=4&transport=polling&t=v0m12n6o:0
+[    8555ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/socket.io/?EIO=4&transport=polling&t=v0pw6i6y:0
+[   13570ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/socket.io/?EIO=4&transport=polling&t=v0trf5xh:0
+[   18587ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/socket.io/?EIO=4&transport=polling&t=v0xmojoc:0
+[   23597ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/socket.io/?EIO=4&transport=polling&t=v11i035d:0
+[   28615ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/socket.io/?EIO=4&transport=polling&t=v15detsy:0
+[   33635ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/socket.io/?EIO=4&transport=polling&t=v198s11o:0
+[   38656ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/socket.io/?EIO=4&transport=polling&t=v1d4b2t4:0
+[   43670ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/socket.io/?EIO=4&transport=polling&t=v1gzlcxv:0
+[   48683ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/socket.io/?EIO=4&transport=polling&t=v1kuvv9w:0

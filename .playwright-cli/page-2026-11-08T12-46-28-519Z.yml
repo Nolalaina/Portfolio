@@ -1,0 +1,70 @@
+- generic [active] [ref=f26e1]:
+  - generic [ref=f26e2]:
+    - navigation "Navigation principale" [ref=f26e3]:
+      - generic [ref=f26e4]:
+        - link "QueueFlow, accueil" [ref=f26e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f26e10]: QueueFlow
+        - generic [ref=f26e11]:
+          - link "File en direct" [ref=f26e12] [cursor=pointer]:
+            - /url: /display
+          - link "Mon guichet" [ref=f26e13] [cursor=pointer]:
+            - /url: /agent
+          - link "Console admin" [ref=f26e14] [cursor=pointer]:
+            - /url: /admin
+          - group "Langue" [ref=f26e15]:
+            - button "FR" [pressed] [ref=f26e16] [cursor=pointer]
+            - button "MG" [ref=f26e17] [cursor=pointer]
+          - generic [ref=f26e18]:
+            - generic [ref=f26e19]:
+              - generic [ref=f26e20]: admin
+              - generic [ref=f26e21]: Administrateur
+            - button "Déconnexion" [ref=f26e22] [cursor=pointer]
+    - main [ref=f26e26]:
+      - generic [ref=f26e27]:
+        - generic [ref=f26e28]:
+          - generic [ref=f26e29]:
+            - heading "Console agent" [level=1] [ref=f26e30]
+            - paragraph [ref=f26e31]: Administrateur, guichet 1
+          - generic [ref=f26e32]:
+            - generic [ref=f26e33]: Guichet
+            - group "Choisir le guichet" [ref=f26e34]:
+              - button "1" [pressed] [ref=f26e35] [cursor=pointer]
+              - button "2" [ref=f26e36] [cursor=pointer]
+              - button "3" [ref=f26e37] [cursor=pointer]
+              - button "4" [ref=f26e38] [cursor=pointer]
+              - button "5" [ref=f26e39] [cursor=pointer]
+            - button "Actualiser" [ref=f26e40] [cursor=pointer]
+        - generic [ref=f26e44]:
+          - generic [ref=f26e45]:
+            - generic [ref=f26e46]: Tickets en attente
+            - generic [ref=f26e51]: "0"
+          - generic [ref=f26e52]:
+            - generic [ref=f26e53]: Traités aujourd'hui
+            - generic [ref=f26e58]: "31"
+          - generic [ref=f26e59]:
+            - generic [ref=f26e60]: Guichet actif
+            - generic [ref=f26e64]: "1"
+        - generic [ref=f26e66]:
+          - heading "Aucun ticket en service" [level=3] [ref=f26e71]
+          - paragraph [ref=f26e72]: Appelez le prochain ticket de la liste.
+        - generic [ref=f26e73]:
+          - group "Filtrer les tickets" [ref=f26e74]:
+            - button "En cours" [pressed] [ref=f26e75] [cursor=pointer]
+            - button "Terminés" [ref=f26e76] [cursor=pointer]
+            - button "Tous" [ref=f26e77] [cursor=pointer]
+          - generic [ref=f26e78]:
+            - generic [ref=f26e79]: Rechercher un client ou un ticket
+            - textbox "Rechercher un client ou un ticket" [ref=f26e80]
+          - generic [ref=f26e81]: 0 tickets
+        - generic [ref=f26e82]:
+          - heading "Aucun ticket dans cette catégorie" [level=3] [ref=f26e86]
+          - paragraph [ref=f26e87]: Modifiez le filtre ou la recherche.
+    - alert
+  - iframe [ref=f26e88]:
+    - generic [ref=f27e2]:
+      - generic [ref=f27e3]: "Compiled with problems:"
+      - button "Dismiss" [ref=f27e4] [cursor=pointer]: ×
+      - generic [ref=f27e6]:
+        - generic [ref=f27e7]: ERROR
+        - generic [ref=f27e8]: "[eslint] src\\App.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 1:10: 'useState' is defined but never used no-unused-vars src\\components\\Icon.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\LanguageSelector.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\Navbar.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\StatCard.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\TicketForm.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\context\\AuthContext.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\context\\LanguageContext.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 1:8: 'React' is defined but never used no-unused-vars src\\context\\NotificationContext.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\hooks\\useQueue.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\hooks\\useTickets.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\index.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\locales\\index.js Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\AdminPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\AgentPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\BankPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\HomePage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\LoginPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\QueueDisplay.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\RegisterPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\TicketPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\UsagerDashboard.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\VerifyEmailPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\services\\api.js Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Search for the keywords to learn more about each error."

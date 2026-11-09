@@ -1,0 +1,89 @@
+- generic [active] [ref=f24e1]:
+  - generic [ref=f24e2]:
+    - navigation "Navigation principale" [ref=f24e3]:
+      - generic [ref=f24e4]:
+        - link "QueueFlow, accueil" [ref=f24e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f24e10]: QueueFlow
+        - generic [ref=f24e11]:
+          - link "File en direct" [ref=f24e14] [cursor=pointer]:
+            - /url: /display
+          - link "Mon guichet" [ref=f24e86] [cursor=pointer]:
+            - /url: /agent
+          - link "Console admin" [ref=f24e87] [cursor=pointer]:
+            - /url: /admin
+          - group "Langue" [ref=f24e15]:
+            - button "FR" [pressed] [ref=f24e16] [cursor=pointer]
+            - button "MG" [ref=f24e17] [cursor=pointer]
+          - generic [ref=f24e18]:
+            - generic [ref=f24e88]:
+              - generic [ref=f24e89]: admin
+              - generic [ref=f24e90]: Administrateur
+            - button "Déconnexion" [ref=f24e91] [cursor=pointer]
+    - main [ref=f24e21]:
+      - generic [ref=f24e95]:
+        - generic [ref=f24e97]:
+          - generic [ref=f24e98]:
+            - generic [ref=f24e99]: Console admin
+            - generic [ref=f24e100]: 8 nov. 2026
+          - generic [ref=f24e101]:
+            - button "Simuler" [ref=f24e102] [cursor=pointer]
+            - button "Actualiser" [ref=f24e105] [cursor=pointer]
+            - button "Réinitialiser" [ref=f24e109] [cursor=pointer]
+        - generic [ref=f24e110]:
+          - generic [ref=f24e111]:
+            - generic [ref=f24e112]:
+              - generic [ref=f24e113]: Tickets au total
+              - generic [ref=f24e117]: "31"
+            - generic [ref=f24e118]:
+              - generic [ref=f24e119]: Clients en attente
+              - generic [ref=f24e124]: "0"
+            - generic [ref=f24e125]:
+              - generic [ref=f24e126]: Services terminés
+              - generic [ref=f24e131]: "31"
+            - generic [ref=f24e132]:
+              - generic [ref=f24e133]: Temps moyen
+              - generic [ref=f24e138]: 0.0 min
+          - generic [ref=f24e139]:
+            - button "Aperçu" [pressed] [ref=f24e140] [cursor=pointer]
+            - button "File globale" [ref=f24e144] [cursor=pointer]
+            - button "Assistant agent" [ref=f24e147] [cursor=pointer]
+            - button "Historique" [ref=f24e151] [cursor=pointer]
+            - button "Services" [ref=f24e155] [cursor=pointer]
+            - button "Agents" [ref=f24e159] [cursor=pointer]
+            - button "Banque" [ref=f24e164] [cursor=pointer]
+            - button "Journaux" [ref=f24e168] [cursor=pointer]
+          - generic [ref=f24e172]:
+            - generic [ref=f24e173]:
+              - heading "Répartition par service" [level=3] [ref=f24e174]
+              - img [ref=f24e177]:
+                - generic [ref=f24e181]:
+                  - generic [ref=f24e182]: Prêts & Crédits
+                  - generic [ref=f24e184]: Support Technique
+                  - generic [ref=f24e186]: Virement International
+                - generic [ref=f24e189]:
+                  - generic [ref=f24e190]: "0"
+                  - generic [ref=f24e192]: "3"
+                  - generic [ref=f24e194]: "6"
+                  - generic [ref=f24e196]: "9"
+                  - generic [ref=f24e198]: "12"
+            - generic [ref=f24e213]:
+              - heading "Activité horaire" [level=3] [ref=f24e214]
+              - img [ref=f24e217]:
+                - generic [ref=f24e221]:
+                  - generic [ref=f24e222]: 0h
+                  - generic [ref=f24e224]: 2h
+                  - generic [ref=f24e226]: 3h
+                  - generic [ref=f24e228]: 4h
+                  - generic [ref=f24e230]: 5h
+                  - generic [ref=f24e232]: 6h
+                  - generic [ref=f24e234]: 7h
+                - generic [ref=f24e237]:
+                  - generic [ref=f24e238]: "0"
+                  - generic [ref=f24e240]: "2"
+                  - generic [ref=f24e242]: "4"
+                  - generic [ref=f24e244]: "6"
+                  - generic [ref=f24e246]: "8"
+    - alert [ref=f24e250]:
+      - generic [ref=f24e251]: Bienvenue, Administrateur.
+  - generic [aria-hidden] [ref=f24e253]: "2"

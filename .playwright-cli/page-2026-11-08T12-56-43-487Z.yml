@@ -1,0 +1,76 @@
+- generic [ref=f63e1]:
+  - generic [ref=f63e2]:
+    - navigation "Navigation principale" [ref=f63e3]:
+      - generic [ref=f63e4]:
+        - link "QueueFlow, accueil" [ref=f63e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f63e10]: QueueFlow
+        - generic [ref=f63e11]:
+          - link "Accueil" [ref=f63e12] [cursor=pointer]:
+            - /url: /
+          - link "Prendre un ticket" [ref=f63e13] [cursor=pointer]:
+            - /url: /ticket
+          - link "File en direct" [ref=f63e14] [cursor=pointer]:
+            - /url: /display
+          - group "Langue" [ref=f63e15]:
+            - button "FR" [pressed] [ref=f63e16] [cursor=pointer]
+            - button "MG" [ref=f63e17] [cursor=pointer]
+          - generic [ref=f63e18]:
+            - link "Connexion" [ref=f63e19] [cursor=pointer]:
+              - /url: /login
+            - link "Inscription" [ref=f63e20] [cursor=pointer]:
+              - /url: /register
+    - main [ref=f63e21]:
+      - generic [ref=f63e23]:
+        - complementary [ref=f63e24]:
+          - generic [ref=f63e25]: QueueFlow
+          - generic [ref=f63e31]:
+            - heading "Votre espace, vos tickets, votre banque." [level=2] [ref=f63e36]
+            - paragraph [ref=f63e37]: Retrouvez vos files d’attente et vos comptes dans une interface unique.
+            - list [ref=f63e38]:
+              - listitem [ref=f63e39]: Tickets en ligne, à toute heure
+              - listitem [ref=f63e42]: Notifications à l'approche de votre tour
+              - listitem [ref=f63e45]: Historique et statistiques réunis
+          - generic [ref=f63e48]:
+            - paragraph [ref=f63e49]: Comptes de démonstration
+            - paragraph [ref=f63e50]:
+              - generic [ref=f63e51]: admin@queue.mg
+              - generic [ref=f63e52]: admin
+            - paragraph [ref=f63e53]:
+              - generic [ref=f63e54]: agent1@queue.mg
+              - generic [ref=f63e55]: agent
+            - paragraph [ref=f63e56]:
+              - generic [ref=f63e57]: Mot de passe
+              - code [ref=f63e58]: password123
+        - generic [ref=f63e59]:
+          - generic [ref=f63e60]:
+            - heading "Connexion" [level=1] [ref=f63e61]
+            - paragraph [ref=f63e62]: Connectez-vous pour retrouver votre espace.
+          - generic [ref=f63e63]:
+            - generic [ref=f63e64]:
+              - generic [ref=f63e65]: Adresse email
+              - textbox "Adresse email" [active] [ref=f63e66]:
+                - /placeholder: votre@email.mg
+            - generic [ref=f63e67]:
+              - generic [ref=f63e68]: Mot de passe
+              - generic [ref=f63e69]:
+                - textbox "Mot de passe" [ref=f63e70]:
+                  - /placeholder: Votre mot de passe
+                - button "Afficher le mot de passe" [ref=f63e71] [cursor=pointer]
+            - button "Se connecter" [ref=f63e75] [cursor=pointer]
+          - generic [ref=f63e78]: ou
+          - generic [ref=f63e79]:
+            - paragraph [ref=f63e80]:
+              - text: Pas encore de compte ?
+              - link "Créer un compte" [ref=f63e81] [cursor=pointer]:
+                - /url: /register
+            - link "Retour à l’accueil" [ref=f63e82] [cursor=pointer]:
+              - /url: /
+    - alert
+  - iframe [ref=f63e85]:
+    - generic [ref=f64e2]:
+      - generic [ref=f64e3]: "Compiled with problems:"
+      - button "Dismiss" [ref=f64e4] [cursor=pointer]: ×
+      - generic [ref=f64e6]:
+        - generic [ref=f64e7]: ERROR
+        - generic [ref=f64e8]: "[eslint] src\\App.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 1:10: 'useState' is defined but never used no-unused-vars src\\components\\Icon.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\LanguageSelector.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\Navbar.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\StatCard.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\TicketForm.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\context\\AuthContext.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\context\\LanguageContext.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 1:8: 'React' is defined but never used no-unused-vars src\\context\\NotificationContext.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\hooks\\useQueue.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\hooks\\useTickets.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\index.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\locales\\index.js Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\AdminPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\AgentPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\BankPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\HomePage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\LoginPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\QueueDisplay.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\RegisterPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\TicketPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\UsagerDashboard.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\VerifyEmailPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\services\\api.js Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Search for the keywords to learn more about each error."

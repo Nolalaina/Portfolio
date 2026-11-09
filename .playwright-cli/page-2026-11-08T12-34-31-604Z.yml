@@ -1,0 +1,74 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - navigation "Navigation principale" [ref=f8e3]:
+      - generic [ref=f8e4]:
+        - link "QueueFlow, accueil" [ref=f8e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f8e10]: QueueFlow
+        - generic [ref=f8e11]:
+          - link "Accueil" [ref=f8e12] [cursor=pointer]:
+            - /url: /
+          - link "Prendre un ticket" [ref=f8e13] [cursor=pointer]:
+            - /url: /ticket
+          - link "File en direct" [ref=f8e14] [cursor=pointer]:
+            - /url: /display
+          - group "Langue" [ref=f8e15]:
+            - button "FR" [pressed] [ref=f8e16] [cursor=pointer]
+            - button "MG" [ref=f8e17] [cursor=pointer]
+          - generic [ref=f8e18]:
+            - link "Connexion" [ref=f8e19] [cursor=pointer]:
+              - /url: /login
+            - link "Inscription" [ref=f8e20] [cursor=pointer]:
+              - /url: /register
+    - main [ref=f8e21]:
+      - generic [ref=f8e22]:
+        - generic [ref=f8e23]:
+          - heading "Votre tour, sans la file." [level=1] [ref=f8e24]
+          - paragraph [ref=f8e25]: Prenez un ticket en ligne, suivez la file en direct et présentez-vous au bon moment.
+          - generic [ref=f8e26]:
+            - link "Prendre un ticket" [ref=f8e27] [cursor=pointer]:
+              - /url: /ticket
+            - link "Voir la file en direct" [ref=f8e30] [cursor=pointer]:
+              - /url: /display
+          - paragraph [ref=f8e34]: Gratuit pour les usagers, sans installation.
+        - generic [ref=f8e35]:
+          - generic [ref=f8e37]:
+            - heading "Une plateforme complète" [level=2] [ref=f8e38]
+            - paragraph [ref=f8e39]: Du ticket usager au pilotage des guichets.
+          - generic [ref=f8e40]:
+            - link [ref=f8e41] [cursor=pointer]:
+              - /url: /ticket
+              - heading "Ticket en ligne" [level=3] [ref=f8e45]
+              - paragraph [ref=f8e46]: Prenez votre tour depuis votre téléphone, sans passer par la salle d'attente.
+              - generic [ref=f8e47]: Prendre un ticket
+            - link [ref=f8e50] [cursor=pointer]:
+              - /url: /display
+              - heading "File en direct" [level=3] [ref=f8e55]
+              - paragraph [ref=f8e56]: Suivez le numéro appelé et la file restante sur grand écran ou sur mobile.
+              - generic [ref=f8e57]: Voir la file
+            - link [ref=f8e60] [cursor=pointer]:
+              - /url: /ticket
+              - heading "Notifications" [level=3] [ref=f8e64]
+              - paragraph [ref=f8e65]: Recevez une alerte quand votre tour approche, par notification ou par SMS.
+              - generic [ref=f8e66]: S'inscrire
+            - link [ref=f8e69] [cursor=pointer]:
+              - /url: /admin
+              - heading "Pilotage" [level=3] [ref=f8e74]
+              - paragraph [ref=f8e75]: Statistiques, guichets et comptes réunis dans une console pour l'équipe.
+              - generic [ref=f8e76]: Ouvrir la console
+        - generic [ref=f8e79]:
+          - heading "Créez votre espace" [level=2] [ref=f8e80]
+          - paragraph [ref=f8e81]: Suivez vos tickets, consultez votre historique et gérez vos comptes bancaires au même endroit.
+          - generic [ref=f8e82]:
+            - link "Créer un compte" [ref=f8e83] [cursor=pointer]:
+              - /url: /register
+            - link "Prendre un ticket" [ref=f8e84] [cursor=pointer]:
+              - /url: /ticket
+    - alert
+  - iframe [ref=f8e85]:
+    - generic [ref=f9e2]:
+      - generic [ref=f9e3]: "Compiled with problems:"
+      - button "Dismiss" [ref=f9e4] [cursor=pointer]: ×
+      - generic [ref=f9e6]:
+        - generic [ref=f9e7]: ERROR
+        - generic [ref=f9e8]: "[eslint] src\\App.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 1:10: 'useState' is defined but never used no-unused-vars src\\components\\Icon.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\LanguageSelector.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\Navbar.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\StatCard.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\components\\TicketForm.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\context\\AuthContext.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\context\\LanguageContext.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Line 1:8: 'React' is defined but never used no-unused-vars src\\context\\NotificationContext.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\hooks\\useQueue.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\hooks\\useTickets.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\index.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\locales\\index.js Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\AdminPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\AgentPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\BankPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\HomePage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\LoginPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\QueueDisplay.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\RegisterPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\TicketPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\UsagerDashboard.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\pages\\VerifyEmailPage.jsx Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components src\\services\\api.js Line 1:1: Definition for rule 'react-refresh/only-export-components' was not found react-refresh/only-export-components Search for the keywords to learn more about each error."
