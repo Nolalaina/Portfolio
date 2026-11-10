@@ -1,0 +1,122 @@
+- generic [ref=f6e3]:
+  - navigation [ref=f6e4]:
+    - link "StageMatch" [ref=f6e5] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f6e10]:
+      - link "Tableau de bord" [ref=f6e11] [cursor=pointer]:
+        - /url: /student
+      - link "Explorer les stages" [ref=f6e17] [cursor=pointer]:
+        - /url: /internships
+      - link "Candidatures" [ref=f6e21] [cursor=pointer]:
+        - /url: /student/applications
+      - link "Mon Profil & CV" [ref=f6e25] [cursor=pointer]:
+        - /url: /student/profile
+      - button "Notifications" [ref=f6e30] [cursor=pointer]
+      - button "Déconnexion" [ref=f6e34] [cursor=pointer]
+  - generic [ref=f6e39]:
+    - generic [ref=f6e40]:
+      - heading "Mon Profil & CV" [level=1] [ref=f6e41]
+      - paragraph [ref=f6e42]: Gérez vos informations de carrière et compétences pour optimiser vos scores de matching
+    - generic [ref=f6e43]:
+      - generic [ref=f6e49]:
+        - heading "Analyseur Automatique de CV" [level=2] [ref=f6e50]
+        - paragraph [ref=f6e51]: Importez votre CV ou collez son contenu pour faire extraire automatiquement vos compétences
+      - generic [ref=f6e52]:
+        - generic [ref=f6e53]:
+          - generic [ref=f6e54]: Document CV (PDF, TXT, DOCX)
+          - button "Document CV (PDF, TXT, DOCX)" [ref=f6e58]
+        - generic [ref=f6e59]:
+          - generic [ref=f6e60]: Ou collez le texte extrait du CV
+          - textbox "Ou collez le texte extrait du CV" [ref=f6e61]:
+            - /placeholder: "Ex : Développeur Web React, Node.js, TypeScript, Docker, SQL, passionné d'architecture logicielle..."
+        - button "Lancer l'extraction de compétences" [ref=f6e62] [cursor=pointer]
+    - generic [ref=f6e67]:
+      - generic [ref=f6e68]:
+        - heading "Informations Personnelles" [level=2] [ref=f6e69]
+        - generic [ref=f6e70]:
+          - generic [ref=f6e71]:
+            - generic [ref=f6e72]: Nom & Prénom
+            - textbox "Nom & Prénom" [ref=f6e76]:
+              - /placeholder: "Ex : Jean Dupont"
+              - text: Nolalaina Rakotovahiny
+          - generic [ref=f6e77]:
+            - generic [ref=f6e78]: Niveau d'études
+            - textbox "Niveau d'études" [ref=f6e82]:
+              - /placeholder: "Ex : Master 1 Génie Logiciel"
+              - text: Licence 3
+          - generic [ref=f6e83]:
+            - generic [ref=f6e84]: Domaine recherché
+            - textbox "Domaine recherché" [ref=f6e88]:
+              - /placeholder: "Ex : Développement Web Full-Stack"
+              - text: Développement web
+          - generic [ref=f6e89]:
+            - generic [ref=f6e90]: Localisation
+            - textbox "Localisation" [ref=f6e94]:
+              - /placeholder: "Ex : Antananarivo"
+              - text: Antananarivo
+        - generic [ref=f6e95] [cursor=pointer]:
+          - checkbox "Ouvert aux opportunités en télétravail" [checked] [ref=f6e96]
+          - generic [ref=f6e100]: Ouvert aux opportunités en télétravail
+      - generic [ref=f6e101]:
+        - generic [ref=f6e102]:
+          - heading "Référentiel de Compétences" [level=2] [ref=f6e103]
+          - generic [ref=f6e104]: 5 sélectionnées
+        - generic [ref=f6e105]:
+          - button "Tous" [ref=f6e106] [cursor=pointer]
+          - button "Frameworks" [ref=f6e107] [cursor=pointer]
+          - button "Langages" [ref=f6e108] [cursor=pointer]
+          - button "Bases de données" [ref=f6e109] [cursor=pointer]
+          - button "Outils" [ref=f6e110] [cursor=pointer]
+        - generic [ref=f6e111]:
+          - button "React" [ref=f6e112] [cursor=pointer]
+          - button "Node.js" [ref=f6e116] [cursor=pointer]
+          - button "CSS" [ref=f6e120] [cursor=pointer]
+          - button "MySQL" [ref=f6e124] [cursor=pointer]
+          - button "Git" [ref=f6e128] [cursor=pointer]
+          - button "TypeScript" [ref=f6e132] [cursor=pointer]
+          - button "Python" [ref=f6e135] [cursor=pointer]
+      - button "Enregistrer mon profil" [ref=f6e138] [cursor=pointer]
+  - contentinfo [ref=f6e144]:
+    - generic [ref=f6e145]:
+      - generic [ref=f6e146]:
+        - generic [ref=f6e147]:
+          - link "StageMatch" [ref=f6e148] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f6e150]: Plateforme de mise en relation entre étudiants en recherche de stage et recruteurs.
+        - generic [ref=f6e151]:
+          - generic [ref=f6e152]: Plateforme
+          - navigation [ref=f6e153]:
+            - list [ref=f6e154]:
+              - listitem [ref=f6e155]:
+                - link "Offres de stages" [ref=f6e156] [cursor=pointer]:
+                  - /url: /internships
+              - listitem [ref=f6e157]:
+                - link "Se connecter" [ref=f6e158] [cursor=pointer]:
+                  - /url: /login
+              - listitem [ref=f6e159]:
+                - link "Créer un compte" [ref=f6e160] [cursor=pointer]:
+                  - /url: /register
+        - generic [ref=f6e161]:
+          - generic [ref=f6e162]: Portails
+          - navigation [ref=f6e163]:
+            - list [ref=f6e164]:
+              - listitem [ref=f6e165]:
+                - link "Portail Candidat" [ref=f6e166] [cursor=pointer]:
+                  - /url: /student
+              - listitem [ref=f6e167]:
+                - link "Portail Recruteur" [ref=f6e168] [cursor=pointer]:
+                  - /url: /company
+              - listitem [ref=f6e169]:
+                - link "Console d'administration" [ref=f6e170] [cursor=pointer]:
+                  - /url: /admin
+        - generic [ref=f6e171]:
+          - generic [ref=f6e172]: À propos
+          - navigation [ref=f6e173]:
+            - list [ref=f6e174]:
+              - listitem [ref=f6e175]:
+                - link "Confidentialité" [ref=f6e176] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f6e177]:
+                - link "Conditions d'utilisation" [ref=f6e178] [cursor=pointer]:
+                  - /url: /
+      - generic [ref=f6e179]: © 2026 StageMatch. Tous droits réservés.

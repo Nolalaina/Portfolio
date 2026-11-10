@@ -1,0 +1,102 @@
+- generic [ref=f7e3]:
+  - navigation [ref=f7e4]:
+    - link "StageMatch" [ref=f7e5] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f7e10]:
+      - link "Tableau de bord" [ref=f7e11] [cursor=pointer]:
+        - /url: /student
+      - link "Explorer les stages" [ref=f7e17] [cursor=pointer]:
+        - /url: /internships
+      - link "Candidatures" [ref=f7e21] [cursor=pointer]:
+        - /url: /student/applications
+      - link "Mon Profil & CV" [ref=f7e25] [cursor=pointer]:
+        - /url: /student/profile
+      - button "Notifications" [ref=f7e30] [cursor=pointer]
+      - button "Déconnexion" [ref=f7e34] [cursor=pointer]
+  - generic [ref=f7e39]:
+    - generic [ref=f7e40]:
+      - heading "Suivi de mes Candidatures" [level=1] [ref=f7e41]:
+        - text: Suivi de mes
+        - generic [ref=f7e42]: Candidatures
+      - paragraph [ref=f7e43]: Consultez en temps réel l'avancement et les décisions des recruteurs
+    - generic [ref=f7e44]:
+      - generic [ref=f7e50]:
+        - generic [ref=f7e51]: "3"
+        - generic [ref=f7e52]: Candidatures envoyées
+      - generic [ref=f7e58]:
+        - generic [ref=f7e59]: "3"
+        - generic [ref=f7e60]: En cours d'examen
+      - generic [ref=f7e66]:
+        - generic [ref=f7e67]: "0"
+        - generic [ref=f7e68]: Offres acceptées
+    - table [ref=f7e70]:
+      - rowgroup [ref=f7e71]:
+        - row [ref=f7e72]:
+          - columnheader "Poste Cible" [ref=f7e73]
+          - columnheader "Entreprise" [ref=f7e74]
+          - columnheader "Score Matching" [ref=f7e75]
+          - columnheader "Statut" [ref=f7e76]
+          - columnheader "Date d'envoi" [ref=f7e77]
+      - rowgroup [ref=f7e78]:
+        - row [ref=f7e79]:
+          - cell "Développeur web React" [ref=f7e80]
+          - cell "Orange Digital Center" [ref=f7e81]
+          - cell "92%" [ref=f7e87]
+          - cell "Vue par RH" [ref=f7e89]
+          - cell "26/10/2026" [ref=f7e95]
+        - row [ref=f7e96]:
+          - cell "Data Analyst" [ref=f7e97]
+          - cell "Banque régionale" [ref=f7e98]
+          - cell "84%" [ref=f7e104]
+          - cell "Soumise" [ref=f7e106]
+          - cell "28/10/2026" [ref=f7e112]
+        - row [ref=f7e113]:
+          - cell "Mobile Developer" [ref=f7e114]
+          - cell "Telma" [ref=f7e115]
+          - cell "76%" [ref=f7e121]
+          - cell "Entretien" [ref=f7e123]
+          - cell "02/11/2026" [ref=f7e131]
+  - contentinfo [ref=f7e132]:
+    - generic [ref=f7e133]:
+      - generic [ref=f7e134]:
+        - generic [ref=f7e135]:
+          - link "StageMatch" [ref=f7e136] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f7e138]: Plateforme de mise en relation entre étudiants en recherche de stage et recruteurs.
+        - generic [ref=f7e139]:
+          - generic [ref=f7e140]: Plateforme
+          - navigation [ref=f7e141]:
+            - list [ref=f7e142]:
+              - listitem [ref=f7e143]:
+                - link "Offres de stages" [ref=f7e144] [cursor=pointer]:
+                  - /url: /internships
+              - listitem [ref=f7e145]:
+                - link "Se connecter" [ref=f7e146] [cursor=pointer]:
+                  - /url: /login
+              - listitem [ref=f7e147]:
+                - link "Créer un compte" [ref=f7e148] [cursor=pointer]:
+                  - /url: /register
+        - generic [ref=f7e149]:
+          - generic [ref=f7e150]: Portails
+          - navigation [ref=f7e151]:
+            - list [ref=f7e152]:
+              - listitem [ref=f7e153]:
+                - link "Portail Candidat" [ref=f7e154] [cursor=pointer]:
+                  - /url: /student
+              - listitem [ref=f7e155]:
+                - link "Portail Recruteur" [ref=f7e156] [cursor=pointer]:
+                  - /url: /company
+              - listitem [ref=f7e157]:
+                - link "Console d'administration" [ref=f7e158] [cursor=pointer]:
+                  - /url: /admin
+        - generic [ref=f7e159]:
+          - generic [ref=f7e160]: À propos
+          - navigation [ref=f7e161]:
+            - list [ref=f7e162]:
+              - listitem [ref=f7e163]:
+                - link "Confidentialité" [ref=f7e164] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f7e165]:
+                - link "Conditions d'utilisation" [ref=f7e166] [cursor=pointer]:
+                  - /url: /
+      - generic [ref=f7e167]: © 2026 StageMatch. Tous droits réservés.

@@ -1,0 +1,84 @@
+- generic [ref=f9e3]:
+  - navigation [ref=f9e4]:
+    - link "StageMatch" [ref=f9e5] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f9e10]:
+      - link "Tableau de bord" [ref=f9e11] [cursor=pointer]:
+        - /url: /student
+      - link "Explorer les stages" [ref=f9e17] [cursor=pointer]:
+        - /url: /internships
+      - link "Candidatures" [ref=f9e21] [cursor=pointer]:
+        - /url: /student/applications
+      - link "Mon Profil & CV" [ref=f9e25] [cursor=pointer]:
+        - /url: /student/profile
+      - button "Notifications" [ref=f9e30] [cursor=pointer]
+      - button "Déconnexion" [ref=f9e34] [cursor=pointer]
+  - generic [ref=f9e39]:
+    - link "Retour au catalogue des offres" [ref=f9e40] [cursor=pointer]:
+      - /url: /internships
+    - generic [ref=f9e44]:
+      - generic [ref=f9e45]:
+        - generic [ref=f9e46]: Orange Digital Center · Télécommunications
+        - heading "Développeur web React" [level=1] [ref=f9e52]
+        - generic [ref=f9e53]:
+          - generic [ref=f9e54]: Antananarivo
+          - generic [ref=f9e58]: 24 semaines
+          - generic [ref=f9e62]: Télétravail possible
+        - separator [ref=f9e66]
+        - heading "Description du poste" [level=2] [ref=f9e67]
+        - paragraph [ref=f9e68]: "Missions : développer des interfaces React, intégrer des API REST, travailler en équipe agile sur des produits à fort impact. Profil : React, CSS, Git, bonnes pratiques. TypeScript apprécié."
+        - heading "Compétences requises" [level=2] [ref=f9e69]
+        - generic [ref=f9e70]:
+          - generic [ref=f9e71]: React
+          - generic [ref=f9e72]: CSS
+          - generic [ref=f9e73]: Git
+      - complementary [ref=f9e74]:
+        - generic [ref=f9e75]: Score d'Adéquation Profil
+        - img [ref=f9e77]:
+          - generic [ref=f9e80]: 92%
+          - generic [ref=f9e81]: MATCH
+        - button "Postuler en un clic" [ref=f9e82] [cursor=pointer]
+  - contentinfo [ref=f9e87]:
+    - generic [ref=f9e88]:
+      - generic [ref=f9e89]:
+        - generic [ref=f9e90]:
+          - link "StageMatch" [ref=f9e91] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f9e93]: Plateforme de mise en relation entre étudiants en recherche de stage et recruteurs.
+        - generic [ref=f9e94]:
+          - generic [ref=f9e95]: Plateforme
+          - navigation [ref=f9e96]:
+            - list [ref=f9e97]:
+              - listitem [ref=f9e98]:
+                - link "Offres de stages" [ref=f9e99] [cursor=pointer]:
+                  - /url: /internships
+              - listitem [ref=f9e100]:
+                - link "Se connecter" [ref=f9e101] [cursor=pointer]:
+                  - /url: /login
+              - listitem [ref=f9e102]:
+                - link "Créer un compte" [ref=f9e103] [cursor=pointer]:
+                  - /url: /register
+        - generic [ref=f9e104]:
+          - generic [ref=f9e105]: Portails
+          - navigation [ref=f9e106]:
+            - list [ref=f9e107]:
+              - listitem [ref=f9e108]:
+                - link "Portail Candidat" [ref=f9e109] [cursor=pointer]:
+                  - /url: /student
+              - listitem [ref=f9e110]:
+                - link "Portail Recruteur" [ref=f9e111] [cursor=pointer]:
+                  - /url: /company
+              - listitem [ref=f9e112]:
+                - link "Console d'administration" [ref=f9e113] [cursor=pointer]:
+                  - /url: /admin
+        - generic [ref=f9e114]:
+          - generic [ref=f9e115]: À propos
+          - navigation [ref=f9e116]:
+            - list [ref=f9e117]:
+              - listitem [ref=f9e118]:
+                - link "Confidentialité" [ref=f9e119] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f9e120]:
+                - link "Conditions d'utilisation" [ref=f9e121] [cursor=pointer]:
+                  - /url: /
+      - generic [ref=f9e122]: © 2026 StageMatch. Tous droits réservés.
